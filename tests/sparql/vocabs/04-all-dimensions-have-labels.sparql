@@ -7,8 +7,8 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 SELECT ?dim WHERE {
   {
     ?s qb:dimension ?dim .
-  } MINUS { 
-    ?s qb:dimension ?dim .
-    ?dim rdfs:label ?label .
+    FILTER NOT EXISTS {
+      ?dim rdfs:label ?label .
+    }
   }
 }

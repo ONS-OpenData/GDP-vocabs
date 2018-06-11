@@ -8,9 +8,8 @@ SELECT ?code
 WHERE {
   {
     ?s <http://publishmydata.com/def/qb/codesUsed>/skos:member ?code .
-  }  
-  MINUS {
-  ?s <http://publishmydata.com/def/qb/codesUsed>/skos:member ?code .
-  ?code rdfs:label ?label .
+    FILTER NOT EXISTS {
+      ?code rdfs:label ?label .
+    }
   }
-} LIMIT 1000 
+} LIMIT 1000
