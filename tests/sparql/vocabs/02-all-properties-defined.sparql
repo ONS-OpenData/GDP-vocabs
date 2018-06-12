@@ -4,7 +4,6 @@ PREFIX rdfs:    <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX owl:     <http://www.w3.org/2002/07/owl#>
 
 SELECT DISTINCT * {
-  {
     [] ?p [] .
     FILTER NOT EXISTS {
       { ?p a owl:ObjectProperty }
@@ -13,8 +12,4 @@ SELECT DISTINCT * {
       UNION { ?p a owl:OntologyProperty }
       UNION { ?p a rdf:Property }
     }
-  } UNION {
-    [] ?p [] .
-    FILTER NOT EXISTS { { ?p rdfs:label [] } UNION { ?p rdfs:comment [] } } .
-  }
 }
