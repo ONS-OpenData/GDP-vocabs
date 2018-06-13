@@ -1,4 +1,4 @@
-# All pmd:codesUsed must have a label (for PMD dataset search)
+# All dimensions must have a label (for PMD dataset search)
 PREFIX qb: <http://purl.org/linked-data/cube#>
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
