@@ -1,0 +1,18 @@
+# All codelists must have top concepts (for zib search)
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX pmd-qb: <http://publishmydata.com/def/qb/>
+PREFIX zib: <http://github.com/swirrl/zib#>
+
+SELECT DISTINCT ?cs ?ds WHERE {
+  ?ds qb:structure / qb:component [ qb:dimension ?dim
+                                   ; pmd-qb:codesUsed [ skos:member ?dimval ] ]  .
+  ?cs skos:member ?dimval
+    ; a skos:ConceptScheme .
+  FILTER NOT EXISTS {
+    ?cs skos:hasTopConcept [] .
+  }
+}
