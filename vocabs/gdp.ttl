@@ -1,6 +1,6 @@
 @prefix owl:   <http://www.w3.org/2002/07/owl#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix gdp:   <http://gss-data.org.uk/def/ontology/gdp#> .
+@prefix gdp:   <http://gss-data.org.uk/def/gdp#> .
 @prefix pmd:   <http://publishmydata.com/def/dataset#> .
 
 <http://gss-data.org.uk/def/gdp> a owl:Ontology ;
