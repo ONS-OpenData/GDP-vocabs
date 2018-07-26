@@ -2,10 +2,16 @@
   {
     "src": "http://rdf-vocabulary.ddialliance.org/xkos",
     "format": "text/turtle"
-  },
-  {
+  }, {
     "src": "vocabs/gdp.ttl",
     "graph": "http://gss-data.org.uk/def/gdp",
     "format": "text/turtle"
+  }, {
+    "src": "http://purl.org/dc/elements/1.1",
+    "format": "text/turtle"
+  }, {
+    "src": "vocabs/foaf.rdf",
+    "graph": "http://xmlns.com/foaf/0.1/",
+    "format": "application/rdf"
   }
 ]
