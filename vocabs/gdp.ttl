@@ -1,0 +1,38 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix gdp:   <http://gss-data.org.uk/def/ontology/gdp#> .
+@prefix pmd:   <http://publishmydata.com/def/dataset#> .
+
+<http://gss-data.org.uk/def/gdp> a owl:Ontology ;
+  rdfs:label "GSS Data Project"@en .
+
+pmd:Dataset a owl:Class ;
+  rdfs:label "Dataset" .
+
+gdp:TradeDataset a owl:Class ;
+  rdfs:subClassOf pmd:Dataset ;
+  rdfs:label "Trade Dataset"@en ;
+  rdfs:subClassOf [ a owl:Restriction ;
+    owl:onProperty gdp:family ;
+    owl:hasValue gdp:trade
+  ] .
+
+gdp:DatasetFamily a owl:Class ;
+  rdfs:label "Dataset family";
+  owl:equivalentClass [
+    a owl:Class ;
+    owl:oneOf ( gdp:trade gdp:migration )
+  ] .
+
+gdp:family a owl:ObjectProperty ;
+  rdfs:label "Family" ;
+  rdfs:domain pmd:Dataset ;
+  rdfs:range gdp:DatasetFamily .
+
+gdp:trade a gdp:DatasetFamily ;
+  rdfs:label "Trade" .
+
+gdp:migration a gdp:DatasetFamily ;
+  rdfs:label "Migration" .
+
+
