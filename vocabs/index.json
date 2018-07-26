@@ -16,5 +16,20 @@
   }, {
     "src": "http://purl.org/dc/terms/",
     "format": "text/turtle"
+  }, {
+    "src": "https://creativecommons.org/schema.rdf",
+    "format": "application/rdf+xml"
+  }, {
+    "src": "http://www.w3.org/2006/time",
+    "format": "text/turtle"
+  }, {
+    "src": "http://www.w3.org/ns/ui",
+    "format": "text/turtle"
+  }, {
+    "src": "http://purl.org/vocommons/voaf",
+    "format": "application/rdf+xml"
+  }, {
+    "src": "http://www.w3.org/2003/06/sw-vocab-status/ns",
+    "format": "application/rdf+xml"
   }
 ]
