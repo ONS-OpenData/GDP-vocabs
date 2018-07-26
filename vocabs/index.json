@@ -12,6 +12,9 @@
   }, {
     "src": "vocabs/foaf.rdf",
     "graph": "http://xmlns.com/foaf/0.1/",
-    "format": "application/rdf"
+    "format": "application/rdf+xml"
+  }, {
+    "src": "http://purl.org/dc/terms/",
+    "format": "text/turtle"
   }
 ]
