@@ -6,7 +6,7 @@ PREFIX qb:      <http://purl.org/linked-data/cube#>
 PREFIX xsd:     <http://www.w3.org/2001/XMLSchema#>
 PREFIX owl:     <http://www.w3.org/2002/07/owl#>
 
-ASK {
+SELECT * {
     # Observation in a non-measureType cube
     ?obs qb:dataSet/qb:structure ?dsd .
     FILTER NOT EXISTS { ?dsd qb:component/qb:componentProperty qb:measureType }
