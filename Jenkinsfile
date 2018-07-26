@@ -35,7 +35,7 @@ pipeline {
                             }
                             drafter.deleteGraph(PMD, credentials, newJobDraft.id, graph)
                             drafter.addData(PMD, credentials, newJobDraft.id,
-                                            rdf, format + ';charset=UTF-8', graph)
+                                            rdf, index[i]['format'] + ';charset=UTF-8', graph)
                         }
                         drafter.publishDraftset(PMD, credentials, newJobDraft.id)
                     }
