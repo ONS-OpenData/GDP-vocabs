@@ -26,7 +26,8 @@
     "src": "http://www.w3.org/ns/ui",
     "format": "text/turtle"
   }, {
-    "src": "http://purl.org/vocommons/voaf",
+    "src": "vocabs/voaf.rdf",
+    "graph": "http://purl.org/vocommons/voaf",
     "format": "application/rdf+xml"
   }, {
     "src": "http://www.w3.org/2003/06/sw-vocab-status/ns",
