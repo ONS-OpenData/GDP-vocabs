@@ -569,6 +569,95 @@
    <http://statistics.data.gov.uk/def/statistical-geography#status> "live";
    <http://www.w3.org/2004/02/skos/core#notation> "K04000001"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> .
 
+<http://statistics.data.gov.uk/id/statistical-geography/E92000001> a <http://publishmydata.com/def/ontology/spatial/Area> , 
+    <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+  <http://www.w3.org/2000/01/rdf-schema#label> "E92000001" ;
+  <http://www.w3.org/2004/02/skos/core#notation> "E92000001"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+  <http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1111/1001" ;
+  <http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "GSS re-coding strategy" ;
+  <http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-01-01> ;
+  <http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E92> ;
+  <http://statistics.data.gov.uk/def/statistical-entity#owner> "ONS" ;
+  <http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+  <http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "13294608.94" ;
+  <http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "13046189.73" ;
+  <http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "15188.37" ;
+  <http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "13031001.36" ;
+  <http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E92> ;
+  <http://statistics.data.gov.uk/def/statistical-geography#officialname> "England";
+  <http://statistics.data.gov.uk/def/statistical-geography#alternativelanguagename> "Lloegr" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/K03000001> a <http://publishmydata.com/def/ontology/spatial/Area> , 
+    <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+  <http://www.w3.org/2000/01/rdf-schema#label> "K03000001" ;
+  <http://www.w3.org/2004/02/skos/core#notation> "K03000001"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+  <http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1111/1001" ;
+  <http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "GSS re-coding strategy" ;
+  <http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-01-01> ;
+  <http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/K03> ;
+  <http://statistics.data.gov.uk/def/statistical-entity#owner> "ONS" ;
+  <http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+  <http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "" ;
+  <http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "" ;
+  <http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "" ;
+  <http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "" ;
+  <http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/K03> ;
+  <http://statistics.data.gov.uk/def/statistical-geography#officialname> "Great Britain" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/W92000004> a <http://publishmydata.com/def/ontology/spatial/Area> , 
+    <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+  <http://www.w3.org/2000/01/rdf-schema#label> "W92000004" ;
+  <http://www.w3.org/2004/02/skos/core#notation> "W92000004"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+  <http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1111/1001" ;
+  <http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "GSS re-coding strategy" ;
+  <http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-01-01> ;
+  <http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/W92> ;
+  <http://statistics.data.gov.uk/def/statistical-entity#owner> "ONS" ;
+  <http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+  <http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "2122477.13" ;
+  <http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "2078213.03" ;
+  <http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "4608.53" ;
+  <http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "2073604.5" ;
+  <http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/W92> ;
+  <http://statistics.data.gov.uk/def/statistical-geography#officialname> "Wales" ;
+  <http://statistics.data.gov.uk/def/statistical-geography#alternativelanguagename> "Cymru" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/S92000003> a <http://publishmydata.com/def/ontology/spatial/Area> , 
+    <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+  <http://www.w3.org/2000/01/rdf-schema#label> "S92000003" ;
+  <http://www.w3.org/2004/02/skos/core#notation> "S92000003"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+  <http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1111/1001" ;
+  <http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "GSS re-coding strategy" ;
+  <http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-01-01> ;
+  <http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/S92> ;
+  <http://statistics.data.gov.uk/def/statistical-entity#owner> "ONS" ;
+  <http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+  <http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "8022645.87" ;
+  <http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "7881101.35" ;
+  <http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "90027.9" ;
+  <http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "7791073.45" ;
+  <http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/S92> ;
+  <http://statistics.data.gov.uk/def/statistical-geography#officialname> "Scotland" ;
+  <http://statistics.data.gov.uk/def/statistical-geography#alternativelanguagename> "Yr Alban" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N92000002> a <http://publishmydata.com/def/ontology/spatial/Area> , 
+    <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+  <http://www.w3.org/2000/01/rdf-schema#label> "N92000002" ;
+  <http://www.w3.org/2004/02/skos/core#notation> "N92000002"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+  <http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1111/1001" ;
+  <http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "GSS re-coding strategy" ;
+  <http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-01-01> ;
+  <http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N92> ;
+  <http://statistics.data.gov.uk/def/statistical-entity#owner> "ONS" ;
+  <http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+  <http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "1413338.25" ;
+  <http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "1413338.25" ;
+  <http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "54517.97" ;
+  <http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "1358820.28" ;
+  <http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N92> ;
+  <http://statistics.data.gov.uk/def/statistical-geography#officialname> "Northern Ireland" ;
+  <http://statistics.data.gov.uk/def/statistical-geography#alternativelanguagename> "Gogledd Iwerddon" .
+
 <http://statistics.data.gov.uk/def/boundary-change/RecodingChange> a <http://www.w3.org/2002/07/owl#Class>;
    <http://www.w3.org/2000/01/rdf-schema#label> "Recoding change";
    <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/boundary-change>;
