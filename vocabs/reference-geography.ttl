@@ -1,0 +1,671 @@
+
+<http://gss-data.org.uk/def/ontology/geography> a <http://www.w3.org/2002/07/owl#Ontology>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Geography";
+   <http://purl.org/dc/terms/description> "This ontology contains properties for describing geographies and the relationships between them" .
+
+<http://statistics.data.gov.uk/def/boundary-change/TemporalRelation> a <http://www.w3.org/2002/07/owl#Class>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Temporal relation";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/boundary-change>;
+   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+
+<http://statistics.data.gov.uk/def/boundary-change/boundaryChangeOrder> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>,
+     <http://www.w3.org/2002/07/owl#ObjectProperty>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "boundary change order";
+   <http://www.w3.org/2000/01/rdf-schema#domain> <http://statistics.data.gov.uk/def/boundary-change/BoundaryChange>;
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/boundary-change>;
+   <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/opmv/ns#used> .
+
+<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>,
+     <http://www.w3.org/2002/07/owl#FunctionalProperty>,
+     <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Change Order Title";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "Title of the Statutory Instrument used to create the geography as defined within the Code History Database";
+   <http://www.w3.org/2000/01/rdf-schema#domain> <http://statistics.data.gov.uk/def/boundary-change/BoundedArea>;
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/boundary-change> .
+
+<http://statistics.data.gov.uk/def/boundary-change/changeYear> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>,
+     <http://www.w3.org/2002/07/owl#ObjectProperty>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "change year";
+   <http://www.w3.org/2000/01/rdf-schema#domain> <http://statistics.data.gov.uk/def/boundary-change/ChangeEvent>;
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/boundary-change>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://reference.data.gov.uk/def/intervals/CalendarYear> .
+
+<http://statistics.data.gov.uk/def/boundary-change/entityCode> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "entity code";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/boundary-change> .
+
+<http://statistics.data.gov.uk/def/boundary-change/interval> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>,
+     <http://www.w3.org/2002/07/owl#ObjectProperty>,
+     <http://www.w3.org/2002/07/owl#FunctionalProperty>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "interval";
+   <http://www.w3.org/2000/01/rdf-schema#domain> [],  [];
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/boundary-change>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2006/time#Interval> .
+
+<http://statistics.data.gov.uk/def/boundary-change/operativedate> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>,
+     <http://www.w3.org/2002/07/owl#ObjectProperty>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Operative Date";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "Date that the geography became operative as defined within the Code History Database";
+   <http://www.w3.org/2000/01/rdf-schema#domain> <http://statistics.data.gov.uk/def/boundary-change/ChangeEvent>;
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/boundary-change>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://reference.data.gov.uk/def/intervals/CalendarYear> .
+
+<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>,
+     <http://www.w3.org/2002/07/owl#ObjectProperty>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "was defined by";
+   <http://www.w3.org/2000/01/rdf-schema#domain> <http://statistics.data.gov.uk/def/boundary-change/BoundedArea>;
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/boundary-change> .
+
+<http://statistics.data.gov.uk/def/boundary-change/precedingArea> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>,
+     <http://www.w3.org/2002/07/owl#ObjectProperty>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "preceding area";
+   <http://www.w3.org/2000/01/rdf-schema#domain> <http://statistics.data.gov.uk/def/boundary-change/BoundedArea>;
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/boundary-change>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/boundary-change/BoundedArea>;
+   <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/opmv/ns#wasDerivedFrom> .
+
+<http://statistics.data.gov.uk/def/boundary-change/recodedFromArea> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>,
+     <http://www.w3.org/2002/07/owl#ObjectProperty>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "re coded from area";
+   <http://www.w3.org/2000/01/rdf-schema#domain> <http://statistics.data.gov.uk/def/boundary-change/RecodingChange>;
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/boundary-change>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> .
+
+<http://statistics.data.gov.uk/def/boundary-change/recodedToArea> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>,
+     <http://www.w3.org/2002/07/owl#ObjectProperty>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "recoded to area";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/boundary-change>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> .
+
+<http://statistics.data.gov.uk/def/boundary-change/sameAreaAs> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>,
+     <http://www.w3.org/2002/07/owl#SymmetricProperty>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "same area as";
+   <http://www.w3.org/2000/01/rdf-schema#domain> <http://statistics.data.gov.uk/def/boundary-change/BoundedArea>;
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/boundary-change>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/boundary-change/BoundedArea> .
+
+<http://statistics.data.gov.uk/def/boundary-change/standardCode> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>,
+     <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "standard code";
+   <http://www.w3.org/2000/01/rdf-schema#domain> <http://statistics.data.gov.uk/def/boundary-change/BoundedArea>;
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/boundary-change>;
+   <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2004/02/skos/core#notation> .
+
+<http://statistics.data.gov.uk/def/boundary-change/succeedingArea> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>,
+     <http://www.w3.org/2002/07/owl#ObjectProperty>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "preceding area";
+   <http://www.w3.org/2000/01/rdf-schema#domain> <http://statistics.data.gov.uk/def/boundary-change/BoundedArea>;
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/boundary-change>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/boundary-change/BoundedArea> .
+
+<http://statistics.data.gov.uk/def/boundary-change/terminateddate> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>,
+     <http://www.w3.org/2002/07/owl#ObjectProperty>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Operative Date";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "Date that the geography was terminated as defined within the Code History Database";
+   <http://www.w3.org/2000/01/rdf-schema#domain> <http://statistics.data.gov.uk/def/boundary-change/ChangeEvent>;
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/boundary-change>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://reference.data.gov.uk/def/intervals/CalendarYear> .
+
+<http://statistics.data.gov.uk/def/boundary-change/terminatingChangeOrder> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>,
+     <http://www.w3.org/2002/07/owl#ObjectProperty>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "was defined by";
+   <http://www.w3.org/2000/01/rdf-schema#domain> <http://statistics.data.gov.uk/def/boundary-change/BoundedArea>;
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/boundary-change> .
+
+<http://statistics.data.gov.uk/def/hierarchy/best-fit#clinicalcommissioninggroup> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Clinical Commissioning Group";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/hierarchy/best-fit>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> .
+
+<http://statistics.data.gov.uk/def/hierarchy/best-fit#europeanelectoralregion> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "European Electoral Region";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/hierarchy/best-fit>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> .
+
+<http://statistics.data.gov.uk/def/hierarchy/best-fit#nationalassemblyconstituency> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "National Assembly Constituency";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/hierarchy/best-fit>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> .
+
+<http://statistics.data.gov.uk/def/hierarchy/best-fit#nationalassemblyelectoralregion> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "National Assembly Electoral Region";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/hierarchy/best-fit>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> .
+
+<http://statistics.data.gov.uk/def/hierarchy/best-fit#nhscommissioningregion> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "NHS Commissioning Region";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/hierarchy/best-fit>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> .
+
+<http://statistics.data.gov.uk/def/hierarchy/best-fit#nhsregiongeography> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "NHS Region Geography";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/hierarchy/best-fit>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> .
+
+<http://statistics.data.gov.uk/def/hierarchy/best-fit#oa> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Output Area";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/hierarchy/best-fit>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> .
+
+<http://statistics.data.gov.uk/def/hierarchy/best-fit#parish> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Parish";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/hierarchy/best-fit>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> .
+
+<http://statistics.data.gov.uk/def/hierarchy/best-fit#parliamentaryconstituency> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Parliamentary Constituency";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/hierarchy/best-fit>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> .
+
+<http://statistics.data.gov.uk/def/hierarchy/best-fit#primarycareorganisation> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Primary Care Organisation";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/hierarchy/best-fit>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> .
+
+<http://statistics.data.gov.uk/def/hierarchy/best-fit#strategichealthauthority> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Strategic Health Authority";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/hierarchy/best-fit>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> .
+
+<http://statistics.data.gov.uk/def/hierarchy/best-fit#ward> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Ward";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/hierarchy/best-fit>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> .
+
+<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Extent of the Realm hectarage";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/measurement> .
+
+<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Inland water hectarage";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/measurement> .
+
+<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Land hectarage";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/measurement> .
+
+<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Mean high water hectarage";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/measurement> .
+
+<http://statistics.data.gov.uk/def/measurement#hasRuralPercentage> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Has rural percentage";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/measurement> .
+
+<http://statistics.data.gov.uk/def/rural-urban#classcode> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Rural-Urban Class code";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/rural-urban> .
+
+<http://statistics.data.gov.uk/def/rural-urban#classname> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Rural-Urban Class name";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/rural-urban> .
+
+<http://statistics.data.gov.uk/def/spatialrelations#lad> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "LAD";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/spatialrelations>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> .
+
+<http://statistics.data.gov.uk/def/spatialrelations#lsoa> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "LSOA";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/spatialrelations>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> .
+
+<http://statistics.data.gov.uk/def/spatialrelations#msoa> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "MSOA";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/spatialrelations>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> .
+
+<http://statistics.data.gov.uk/def/spatialrelations#oa> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "OA";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/spatialrelations>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> .
+
+<http://statistics.data.gov.uk/def/spatialrelations#wz> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Workplace Zone";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/spatialrelations>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> .
+
+<http://statistics.data.gov.uk/def/spatialrelations/within#country> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Within country";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/spatialrelations>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> .
+
+<http://statistics.data.gov.uk/def/spatialrelations/within#localauthoritydistrict> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Within local authority district";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/spatialrelations>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> .
+
+<http://statistics.data.gov.uk/def/spatialrelations/within#region> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Within region";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/spatialrelations>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> .
+
+<http://statistics.data.gov.uk/def/statistical-entity#abbreviation> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Abbreviation";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/statistical-entity> .
+
+<http://statistics.data.gov.uk/def/statistical-entity#archivedinstances> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Archived instances";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/statistical-entity> .
+
+<http://statistics.data.gov.uk/def/statistical-entity#code> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Code";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "The GSS identifier for a statistical coverage as defined in the Register of Geographic Codes";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/statistical-entity> .
+
+<http://statistics.data.gov.uk/def/statistical-entity#coverage> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Coverage";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/statistical-entity> .
+
+<http://statistics.data.gov.uk/def/statistical-entity#crossborderinstances> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Cross border instances";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/statistical-entity> .
+
+<http://statistics.data.gov.uk/def/statistical-entity#firstcode> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "First code";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/statistical-entity> .
+
+<http://statistics.data.gov.uk/def/statistical-entity#introduced> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Introduced";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/statistical-entity> .
+
+<http://statistics.data.gov.uk/def/statistical-entity#lastcode> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Last code";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/statistical-entity> .
+
+<http://statistics.data.gov.uk/def/statistical-entity#lastinstancechange> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Last instance change";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/statistical-entity> .
+
+<http://statistics.data.gov.uk/def/statistical-entity#liveinstances> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Live instances";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/statistical-entity> .
+
+<http://statistics.data.gov.uk/def/statistical-entity#name> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Name";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/statistical-entity> .
+
+<http://statistics.data.gov.uk/def/statistical-entity#owner> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Owner";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "The owning organisation of a statistical entity, as defined in the Register of Geographic Codes";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/statistical-entity> .
+
+<http://statistics.data.gov.uk/def/statistical-entity#relatedentity> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Related entity";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/statistical-entity> .
+
+<http://statistics.data.gov.uk/def/statistical-entity#reservedcode> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Reserved code";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/statistical-entity> .
+
+<http://statistics.data.gov.uk/def/statistical-entity#startdate> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Start date";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/statistical-entity> .
+
+<http://statistics.data.gov.uk/def/statistical-entity#status> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Status";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "Whether an area is 'Live' or 'Terminated'";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/statistical-entity> .
+
+<http://statistics.data.gov.uk/def/statistical-entity#theme> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Theme";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/statistical-entity> .
+
+<http://statistics.data.gov.uk/def/statistical-geography#alternativelanguagename> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>,
+     <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Alternative language name";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "Welsh or other language name for a geographic instance, where this is recorded in the Code History Database";
+   <http://www.w3.org/2000/01/rdf-schema#domain> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/statistical-geography> .
+
+<http://statistics.data.gov.uk/def/statistical-geography#createdby> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>,
+     <http://www.w3.org/2002/07/owl#ObjectProperty>,
+     <http://www.w3.org/2002/07/owl#FunctionalProperty>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Created by event";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "The Change Event that created a geographic instance or entity";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/statistical-geography>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/boundary-change/ChangeEvent> .
+
+<http://statistics.data.gov.uk/def/statistical-geography#gssCode> a <http://www.w3.org/2000/01/rdf-schema#Datatype>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "GSS Code Datatype";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "This datatype indicates that the associated string should be interpreted as a code for a geographical area, as defined by the Office for National Statistics scheme for GSS Codes";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/statistical-geography> .
+
+<http://statistics.data.gov.uk/def/statistical-geography#inspireid> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>,
+     <http://www.w3.org/2002/07/owl#FunctionalProperty>,
+     <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "INSPIRE ID";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "The INSPIRE ID used to describe as instance of a geography that conforms with the guidance set out in the INSPIRE Data Specifications for Statistical Units";
+   <http://www.w3.org/2000/01/rdf-schema#domain> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/statistical-geography> .
+
+<http://statistics.data.gov.uk/def/statistical-geography#officialname> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>,
+     <http://www.w3.org/2002/07/owl#FunctionalProperty>,
+     <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Official name";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "The name of the geographic instance as recorded in the Code History Database";
+   <http://www.w3.org/2000/01/rdf-schema#domain> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/statistical-geography> .
+
+<http://statistics.data.gov.uk/def/statistical-geography#parentcode> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>,
+     <http://www.w3.org/2002/07/owl#ObjectProperty>,
+     <http://www.w3.org/2002/07/owl#FunctionalProperty>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Parent code";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "The next level of geography within the statistical hierarchy, within which the geographic instance is located, as defined in the Code History Database";
+   <http://www.w3.org/2000/01/rdf-schema#domain> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/statistical-geography>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> .
+
+<http://statistics.data.gov.uk/def/statistical-geography#status> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>,
+     <http://www.w3.org/2002/07/owl#FunctionalProperty>,
+     <http://www.w3.org/2002/07/owl#DatatypeProperty>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Status";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "The 'live' or 'terminated' status of a geographic instance as defined in the Code History Database";
+   <http://www.w3.org/2000/01/rdf-schema#domain> <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/statistical-geography> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E12000001> a <http://publishmydata.com/def/ontology/spatial/Area>,
+     <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "E12000001";
+   <http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E12>;
+   <http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001>;
+   <http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "GSS re-coding strategy";
+   <http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-01-01>;
+   <http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1111/1001";
+   <http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "867572.74";
+   <http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "1798.63";
+   <http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "857444.37";
+   <http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "859243";
+   <http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E12>;
+   <http://statistics.data.gov.uk/def/statistical-entity#owner> "DCLG";
+   <http://statistics.data.gov.uk/def/statistical-geography#officialname> "North East";
+   <http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E92000001>;
+   <http://statistics.data.gov.uk/def/statistical-geography#status> "live";
+   <http://www.w3.org/2004/02/skos/core#notation> "E12000001"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E12000002> a <http://publishmydata.com/def/ontology/spatial/Area>,
+     <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "E12000002";
+   <http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E12>;
+   <http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001>;
+   <http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "GSS re-coding strategy";
+   <http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-01-01>;
+   <http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1111/1001";
+   <http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "1491947.68";
+   <http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "5688.16";
+   <http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "1410721.13";
+   <http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "1416409.29";
+   <http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E12>;
+   <http://statistics.data.gov.uk/def/statistical-entity#owner> "DCLG";
+   <http://statistics.data.gov.uk/def/statistical-geography#officialname> "North West";
+   <http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E92000001>;
+   <http://statistics.data.gov.uk/def/statistical-geography#status> "live";
+   <http://www.w3.org/2004/02/skos/core#notation> "E12000002"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E12000003> a <http://publishmydata.com/def/ontology/spatial/Area>,
+     <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "E12000003";
+   <http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E12>;
+   <http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001>;
+   <http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "GSS re-coding strategy";
+   <http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-01-01>;
+   <http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1111/1001";
+   <http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "1556183.87";
+   <http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "376.93";
+   <http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "1540535.34";
+   <http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "1540912.27";
+   <http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E12>;
+   <http://statistics.data.gov.uk/def/statistical-entity#owner> "DCLG";
+   <http://statistics.data.gov.uk/def/statistical-geography#officialname> "Yorkshire and The Humber";
+   <http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E92000001>;
+   <http://statistics.data.gov.uk/def/statistical-geography#status> "live";
+   <http://www.w3.org/2004/02/skos/core#notation> "E12000003"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E12000004> a <http://publishmydata.com/def/ontology/spatial/Area>,
+     <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "E12000004";
+   <http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E12>;
+   <http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001>;
+   <http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "GSS re-coding strategy";
+   <http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-01-01>;
+   <http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1111/1001";
+   <http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "1581093.98";
+   <http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "1980.25";
+   <http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "1562347.02";
+   <http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "1564327.27";
+   <http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E12>;
+   <http://statistics.data.gov.uk/def/statistical-entity#owner> "DCLG";
+   <http://statistics.data.gov.uk/def/statistical-geography#officialname> "East Midlands";
+   <http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E92000001>;
+   <http://statistics.data.gov.uk/def/statistical-geography#status> "live";
+   <http://www.w3.org/2004/02/skos/core#notation> "E12000004"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E12000005> a <http://publishmydata.com/def/ontology/spatial/Area>,
+     <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "E12000005";
+   <http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E12>;
+   <http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001>;
+   <http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "GSS re-coding strategy";
+   <http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-01-01>;
+   <http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1111/1001";
+   <http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "1300373.82";
+   <http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "547.18";
+   <http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "1299826.64";
+   <http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "1300373.82";
+   <http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E12>;
+   <http://statistics.data.gov.uk/def/statistical-entity#owner> "DCLG";
+   <http://statistics.data.gov.uk/def/statistical-geography#officialname> "West Midlands";
+   <http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E92000001>;
+   <http://statistics.data.gov.uk/def/statistical-geography#status> "live";
+   <http://www.w3.org/2004/02/skos/core#notation> "E12000005"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E12000006> a <http://publishmydata.com/def/ontology/spatial/Area>,
+     <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "E12000006";
+   <http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E12>;
+   <http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001>;
+   <http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "GSS re-coding strategy";
+   <http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-01-01>;
+   <http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1111/1001";
+   <http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "1958538.97";
+   <http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "1682.91";
+   <http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "1911873.45";
+   <http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "1913556.36";
+   <http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E12>;
+   <http://statistics.data.gov.uk/def/statistical-entity#owner> "DCLG";
+   <http://statistics.data.gov.uk/def/statistical-geography#officialname> "East of England";
+   <http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E92000001>;
+   <http://statistics.data.gov.uk/def/statistical-geography#status> "live";
+   <http://www.w3.org/2004/02/skos/core#notation> "E12000006"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E12000007> a <http://publishmydata.com/def/ontology/spatial/Area>,
+     <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "E12000007";
+   <http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E12>;
+   <http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001>;
+   <http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "GSS re-coding strategy";
+   <http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-01-01>;
+   <http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1111/1001";
+   <http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "159469.7";
+   <http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "136.92";
+   <http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "157214.06";
+   <http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "157350.98";
+   <http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E12>;
+   <http://statistics.data.gov.uk/def/statistical-entity#owner> "DCLG";
+   <http://statistics.data.gov.uk/def/statistical-geography#officialname> "London";
+   <http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E92000001>;
+   <http://statistics.data.gov.uk/def/statistical-geography#status> "live";
+   <http://www.w3.org/2004/02/skos/core#notation> "E12000007"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E12000008> a <http://publishmydata.com/def/ontology/spatial/Area>,
+     <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "E12000008";
+   <http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E12>;
+   <http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001>;
+   <http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "GSS re-coding strategy";
+   <http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-01-01>;
+   <http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1111/1001";
+   <http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "1940547.26";
+   <http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "1574.81";
+   <http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "1907304.91";
+   <http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "1908879.72";
+   <http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E12>;
+   <http://statistics.data.gov.uk/def/statistical-entity#owner> "DCLG";
+   <http://statistics.data.gov.uk/def/statistical-geography#officialname> "South East";
+   <http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E92000001>;
+   <http://statistics.data.gov.uk/def/statistical-geography#status> "live";
+   <http://www.w3.org/2004/02/skos/core#notation> "E12000008"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E12000009> a <http://publishmydata.com/def/ontology/spatial/Area>,
+     <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "E12000009";
+   <http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E12>;
+   <http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001>;
+   <http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "GSS re-coding strategy";
+   <http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-01-01>;
+   <http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1111/1001";
+   <http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "2438880.92";
+   <http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "1402.58";
+   <http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "2383734.44";
+   <http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "2385137.02";
+   <http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E12>;
+   <http://statistics.data.gov.uk/def/statistical-entity#owner> "DCLG";
+   <http://statistics.data.gov.uk/def/statistical-geography#officialname> "South West";
+   <http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E92000001>;
+   <http://statistics.data.gov.uk/def/statistical-geography#status> "live";
+   <http://www.w3.org/2004/02/skos/core#notation> "E12000009"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/K02000001> a <http://publishmydata.com/def/ontology/spatial/Area>,
+     <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "K02000001";
+   <http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/K02>;
+   <http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "GSS re-coding strategy";
+   <http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-01-01>;
+   <http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1111/1001";
+   <http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "";
+   <http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "";
+   <http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "";
+   <http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "";
+   <http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/K02>;
+   <http://statistics.data.gov.uk/def/statistical-entity#owner> "ONS";
+   <http://statistics.data.gov.uk/def/statistical-geography#officialname> "United Kingdom";
+   <http://statistics.data.gov.uk/def/statistical-geography#status> "live";
+   <http://www.w3.org/2004/02/skos/core#notation> "K02000001"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/K04000001> a <http://publishmydata.com/def/ontology/spatial/Area>,
+     <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "K04000001";
+   <http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/K04>;
+   <http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "GSS re-coding strategy";
+   <http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-01-01>;
+   <http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1111/1001";
+   <http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "";
+   <http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "";
+   <http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "";
+   <http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "";
+   <http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/K04>;
+   <http://statistics.data.gov.uk/def/statistical-entity#owner> "ONS";
+   <http://statistics.data.gov.uk/def/statistical-geography#officialname> "England and Wales";
+   <http://statistics.data.gov.uk/def/statistical-geography#status> "live";
+   <http://www.w3.org/2004/02/skos/core#notation> "K04000001"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> .
+
+<http://statistics.data.gov.uk/def/boundary-change/RecodingChange> a <http://www.w3.org/2002/07/owl#Class>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Recoding change";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/boundary-change>;
+   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://statistics.data.gov.uk/def/boundary-change/ChangeEvent> .
+
+<http://statistics.data.gov.uk/def/boundary-change/resultedFrom> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>,
+     <http://www.w3.org/2002/07/owl#ObjectProperty>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "resulted from";
+   <http://www.w3.org/2000/01/rdf-schema#domain> <http://statistics.data.gov.uk/def/boundary-change/BoundedArea>;
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/boundary-change>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/boundary-change/BoundaryChange>;
+   <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/opmv/ns#wasGeneratedBy>;
+   <http://www.w3.org/2002/07/owl#inverseOf> <http://statistics.data.gov.uk/def/boundary-change/resultingArea> .
+
+<http://statistics.data.gov.uk/def/boundary-change/resultingArea> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>,
+     <http://www.w3.org/2002/07/owl#ObjectProperty>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "resulting area";
+   <http://www.w3.org/2000/01/rdf-schema#domain> <http://statistics.data.gov.uk/def/boundary-change/BoundaryChange>;
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/boundary-change>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/boundary-change/BoundedArea>;
+   <http://www.w3.org/2002/07/owl#inverseOf> <http://statistics.data.gov.uk/def/boundary-change/resultedFrom> .
+
+<http://statistics.data.gov.uk/def/boundary-change/terminatedArea> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>,
+     <http://www.w3.org/2002/07/owl#ObjectProperty>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "terminated area";
+   <http://www.w3.org/2000/01/rdf-schema#domain> <http://statistics.data.gov.uk/def/boundary-change/BoundaryChange>;
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/boundary-change>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/boundary-change/BoundedArea>;
+   <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://purl.org/net/opmv/ns#used>;
+   <http://www.w3.org/2002/07/owl#inverseOf> <http://statistics.data.gov.uk/def/boundary-change/wasTerminatedBy> .
+
+<http://statistics.data.gov.uk/def/boundary-change/wasChangedBy> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>,
+     <http://www.w3.org/2002/07/owl#ObjectProperty>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "was changed by";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "wasChangedBy is an abstract property to express that an artifact was modified by a process.";
+   <http://www.w3.org/2000/01/rdf-schema#domain> <http://purl.org/net/opmv/ns#Artifact>;
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/boundary-change>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://purl.org/net/opmv/ns#Process> .
+
+<http://statistics.data.gov.uk/def/boundary-change/wasTerminatedBy> a <http://www.w3.org/1999/02/22-rdf-syntax-ns#Property>,
+     <http://www.w3.org/2002/07/owl#ObjectProperty>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "was terminated by";
+   <http://www.w3.org/2000/01/rdf-schema#domain> <http://statistics.data.gov.uk/def/boundary-change/BoundedArea>;
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/boundary-change>;
+   <http://www.w3.org/2000/01/rdf-schema#range> <http://statistics.data.gov.uk/def/boundary-change/BoundaryChange>;
+   <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://statistics.data.gov.uk/def/boundary-change/wasChangedBy>;
+   <http://www.w3.org/2002/07/owl#inverseOf> <http://statistics.data.gov.uk/def/boundary-change/terminatedArea> .
+
+<http://statistics.data.gov.uk/def/statistical-entity#Statistical-Entity> a <http://www.w3.org/2002/07/owl#Class>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Statistical Entity";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/statistical-entity>;
+   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+
+<http://statistics.data.gov.uk/def/rural-urban> a <http://www.w3.org/2002/07/owl#Ontology>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Rural-urban ontology";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "Vocabulary of terms relating to the rural or urban classification of areas." .
+
+<http://statistics.data.gov.uk/def/boundary-change/BoundaryChange> a <http://www.w3.org/2002/07/owl#Class>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Boundary change";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/boundary-change>;
+   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://statistics.data.gov.uk/def/boundary-change/ChangeEvent> .
+
+<http://statistics.data.gov.uk/def/measurement> a <http://www.w3.org/2002/07/owl#Ontology>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Measurement ontology";
+   <http://www.w3.org/2000/01/rdf-schema#comment> "Vocabulary of terms relating to the size of geographical areas." .
+
+<http://statistics.data.gov.uk/def/boundary-change/ChangeEvent> a <http://www.w3.org/2002/07/owl#Class>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Change event";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/boundary-change>;
+   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/opmv/ns#Process> .
+
+<http://statistics.data.gov.uk/def/spatialrelations> a <http://www.w3.org/2002/07/owl#Ontology>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Spatial relations ontology" .
+
+<http://statistics.data.gov.uk/def/statistical-geography> a <http://www.w3.org/2002/07/owl#Ontology>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "ONS Statistical Geography Ontology" .
+
+<http://statistics.data.gov.uk/def/hierarchy/best-fit> a <http://www.w3.org/2002/07/owl#Ontology>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Geographical hierarchy ontology" .
+
+<http://statistics.data.gov.uk/def/boundary-change/BoundedArea> a <http://www.w3.org/2002/07/owl#Class>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Bounded area";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/boundary-change>;
+   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://purl.org/net/opmv/ns#Artifact> .
+
+<http://statistics.data.gov.uk/def/statistical-entity> a <http://www.w3.org/2002/07/owl#Ontology>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "ONS Statistical Entity Ontology" .
+
+<http://statistics.data.gov.uk/def/boundary-change> a <http://www.w3.org/2002/07/owl#Ontology>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "ONS Boundary Change Ontology";
+   <http://www.w3.org/2002/07/owl#imports> <http://www.w3.org/2004/02/skos/core>,
+     <http://www.w3.org/2006/time>,
+     <http://purl.org/net/opmv/ns>,
+     <http://reference.data.gov.uk/def/intervals>,
+     <http://www.w3.org/ns/org> .
+
+<http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> a <http://www.w3.org/2002/07/owl#Class>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Statistical Geography";
+   <http://www.w3.org/2000/01/rdf-schema#isDefinedBy> <http://statistics.data.gov.uk/def/statistical-geography>;
+   <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://statistics.data.gov.uk/def/statistical-entity#Statistical-Entity> .
