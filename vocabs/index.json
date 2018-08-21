@@ -34,11 +34,11 @@
     "format": "application/rdf+xml"
   }, {
     "src": "vocabs/reference-time.ttl",
-    "graph": "http://gss-data.org.uk/def/ontology/reference-time",
+    "graph": "http://gss-data.org.uk/graph/reference-time",
     "format": "text/turtle"
   }, {
     "src": "vocabs/reference-geography.ttl",
-    "graph": "http://gss-data.org.uk/def/ontology/geography",
+    "graph": "http://gss-data.org.uk/graph/statistical-geography",
     "format": "text/turtle"
   }
 ]
