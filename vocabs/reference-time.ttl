@@ -3,6 +3,66 @@
    <http://www.w3.org/2000/01/rdf-schema#label> "Reference time intervals";
    <http://purl.org/dc/terms/description> "This ontology defines time intervals used in the refPeriod dimension of data cubes." .
 
+<http://reference.data.gov.uk/id/gregorian-interval/2007-06-30T00:00:00/P1Y> a <http://reference.data.gov.uk/def/intervals/Interval>,
+     <http://www.w3.org/2006/time#Interval>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Mid-2007 to Mid-2008";
+   <http://www.w3.org/2006/time#hasBeginning> <http://reference.data.gov.uk/id/gregorian-instant/2007-06-30T00:00:00>;
+   <http://www.w3.org/2006/time#hasEnd> <http://reference.data.gov.uk/id/gregorian-instant/2008-06-30T00:00:00> .
+
+<http://reference.data.gov.uk/id/gregorian-interval/2008-06-30T00:00:00/P1Y> a <http://reference.data.gov.uk/def/intervals/Interval>,
+     <http://www.w3.org/2006/time#Interval>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Mid-2008 to Mid-2009";
+   <http://www.w3.org/2006/time#hasBeginning> <http://reference.data.gov.uk/id/gregorian-instant/2008-06-30T00:00:00>;
+   <http://www.w3.org/2006/time#hasEnd> <http://reference.data.gov.uk/id/gregorian-instant/2009-06-30T00:00:00> .
+
+<http://reference.data.gov.uk/id/gregorian-interval/2009-06-30T00:00:00/P1Y> a <http://reference.data.gov.uk/def/intervals/Interval>,
+     <http://www.w3.org/2006/time#Interval>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Mid-2009 to Mid-2010";
+   <http://www.w3.org/2006/time#hasBeginning> <http://reference.data.gov.uk/id/gregorian-instant/2009-06-30T00:00:00>;
+   <http://www.w3.org/2006/time#hasEnd> <http://reference.data.gov.uk/id/gregorian-instant/2010-06-30T00:00:00> .
+
+<http://reference.data.gov.uk/id/gregorian-interval/2010-06-30T00:00:00/P1Y> a <http://reference.data.gov.uk/def/intervals/Interval>,
+     <http://www.w3.org/2006/time#Interval>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Mid-2010 to Mid-2011";
+   <http://www.w3.org/2006/time#hasBeginning> <http://reference.data.gov.uk/id/gregorian-instant/2010-06-30T00:00:00>;
+   <http://www.w3.org/2006/time#hasEnd> <http://reference.data.gov.uk/id/gregorian-instant/2011-06-30T00:00:00> .
+
+<http://reference.data.gov.uk/id/gregorian-interval/2011-06-30T00:00:00/P1Y> a <http://reference.data.gov.uk/def/intervals/Interval>,
+     <http://www.w3.org/2006/time#Interval>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Mid-2011 to Mid-2012";
+   <http://www.w3.org/2006/time#hasBeginning> <http://reference.data.gov.uk/id/gregorian-instant/2011-06-30T00:00:00>;
+   <http://www.w3.org/2006/time#hasEnd> <http://reference.data.gov.uk/id/gregorian-instant/2012-06-30T00:00:00> .
+
+<http://reference.data.gov.uk/id/gregorian-interval/2012-06-30T00:00:00/P1Y> a <http://reference.data.gov.uk/def/intervals/Interval>,
+     <http://www.w3.org/2006/time#Interval>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Mid-2012 to Mid-2013";
+   <http://www.w3.org/2006/time#hasBeginning> <http://reference.data.gov.uk/id/gregorian-instant/2012-06-30T00:00:00>;
+   <http://www.w3.org/2006/time#hasEnd> <http://reference.data.gov.uk/id/gregorian-instant/2013-06-30T00:00:00> .
+
+<http://reference.data.gov.uk/id/gregorian-interval/2013-06-30T00:00:00/P1Y> a <http://reference.data.gov.uk/def/intervals/Interval>,
+     <http://www.w3.org/2006/time#Interval>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Mid-2013 to Mid-2014";
+   <http://www.w3.org/2006/time#hasBeginning> <http://reference.data.gov.uk/id/gregorian-instant/2013-06-30T00:00:00>;
+   <http://www.w3.org/2006/time#hasEnd> <http://reference.data.gov.uk/id/gregorian-instant/2014-06-30T00:00:00> .
+
+<http://reference.data.gov.uk/id/gregorian-interval/2014-06-30T00:00:00/P1Y> a <http://reference.data.gov.uk/def/intervals/Interval>,
+     <http://www.w3.org/2006/time#Interval>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Mid-2014 to Mid-2015";
+   <http://www.w3.org/2006/time#hasBeginning> <http://reference.data.gov.uk/id/gregorian-instant/2014-06-30T00:00:00>;
+   <http://www.w3.org/2006/time#hasEnd> <http://reference.data.gov.uk/id/gregorian-instant/2015-06-30T00:00:00> .
+
+<http://reference.data.gov.uk/id/gregorian-interval/2015-06-30T00:00:00/P1Y> a <http://reference.data.gov.uk/def/intervals/Interval>,
+     <http://www.w3.org/2006/time#Interval>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Mid-2015 to Mid-2016";
+   <http://www.w3.org/2006/time#hasBeginning> <http://reference.data.gov.uk/id/gregorian-instant/2015-06-30T00:00:00>;
+   <http://www.w3.org/2006/time#hasEnd> <http://reference.data.gov.uk/id/gregorian-instant/2016-06-30T00:00:00> .
+
+<http://reference.data.gov.uk/id/gregorian-interval/2016-06-30T00:00:00/P1Y> a <http://reference.data.gov.uk/def/intervals/Interval>,
+     <http://www.w3.org/2006/time#Interval>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Mid-2016 to Mid-2017";
+   <http://www.w3.org/2006/time#hasBeginning> <http://reference.data.gov.uk/id/gregorian-instant/2016-06-30T00:00:00>;
+   <http://www.w3.org/2006/time#hasEnd> <http://reference.data.gov.uk/id/gregorian-instant/2017-06-30T00:00:00> .
+
 <http://reference.data.gov.uk/id/month/1998-01> a <http://www.w3.org/2006/time#Interval>,
      <http://reference.data.gov.uk/def/intervals/Interval>;
    <http://www.w3.org/2000/01/rdf-schema#label> "1998-01";
