@@ -14,3 +14,11 @@
   rdfs:label "Office for National Statistics"@en ;
   rdfs:comment "The Office for National Statistics is the UK’s largest independent producer of official statistics and the recognised national statistical institute of the UK. It is responsible for collecting and publishing statistics related to the economy, population and society at national, regional and local levels. It plays a leading role in national and international good practice in the production of official statistics."@en ;
 .
+
+<https://www.gov.uk/government/organisations/hm-revenue-customs>
+  a org:Organization ;
+  rdfs:label "HM Revenue & Customs"@en ;
+  rdfs:comment """We are the UK’s tax, payments and customs authority, and we have a vital purpose: we collect the money that pays for the UK’s public services and help families and individuals with targeted financial support.
+
+We do this by being impartial and increasingly effective and efficient in our administration. We help the honest majority to get their tax right and make it hard for the dishonest minority to cheat the system."""@en ;
+.
