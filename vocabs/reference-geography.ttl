@@ -9667,7 +9667,7 @@
     <http://www.w3.org/2000/01/rdf-schema#label> "W06000024" ;
     <http://www.w3.org/2004/02/skos/core#notation> "W06000024"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> .
 
-<http://statistics.gov.scot/id/statistical-geography/S12000047> a <http://statistics.data.gov.uk/def/statistical-geography> ;
+<http://statistics.data.gov.uk/id/statistical-geography/S12000047> a <http://statistics.data.gov.uk/def/statistical-geography> ;
 	<http://www.w3.org/2000/01/rdf-schema#label> "Fife" ;
 	<http://www.w3.org/2004/02/skos/core#notation> "S12000047"^^<http://statistics.data.gov.uk/def/statistical-geography> ;
 	<http://www.w3.org/2002/07/owl#sameAs> <http://statistics.data.gov.uk/id/statistical-geography/S12000047> ;
@@ -9686,7 +9686,7 @@
 	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.gov.scot/id/statistical-geography/S92000003> ;
 	<http://publishmydata.com/def/ontology/foi/parent> <http://statistics.gov.scot/id/statistical-geography/S92000003> .
 
-<http://statistics.gov.scot/id/statistical-geography/S12000048> a <http://statistics.data.gov.uk/def/statistical-geography> ;
+<http://statistics.data.gov.uk/id/statistical-geography/S12000048> a <http://statistics.data.gov.uk/def/statistical-geography> ;
 	<http://www.w3.org/2000/01/rdf-schema#label> "Perth and Kinross" ;
 	<http://www.w3.org/2004/02/skos/core#notation> "S12000048"^^<http://statistics.data.gov.uk/def/statistical-geography> ;
 	<http://www.w3.org/2002/07/owl#sameAs> <http://statistics.data.gov.uk/id/statistical-geography/S12000048> ;
