@@ -9666,3 +9666,41 @@
     a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
     <http://www.w3.org/2000/01/rdf-schema#label> "W06000024" ;
     <http://www.w3.org/2004/02/skos/core#notation> "W06000024"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/S12000047> a <http://statistics.data.gov.uk/def/statistical-geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Fife" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "S12000047"^^<http://statistics.data.gov.uk/def/statistical-geography> ;
+	<http://www.w3.org/2002/07/owl#sameAs> <http://statistics.data.gov.uk/id/statistical-geography/S12000047> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.gov.scot/id/statistical-entity/S12> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "Live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2018-02-02> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.gov.scot/id/statistical-geography/S92000003> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Fife" ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "SSI 2017/430" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Fife" ;
+	<http://publishmydata.com/def/ontology/foi/code> "S12000047" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.gov.scot/def/foi/collection/council-areas> ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	<http://publishmydata.com/def/ontology/foi/activeFrom> "2018-02-02"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.gov.scot/id/statistical-geography/S92000003> ;
+	<http://publishmydata.com/def/ontology/foi/parent> <http://statistics.gov.scot/id/statistical-geography/S92000003> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/S12000048> a <http://statistics.data.gov.uk/def/statistical-geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Perth and Kinross" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "S12000048"^^<http://statistics.data.gov.uk/def/statistical-geography> ;
+	<http://www.w3.org/2002/07/owl#sameAs> <http://statistics.data.gov.uk/id/statistical-geography/S12000048> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.gov.scot/id/statistical-entity/S12> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "Live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2018-02-02> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.gov.scot/id/statistical-geography/S92000003> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Perth and Kinross" ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "SSI 2017/430" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Perth and Kinross" ;
+	<http://publishmydata.com/def/ontology/foi/code> "S12000048" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.gov.scot/def/foi/collection/council-areas> ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> ;
+	<http://publishmydata.com/def/ontology/foi/activeFrom> "2018-02-02"^^<http://www.w3.org/2001/XMLSchema#date> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.gov.scot/id/statistical-geography/S92000003> ;
+	<http://publishmydata.com/def/ontology/foi/parent> <http://statistics.gov.scot/id/statistical-geography/S92000003> .
