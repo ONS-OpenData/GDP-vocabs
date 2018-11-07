@@ -40,5 +40,9 @@
     "src": "vocabs/reference-geography.ttl",
     "graph": "http://gss-data.org.uk/graph/statistical-geography",
     "format": "text/turtle"
+  }, {
+    "src": "vocabs/folders.ttl",
+    "graph": "http://gss-data.org.uk/graph/folders",
+    "format": "text/turtle"
   }
 ]

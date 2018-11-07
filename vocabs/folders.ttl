@@ -1,0 +1,60 @@
+<http://gss-data.org.uk/def/concept-scheme/folders> a <http://www.w3.org/2004/02/skos/core#ConceptScheme>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "Folder Hierarchy";
+   <http://purl.org/dc/terms/title> "Folder Hierarchy";
+   <http://publishmydata.com/def/ontology/folder/defaultTree> <http://gss-data.org.uk/def/concept/folders/themes>;
+   <http://publishmydata.com/def/ontology/folder/hasTree>
+        <http://gss-data.org.uk/def/concept/folders/themes>;
+   <http://www.w3.org/2000/01/rdf-schema#comment> "A concept scheme for nested folders" .
+
+<http://gss-data.org.uk/def/concept/folders/themes> a <http://www.w3.org/2004/02/skos/core#Concept> , <http://publishmydata.com/def/ontology/folder/Folder> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Themes" ;
+	<http://purl.org/dc/terms/title> "Themes" ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "Themes used to categorise datasets." ;
+	<http://purl.org/dc/terms/issued> "2018-11-07T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/terms/modified> "2018-11-07T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+	<http://www.w3.org/2004/02/skos/core#definition> "All themes" ;
+	<http://www.w3.org/2004/02/skos/core#hasTopConcept>
+        <http://gss-data.org.uk/def/concept/folders/themes/trade> ,
+        <http://gss-data.org.uk/def/concept/folders/themes/migration> ,
+        <http://gss-data.org.uk/def/concept/folders/themes/alcohol> ;
+	<http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/folders> ;
+	<http://publishmydata.com/def/ontology/folder/inTree> <http://gss-data.org.uk/def/concept/folders/themes> .
+
+<http://gss-data.org.uk/def/concept/folders/themes/trade> a <http://www.w3.org/2004/02/skos/core#Concept> , <http://publishmydata.com/def/ontology/folder/Folder> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Trade" ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "A folder containing data relating to the theme: Trade" ;
+	<http://purl.org/dc/terms/issued> "2018-11-07T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/terms/modified> "2018-11-07T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+	<http://www.w3.org/2004/02/skos/core#definition> "A folder containing data relating to the theme: Trade" ;
+	<http://www.w3.org/2004/02/skos/core#topConceptOf> <http://gss-data.org.uk/def/concept-scheme/folders> ;
+	<http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/folders> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "Trade" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "trade" ;
+	<http://publishmydata.com/def/ontology/folder/parentFolder> <http://gss-data.org.uk/def/concept/folders/themes> ;
+	<http://publishmydata.com/def/ontology/folder/inTree> <http://gss-data.org.uk/def/concept/folders/themes> .
+
+<http://gss-data.org.uk/def/concept/folders/themes/migration> a <http://www.w3.org/2004/02/skos/core#Concept> , <http://publishmydata.com/def/ontology/folder/Folder> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Migration" ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "A folder containing data relating to the theme: Migration" ;
+	<http://purl.org/dc/terms/issued> "2018-11-07T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/terms/modified> "2018-11-07T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+	<http://www.w3.org/2004/02/skos/core#definition> "A folder containing data relating to the theme: Migration" ;
+	<http://www.w3.org/2004/02/skos/core#topConceptOf> <http://gss-data.org.uk/def/concept-scheme/folders> ;
+	<http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/folders> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "Migration" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "migration" ;
+	<http://publishmydata.com/def/ontology/folder/parentFolder> <http://gss-data.org.uk/def/concept/folders/themes> ;
+	<http://publishmydata.com/def/ontology/folder/inTree> <http://gss-data.org.uk/def/concept/folders/themes> .
+
+<http://gss-data.org.uk/def/concept/folders/themes/alcohol> a <http://www.w3.org/2004/02/skos/core#Concept> , <http://publishmydata.com/def/ontology/folder/Folder> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Alcohol" ;
+	<http://www.w3.org/2000/01/rdf-schema#comment> "A folder containing data relating to the theme: Alcohol" ;
+	<http://purl.org/dc/terms/issued> "2018-11-07T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+	<http://purl.org/dc/terms/modified> "2018-11-07T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime>;
+	<http://www.w3.org/2004/02/skos/core#definition> "A folder containing data relating to the theme: Alcohol" ;
+	<http://www.w3.org/2004/02/skos/core#topConceptOf> <http://gss-data.org.uk/def/concept-scheme/folders> ;
+	<http://www.w3.org/2004/02/skos/core#inScheme> <http://gss-data.org.uk/def/concept-scheme/folders> ;
+	<http://www.w3.org/2004/02/skos/core#prefLabel> "Alcohol" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "alcohol" ;
+	<http://publishmydata.com/def/ontology/folder/parentFolder> <http://gss-data.org.uk/def/concept/folders/themes> ;
+	<http://publishmydata.com/def/ontology/folder/inTree> <http://gss-data.org.uk/def/concept/folders/themes> .
