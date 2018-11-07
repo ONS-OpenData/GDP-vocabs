@@ -37,6 +37,7 @@ pipeline {
                             drafter.addData(PMD, credentials, newJobDraft.id,
                                             rdf, index[i]['format'] + ';charset=UTF-8', graph)
                         }
+                        drafter.deleteGraph(PMD, credentials, newJobDraft.id, 'http://gss-data.org.uk/graph/folders')
                         drafter.publishDraftset(PMD, credentials, newJobDraft.id)
                     }
                 }

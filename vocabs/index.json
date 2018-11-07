@@ -42,7 +42,7 @@
     "format": "text/turtle"
   }, {
     "src": "vocabs/folders.ttl",
-    "graph": "http://gss-data.org.uk/graph/folders",
+    "graph": "http://gss-data.org.uk/graph/concept-scheme/folders",
     "format": "text/turtle"
   }
 ]
