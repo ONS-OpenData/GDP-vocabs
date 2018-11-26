@@ -9704,3 +9704,113 @@
 	<http://publishmydata.com/def/ontology/foi/activeFrom> "2018-02-02"^^<http://www.w3.org/2001/XMLSchema#date> ;
 	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.gov.scot/id/statistical-geography/S92000003> ;
 	<http://publishmydata.com/def/ontology/foi/parent> <http://statistics.gov.scot/id/statistical-geography/S92000003> .
+
+
+<http://statistics.data.gov.uk/id/statistical-geography/E06000048> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E06000048" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E06000048"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Northumberland" ;
+	<http://statistics.data.gov.uk/def/rural-urban#classcode> "2" ;
+	<http://statistics.data.gov.uk/def/rural-urban#classname> "Largely Rural (rural including hub towns 50-79%) " ;
+	<http://statistics.data.gov.uk/def/measurement#hasRuralPercentage> "70.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+<http://statistics.data.gov.uk/id/statistical-geography/E08000020> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E08000020" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E08000020"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Gateshead" ;
+	<http://statistics.data.gov.uk/def/rural-urban#classcode> "6" ;
+	<http://statistics.data.gov.uk/def/rural-urban#classname> "Urban with Major Conurbation" ;
+	<http://statistics.data.gov.uk/def/measurement#hasRuralPercentage> "8.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+<http://statistics.data.gov.uk/id/statistical-geography/E07000097> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E07000097" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E07000097"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "East Hertfordshire" ;
+	<http://statistics.data.gov.uk/def/rural-urban#classcode> "3" ;
+	<http://statistics.data.gov.uk/def/rural-urban#classname> "Urban with Significant Rural (rural including hub towns 26-49%)" ;
+	<http://statistics.data.gov.uk/def/measurement#hasRuralPercentage> "29.5"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+<http://statistics.data.gov.uk/id/statistical-geography/E07000100> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E07000100" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E07000100"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "St Albans" ;
+	<http://statistics.data.gov.uk/def/rural-urban#classcode> "4" ;
+	<http://statistics.data.gov.uk/def/rural-urban#classname> "Urban with City and Town" ;
+	<http://statistics.data.gov.uk/def/measurement#hasRuralPercentage> "9.4"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+<http://statistics.data.gov.uk/id/statistical-geography/E07000101> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E07000101" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E07000101"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Stevenage" ;
+	<http://statistics.data.gov.uk/def/rural-urban#classcode> "4" ;
+	<http://statistics.data.gov.uk/def/rural-urban#classname> "Urban with City and Town" ;
+	<http://statistics.data.gov.uk/def/measurement#hasRuralPercentage> "0.0"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+
+<http://statistics.data.gov.uk/id/statistical-geography/E07000104> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E07000104" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E07000104"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Welwyn Hatfield" ;
+	<http://statistics.data.gov.uk/def/rural-urban#classcode> "4" ;
+	<http://statistics.data.gov.uk/def/rural-urban#classname> "Urban with City and Town" ;
+	<http://statistics.data.gov.uk/def/measurement#hasRuralPercentage> "11.8"^^<http://www.w3.org/2001/XMLSchema#double> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/S12000009> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "East Dunbartonshire" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "S12000009"^^<http://statistics.data.gov.uk/def/statistical-geography> ;
+	<http://www.w3.org/2002/07/owl#sameAs> <http://statistics.data.gov.uk/id/statistical-geography/S12000009> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.gov.scot/id/statistical-entity/S12> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "Archived" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/1996-04-01> ;
+	<http://statistics.data.gov.uk/def/boundary-change/terminateddate> <http://reference.data.gov.uk/id/day/2011-03-31> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "East Dunbartonshire" ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "UKPGA 1994/39" .
+
+
+<http://statistics.data.gov.uk/id/statistical-geography/S12000015> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "S12000015" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "S12000015"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1111/1001" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "GSS re-coding strategy" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-01-01> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/S12> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "LGBC" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "137390.64" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "132502.5" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "132502.5" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/S12> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Fife" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/S12000043> a <http://statistics.data.gov.uk/def/statistical-geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Glasgow City" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "S12000043"^^<http://statistics.data.gov.uk/def/statistical-geography> ;
+	<http://www.w3.org/2002/07/owl#sameAs> <http://statistics.data.gov.uk/id/statistical-geography/S12000043> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.gov.scot/id/statistical-entity/S12> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "Archived" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2010-04-01> ;
+	<http://statistics.data.gov.uk/def/boundary-change/terminateddate> <http://reference.data.gov.uk/id/day/2011-03-31> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Glasgow City" ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "SSI 2009/368" .
+
+
+<http://statistics.data.gov.uk/id/statistical-geography/S12000024> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "S12000024" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "S12000024"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1111/1001" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "GSS re-coding strategy" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-01-01> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/S12> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "LGBC" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "541895.49" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "538376.97" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "9816.62" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "528560.35" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/S12> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Perth and Kinross" .
