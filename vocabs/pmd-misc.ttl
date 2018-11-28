@@ -1,0 +1,13 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix gdp:   <http://gss-data.org.uk/def/gdp#> .
+@prefix pmd:   <http://publishmydata.com/def/dataset#> .
+
+pmd:nextUpdateDueOn a owl:DatatypeProperty ;
+  rdfs:label "Next update due on" ;
+  rdfs:comment "DEPRECATED: please use pmd:updateDueOn instead" ;
+.
+
+pmd:updateDueOn a owl:DatatypeProperty ;
+  rdfs:label "Update due on" ;
+.

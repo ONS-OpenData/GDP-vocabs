@@ -44,5 +44,9 @@
     "src": "vocabs/folders.ttl",
     "graph": "http://gss-data.org.uk/graph/concept-scheme/folders",
     "format": "text/turtle"
+  }, {
+    "src": "vocabs/pmd-misc.ttl",
+    "graph": "http://gss-data.org.uk/def/pmd-misc",
+    "format": "text/turtle"
   }
 ]
