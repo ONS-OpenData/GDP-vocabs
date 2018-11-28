@@ -6,6 +6,14 @@
 pmd:nextUpdateDueOn a owl:DatatypeProperty ;
   rdfs:label "Next update due on" ;
   rdfs:comment "DEPRECATED: please use pmd:updateDueOn instead" ;
+  owl:deprecated true ;
+.
+
+pmd:nextUpdateDue a owl:DatatypeProperty ;
+  rdfs:label "Next update due on" ;
+  rdfs:comment "DEPRECATED: please use pmd:updateDueOn instead" ;
+  owl:deprecated true ;
+  owl:equivalentProperty pmd:nextUpdateDueOn ;
 .
 
 pmd:updateDueOn a owl:DatatypeProperty ;
