@@ -3158,3 +3158,15 @@
 <http://reference.data.gov.uk/id/gregorian-instant/2017-01-01T00:00:00> a <http://www.w3.org/2006/time#Instant>;
    <http://www.w3.org/2000/01/rdf-schema#label> "2017-01-01";
    <http://www.w3.org/2006/time#inXSDDateTime> "2017-01-01T00:00:00Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+
+<http://reference.data.gov.uk/id/government-year/2017-2018> a <http://reference.data.gov.uk/def/intervals/Interval>,
+     <http://www.w3.org/2006/time#Interval>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "2017/2018";
+   <http://www.w3.org/2006/time#hasBeginning> <http://reference.data.gov.uk/id/gregorian-instant/2017-04-01T00:00:00>;
+   <http://www.w3.org/2006/time#hasEnd> <http://reference.data.gov.uk/id/gregorian-instant/2018-04-01T00:00:00> .
+
+<http://reference.data.gov.uk/id/government-year/2016-2017> a <http://reference.data.gov.uk/def/intervals/Interval>,
+     <http://www.w3.org/2006/time#Interval>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "2016/2017";
+   <http://www.w3.org/2006/time#hasBeginning> <http://reference.data.gov.uk/id/gregorian-instant/2016-04-01T00:00:00>;
+   <http://www.w3.org/2006/time#hasEnd> <http://reference.data.gov.uk/id/gregorian-instant/2017-04-01T00:00:00> .
