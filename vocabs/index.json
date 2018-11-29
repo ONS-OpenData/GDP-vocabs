@@ -48,5 +48,9 @@
     "src": "vocabs/pmd-misc.ttl",
     "graph": "http://gss-data.org.uk/def/pmd-misc",
     "format": "text/turtle"
+  }, {
+    "src": "vocabs/licenses.ttl",
+    "graph": "http://gss-data.org.uk/graph/licenses",
+    "format": "text/turtle"
   }
 ]

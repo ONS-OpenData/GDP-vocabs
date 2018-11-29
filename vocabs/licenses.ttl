@@ -1,0 +1,9 @@
+@prefix owl:   <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix gdp:   <http://gss-data.org.uk/def/gdp#> .
+@prefix dct:   <http://dublincore.org/2012/06/14/dcterms#> .
+
+<http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/> a dct:LicenseDocument ;
+  rdfs:label "OGLv3" ;
+  rdfs:comment "Open Government Licence for public sector information" ;
+.
