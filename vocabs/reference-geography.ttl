@@ -9814,3 +9814,133 @@
 	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "528560.35" ;
 	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/S12> ;
 	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Perth and Kinross" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/95A> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Derry";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95B> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Limavady";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95C> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Coleraine";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95D> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Ballymoney";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95E> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Moyle";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95F> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Larne";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95G> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Ballymena";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95H> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Magherafelt";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95I> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Cookstown";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95J> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Strabane";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95K> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Omagh";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95L> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Fermanagh";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95M> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Dungannon";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95N> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Craigavon";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95O> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Armagh";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95P> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Newry and Mourne";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95Q> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Banbridge";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95R> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Down";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95S> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Lisburn";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95T> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Antrim";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95U> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Newtownabbey";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95V> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Carrickfergus";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95W> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "North Down";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95X> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Ards";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95Y> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Castlereagh";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95Z> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Belfast";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
