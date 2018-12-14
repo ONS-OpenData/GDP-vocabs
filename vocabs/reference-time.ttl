@@ -99,6 +99,36 @@
    <http://www.w3.org/2006/time#hasBeginning> <http://reference.data.gov.uk/id/gregorian-instant/2016-06-30T00:00:00>;
    <http://www.w3.org/2006/time#hasEnd> <http://reference.data.gov.uk/id/gregorian-instant/2017-06-30T00:00:00> .
 
+<http://reference.data.gov.uk/id/day/2007-03-01> a <http://reference.data.gov.uk/def/intervals/Interval>,
+     <http://www.w3.org/2006/time#Interval>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "2007-03-01";
+   <http://www.w3.org/2006/time#hasBeginning> <http://reference.data.gov.uk/id/gregorian-instant/2007-03-01T00:00:00>;
+   <http://www.w3.org/2006/time#hasEnd> <http://reference.data.gov.uk/id/gregorian-instant/2007-03-02T00:00:00> .
+
+<http://reference.data.gov.uk/id/day/2010-03-01> a <http://reference.data.gov.uk/def/intervals/Interval>,
+     <http://www.w3.org/2006/time#Interval>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "2010-03-01";
+   <http://www.w3.org/2006/time#hasBeginning> <http://reference.data.gov.uk/id/gregorian-instant/2010-03-01T00:00:00>;
+   <http://www.w3.org/2006/time#hasEnd> <http://reference.data.gov.uk/id/gregorian-instant/2010-03-02T00:00:00> .
+
+<http://reference.data.gov.uk/id/day/2012-03-01> a <http://reference.data.gov.uk/def/intervals/Interval>,
+     <http://www.w3.org/2006/time#Interval>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "2012-03-01";
+   <http://www.w3.org/2006/time#hasBeginning> <http://reference.data.gov.uk/id/gregorian-instant/2012-03-01T00:00:00>;
+   <http://www.w3.org/2006/time#hasEnd> <http://reference.data.gov.uk/id/gregorian-instant/2012-03-02T00:00:00> .
+
+<http://reference.data.gov.uk/id/day/2014-09-01> a <http://reference.data.gov.uk/def/intervals/Interval>,
+     <http://www.w3.org/2006/time#Interval>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "2014-09-01";
+   <http://www.w3.org/2006/time#hasBeginning> <http://reference.data.gov.uk/id/gregorian-instant/2014-09-01T00:00:00>;
+   <http://www.w3.org/2006/time#hasEnd> <http://reference.data.gov.uk/id/gregorian-instant/2014-09-02T00:00:00> .
+
+<http://reference.data.gov.uk/id/day/2017-03-01> a <http://reference.data.gov.uk/def/intervals/Interval>,
+     <http://www.w3.org/2006/time#Interval>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "2017-03-01";
+   <http://www.w3.org/2006/time#hasBeginning> <http://reference.data.gov.uk/id/gregorian-instant/2017-03-01T00:00:00>;
+   <http://www.w3.org/2006/time#hasEnd> <http://reference.data.gov.uk/id/gregorian-instant/2017-03-02T00:00:00> .
+
 <http://reference.data.gov.uk/id/month/1998-01> a <http://www.w3.org/2006/time#Interval>,
      <http://reference.data.gov.uk/def/intervals/Interval>;
    <http://www.w3.org/2000/01/rdf-schema#label> "1998-01";
@@ -2048,6 +2078,12 @@
    <http://www.w3.org/2000/01/rdf-schema#label> "2018-Q1";
    <http://www.w3.org/2006/time#hasBeginning> <http://reference.data.gov.uk/id/gregorian-instant/2018-01-01T00:00:00>;
    <http://www.w3.org/2006/time#hasEnd> <http://reference.data.gov.uk/id/gregorian-instant/2018-04-01T00:00:00> .
+
+<http://reference.data.gov.uk/id/quarter/2018-Q2> a <http://www.w3.org/2006/time#Interval>,
+     <http://reference.data.gov.uk/def/intervals/Interval>;
+   <http://www.w3.org/2000/01/rdf-schema#label> "2018-Q2";
+   <http://www.w3.org/2006/time#hasBeginning> <http://reference.data.gov.uk/id/gregorian-instant/2018-04-01T00:00:00>;
+   <http://www.w3.org/2006/time#hasEnd> <http://reference.data.gov.uk/id/gregorian-instant/2018-07-01T00:00:00> .
 
 <http://reference.data.gov.uk/id/year/1991> a <http://www.w3.org/2006/time#Interval>,
      <http://reference.data.gov.uk/def/intervals/Interval>;
