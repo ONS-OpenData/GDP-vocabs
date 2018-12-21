@@ -12,6 +12,7 @@ pipeline {
                         pmd.drafter.deleteDraftset(draftset.id)
                     }
                     def newDraftset = pmd.drafter.createDraftset(env.JOB_NAME)
+                    def index = readJSON(file: 'vocabs/index.json')
                     for (int i = 0; i < index.size(); i++) {
                         String src = index[i]['src']
                         if (graph.startsWith('http')) {
