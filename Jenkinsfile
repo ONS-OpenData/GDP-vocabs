@@ -15,7 +15,7 @@ pipeline {
                     def index = readJSON(file: 'vocabs/index.json')
                     for (int i = 0; i < index.size(); i++) {
                         String src = index[i]['src']
-                        if (graph.startsWith('http')) {
+                        if (src.startsWith('http')) {
                             pmd.drafter.deleteGraph(newDraftset.id, src)
                             pmd.drafter.addData(newDraftset.id, src, index[i]['format'], 'UTF-8', src)
                         } else {
