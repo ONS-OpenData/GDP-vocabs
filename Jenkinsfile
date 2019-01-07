@@ -19,6 +19,8 @@ pipeline {
                             pmd.drafter.deleteGraph(id, src)
                             pmd.drafter.addData(id, src, index[i]['format'], 'UTF-8', src)
                         } else {
+                            String graph = index[i]['graph']
+                            pmd.drafter.deleteGraph(id, graph)
                             pmd.drafter.addData(id, "${WORKSPACE}/${src}", index[i]['format'], 'UTF-8', index[i]['graph'])
                         }
                     }
