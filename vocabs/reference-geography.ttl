@@ -9944,3 +9944,51 @@
 	<http://www.w3.org/2000/01/rdf-schema#label> "Belfast";
      	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
 	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/S08000017> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "S08000017" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "S08000017"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "2013/347" , <http://legislation.gov.uk/id/uksi/347/2013> ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Re-alignment to OS Local Authorities" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2014-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/S08> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "SG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/S08> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Dumfries and Galloway" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/S08000018> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "S08000018" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "S08000018"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "2013/347" , <http://legislation.gov.uk/id/uksi/347/2013> ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Re-alignment to OS Local Authorities" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2014-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/S08> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "SG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/S08> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Fife" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/S08000022> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "S08000022" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "S08000022"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "2013/347" , <http://legislation.gov.uk/id/uksi/347/2013> ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Re-alignment to OS Local Authorities" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2014-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/S08> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "SG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/S08> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Highland" .
