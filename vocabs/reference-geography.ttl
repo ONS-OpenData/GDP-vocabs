@@ -9815,6 +9815,201 @@
 	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/S12> ;
 	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Perth and Kinross" .
 
+<http://statistics.data.gov.uk/id/statistical-geography/95AA> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Antrim";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95BB> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Ards";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95CC> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Armagh";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95DD> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Ballymena";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95EE> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Ballymoney";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95FF> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Banbridge";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95GG> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Belfast";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95HH> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Carrickfergus";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95II> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Castlereagh";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95JJ> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Coleraine";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95KK> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Cookstown";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95LL> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Craigavon";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95MM> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Derry";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95NN> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Down";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95OO> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Dungannon";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95PP> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Fermanagh";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95QQ> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Larne";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95RR> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Limavady";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95SS> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Lisburn";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95TT> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Magherafelt";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95UU> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Moyle";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95VV> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Newry and Mourne";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95WW> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Newtownabbey";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95XX> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "North Down";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95YY> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Omagh";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/95ZZ> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Strabane";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/BHSCT> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Belfast Health and Social Care Trust";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/NHSCT> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Northern Health and Social Care Trust";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/SEHSCT> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "South Eastern Health and Social Care Trust";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/SHSCT> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Southern Health and Social Care Trust";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/WHSCT> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Western Health and Social Care Trust";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/BELB> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Belfast Education and Library Board";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/NEELB> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "North Eastern Education and Library Board";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/SEELB> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "South Eastern Education and Library Board";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/SELB> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Southern Education and Library Board";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/WELB> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Western Education and Library Board";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated".
+
+<http://statistics.data.gov.uk/id/statistical-geography/UKN01> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Belfast";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/UKN02> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "Outer Belfast";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/UKN03> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "East of Northern Ireland";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/UKN04> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "North of Northern Ireland";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/UKN05> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
+	<http://www.w3.org/2000/01/rdf-schema#label> "West and South of Northern Ireland";
+     	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002> .
+
 <http://statistics.data.gov.uk/id/statistical-geography/95A> a <http://publishmydata.com/def/ontology/spatial/Area>, <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography>;
 	<http://www.w3.org/2000/01/rdf-schema#label> "Derry";
      	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N92000002>;
@@ -9992,3 +10187,327 @@
 	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "" ;
 	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/S08> ;
 	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Highland" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N06000001> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N06000001" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N06000001"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1486/2008" , <http://legislation.gov.uk/id/uksi/2008/1486> ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Parliamentary Constituencies (Northern Ireland) Order 2008" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2010-05-06> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N06> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "BCNI" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N06> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Belfast East" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N06000018> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N06000018" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N06000018"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1486/2008" , <http://legislation.gov.uk/id/uksi/2008/1486> ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Parliamentary Constituencies (Northern Ireland) Order 2008" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2010-05-06> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N06> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "BCNI" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N06> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "West Tyrone" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N06000002> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N06000002" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N06000002"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1486/2008" , <http://legislation.gov.uk/id/uksi/2008/1486> ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Parliamentary Constituencies (Northern Ireland) Order 2008" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2010-05-06> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N06> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "BCNI" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N06> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Belfast North" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N06000003> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N06000003" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N06000003"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1486/2008" , <http://legislation.gov.uk/id/uksi/2008/1486> ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Parliamentary Constituencies (Northern Ireland) Order 2008" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2010-05-06> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N06> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "BCNI" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N06> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Belfast South" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N06000004> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N06000004" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N06000004"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1486/2008" , <http://legislation.gov.uk/id/uksi/2008/1486> ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Parliamentary Constituencies (Northern Ireland) Order 2008" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2010-05-06> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N06> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "BCNI" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N06> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Belfast West" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N06000005> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N06000005" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N06000005"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1486/2008" , <http://legislation.gov.uk/id/uksi/2008/1486> ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Parliamentary Constituencies (Northern Ireland) Order 2008" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2010-05-06> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N06> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "BCNI" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N06> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "East Antrim" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N06000006> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N06000006" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N06000006"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1486/2008" , <http://legislation.gov.uk/id/uksi/2008/1486> ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Parliamentary Constituencies (Northern Ireland) Order 2008" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2010-05-06> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N06> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "BCNI" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N06> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "East Londonderry" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N06000007> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N06000007" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N06000007"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1486/2008" , <http://legislation.gov.uk/id/uksi/2008/1486> ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Parliamentary Constituencies (Northern Ireland) Order 2008" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2010-05-06> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N06> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "BCNI" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N06> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Fermanagh and South Tyrone" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N06000008> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N06000008" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N06000008"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1486/2008" , <http://legislation.gov.uk/id/uksi/2008/1486> ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Parliamentary Constituencies (Northern Ireland) Order 2008" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2010-05-06> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N06> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "BCNI" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N06> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Foyle" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N06000009> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N06000009" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N06000009"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1486/2008" , <http://legislation.gov.uk/id/uksi/2008/1486> ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Parliamentary Constituencies (Northern Ireland) Order 2008" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2010-05-06> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N06> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "BCNI" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N06> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Lagan Valley" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N06000010> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N06000010" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N06000010"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1486/2008" , <http://legislation.gov.uk/id/uksi/2008/1486> ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Parliamentary Constituencies (Northern Ireland) Order 2008" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2010-05-06> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N06> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "BCNI" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N06> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Mid Ulster" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N06000011> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N06000011" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N06000011"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1486/2008" , <http://legislation.gov.uk/id/uksi/2008/1486> ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Parliamentary Constituencies (Northern Ireland) Order 2008" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2010-05-06> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N06> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "BCNI" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N06> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Newry and Armagh" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N06000012> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N06000012" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N06000012"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1486/2008" , <http://legislation.gov.uk/id/uksi/2008/1486> ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Parliamentary Constituencies (Northern Ireland) Order 2008" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2010-05-06> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N06> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "BCNI" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N06> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "North Antrim" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N06000013> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N06000013" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N06000013"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1486/2008" , <http://legislation.gov.uk/id/uksi/2008/1486> ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Parliamentary Constituencies (Northern Ireland) Order 2008" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2010-05-06> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N06> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "BCNI" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N06> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "North Down" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N06000014> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N06000014" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N06000014"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1486/2008" , <http://legislation.gov.uk/id/uksi/2008/1486> ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Parliamentary Constituencies (Northern Ireland) Order 2008" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2010-05-06> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N06> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "BCNI" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N06> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "South Antrim" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N06000015> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N06000015" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N06000015"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1486/2008" , <http://legislation.gov.uk/id/uksi/2008/1486> ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Parliamentary Constituencies (Northern Ireland) Order 2008" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2010-05-06> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N06> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "BCNI" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N06> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "South Down" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N06000016> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N06000016" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N06000016"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1486/2008" , <http://legislation.gov.uk/id/uksi/2008/1486> ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Parliamentary Constituencies (Northern Ireland) Order 2008" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2010-05-06> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N06> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "BCNI" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N06> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Strangford" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N06000017> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N06000017" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N06000017"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1486/2008" , <http://legislation.gov.uk/id/uksi/2008/1486> ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Parliamentary Constituencies (Northern Ireland) Order 2008" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2010-05-06> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N06> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "BCNI" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N06> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Upper Bann" .
