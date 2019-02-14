@@ -48,5 +48,9 @@
     "src": "vocabs/licenses.ttl",
     "graph": "http://gss-data.org.uk/graph/licenses",
     "format": "text/turtle"
+  }, {
+    "src": "vocabs/ons-cpa-additional.ttl",
+    "graph": "http://gss-data.org.uk/graph/ons-cpa-additional",
+    "format": "text/turtle"
   }
 ]
