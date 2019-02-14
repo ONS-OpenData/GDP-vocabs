@@ -3,9 +3,8 @@
 @prefix skos:      <http://www.w3.org/2004/02/skos/core#> .
 @prefix cpa:       <http://stamina-project.org/codes/cpav2008/> .
 
-cpa:TOTAL a skos:Concept ;
+<http://stamina-project.org/codes/cpav2008/ons/TOTAL> a skos:Concept ;
   rdfs:label "All" ;
   skos:inScheme <http://stamina-project.org/codes/cpav2008/cpa> ;
   skos:notation "TOTAL" ;
   skos:topConceptOf  <http://stamina-project.org/codes/cpav2008/cpa> .
-
