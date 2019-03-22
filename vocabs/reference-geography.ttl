@@ -10511,3 +10511,1738 @@
 	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N06> ;
 	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/N07000001> ;
 	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Upper Bann" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E40000001> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E40000001" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E40000001"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "2996/2012" , <http://legislation.gov.uk/id/uksi/2012/2996> ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The National Health Service Commissioning Board and Clinical Commissioning Groups (Responsibilities and Standing Rules) Regulations 2012" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2013-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E40> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "62672503.65" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "61426743.14" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "90638.23" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "61336104.91" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E40> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "North Of England" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E39000029> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E39000029" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E39000029"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E40000001> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E39> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "1606517.69" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "1590854.43" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "376.93" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "1590477.5" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E39> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E40000001> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS England North (Yorkshire and Humber)" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000001> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000001" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000001"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "122063.3" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "122063.3" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "141.92" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "121921.38" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Airedale, Wharfedale and Craven CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000006> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000006" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000006"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "32905.2" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "32905.2" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "32905.2" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Barnsley CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000008> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000008" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000008"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "63955.64" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "63787.06" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "63787.06" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Bassetlaw CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000018> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000018" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000018"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "1648.57" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "1648.57" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "1648.57" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Bradford City CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000019> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000019" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000019"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "16957.5" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "16957.5" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "16957.5" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Bradford Districts CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000025> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000025" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000025"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "36392.29" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "36392.29" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "36392.29" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Calderdale CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000044> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000044" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000044"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "56852.03" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "56799.12" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "56799.12" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Doncaster CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000052> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000052" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000052"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "223816.87" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "214769.63" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "116.96" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "214652.67" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS East Riding of Yorkshire CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000064> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000064" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000064"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "31424.87" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "31424.87" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "31424.87" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Greater Huddersfield CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000069> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000069" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000069"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "284112.77" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "283659.81" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "283659.81" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Hambleton, Richmondshire and Whitby CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000073> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000073" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000073"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "130912.6" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "130912.6" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "118.05" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "130794.55" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Harrogate and Rural District CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000085> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000085" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000085"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "8149.68" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "7144.91" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "7144.91" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Hull CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000094> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000094" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000094"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "26150.53" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "26150.53" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "26150.53" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Leeds North CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000095> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000095" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000095"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "14747.67" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "14747.67" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "14747.67" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Leeds South and East CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000096> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000096" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000096"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "14274.3" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "14274.3" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "14274.3" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Leeds West CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000119> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000119" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000119"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "20354.19" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "19184.5" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "19184.5" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS North East Lincolnshire CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000121> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000121" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000121"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "9434.8" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "9434.8" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "9434.8" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS North Kirklees CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000122> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000122" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000122"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "87561.15" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "84631.29" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "84631.29" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS North Lincolnshire CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000141> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000141" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000141"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "28653.78" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "28653.78" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "28653.78" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Rotherham CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000145> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000145" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000145"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "103461.87" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "102923.65" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "102923.65" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Scarborough and Ryedale CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000146> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000146" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000146"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "36795" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "36795" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "36795" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Sheffield CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000188> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000188" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000188"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "222031.91" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "221732.88" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "221732.88" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Vale of York CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000190> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000190" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000190"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "33861.17" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "33861.17" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "33861.17" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000029> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Wakefield CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E39000037> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E39000037" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E39000037"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E40000001> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E39> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "DH" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "140205.75" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "140205.75" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "140205.75" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E39> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E40000001> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS England North (Greater Manchester)" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000016> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000016" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000016"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Change to Parent Geography" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000037> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "13980.25" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "13980.25" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "13980.25" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000037> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Bolton CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000024> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000024" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000024"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Change to Parent Geography" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000037> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "9948.39" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "9948.39" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "9948.39" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000037> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Bury CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000080> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000080" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000080"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Change to Parent Geography" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000037> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "15808.14" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "15808.14" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "15808.14" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000037> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Heywood, Middleton and Rochdale CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000135> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000135" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000135"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Change to Parent Geography" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000037> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "14236.47" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "14236.47" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "14236.47" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000037> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Oldham CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000143> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000143" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000143"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Change to Parent Geography" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000037> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "9718.96" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "9718.96" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "9718.96" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000037> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Salford CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000174> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000174" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000174"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Change to Parent Geography" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000037> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "12606.39" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "12606.39" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "12606.39" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000037> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Stockport CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000182> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000182" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000182"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Change to Parent Geography" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000037> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "22919.83" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "22919.83" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "22919.83" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000037> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Tameside and Glossop CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000187> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000187" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000187"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Change to Parent Geography" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000037> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "10603.56" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "10603.56" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "10603.56" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000037> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Trafford CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000205> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000205" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000205"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Change to Parent Geography" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000037> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "18819.21" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "18819.21" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "18819.21" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000037> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Wigan Borough CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E39000038> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E39000038" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E39000038"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E40000001> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E39> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "DH" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "326364.41" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "307640.04" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "128.58" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "307511.46" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E39> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E40000001> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS England North (Lancashire)" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000014> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000014" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000014"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Change to Parent Geography" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000038> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "13701.26" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "13701.26" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "13701.26" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000038> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Blackburn with Darwen CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000015> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000015" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000015"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Change to Parent Geography" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000038> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "4318.47" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "3488.18" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "3488.18" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000038> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Blackpool CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000034> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000034" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000034"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Change to Parent Geography" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000038> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "23646.88" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "23635.98" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "23635.98" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000038> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Chorley and South Ribble CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000050> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000050" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000050"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Change to Parent Geography" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000038> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "91414.46" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "91414.46" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "111.99" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "91302.47" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000038> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS East Lancashire CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000060> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000060" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000060"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Change to Parent Geography" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000038> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "32841.47" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "26558.07" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "26558.07" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000038> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Fylde & Wyre CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000065> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000065" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000065"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Change to Parent Geography" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000038> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "38542.45" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "38311.38" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "16.59" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "38294.79" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000038> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Greater Preston CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000200> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000200" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000200"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Change to Parent Geography" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000038> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "38110.02" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "34678.93" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "34678.93" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000038> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS West Lancashire CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E39000027> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E39000027" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E39000027"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E40000001> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E39> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "1599406.7" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "1555304.11" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "7358.2" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "1547945.91" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E39> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E40000001> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS England North (Cumbria and North East)" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000042> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000042" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000042"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000027> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "19747.5" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "19747.5" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "19747.5" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000027> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Darlington CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000047> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000047" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000047"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000027> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "170760.81" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "170652.88" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "557.7" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "170095.18" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000027> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Durham Dales, Easington and Sedgefield CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000075> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000075" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000075"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000027> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "30817.87" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "29845.57" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "29845.57" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000027> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Hartlepool and Stockton-on-Tees CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000212> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000212" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000212"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000027> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "25917.09" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "25578.67" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "25578.67" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000027> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Newcastle Gateshead CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000116> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000116" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000116"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000027> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "52512.93" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "52505.29" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "52505.29" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000027> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS North Durham CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000127> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000127" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000127"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000027> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "8518.97" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "8239.08" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "8239.08" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000027> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS North Tyneside CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000130> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000130" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000130"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000027> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "507841.31" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "502609.44" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "1241.26" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "501368.18" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000027> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Northumberland CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000162> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000162" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000162"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000027> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "30845.02" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "29870.98" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "29870.98" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000027> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS South Tees CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000163> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000163" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000163"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000027> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "6714.62" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "6441.39" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "6441.39" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000027> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS South Tyneside CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000176> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000176" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000176"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000027> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "13965.07" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "13745.93" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "13745.93" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000027> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Sunderland CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E39000026> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E39000026" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E39000026"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E40000001> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E39> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "319644.9" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "298763.06" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "298763.06" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E39> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E40000001> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS England North (Cheshire and Merseyside)" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000056> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000056" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000056"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000026> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "62550.05" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "62550.05" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "62550.05" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000026> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Eastern Cheshire CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000068> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000068" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000068"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000026> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "9033.23" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "7909.49" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "7909.49" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000026> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Halton CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000091> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000091" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000091"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000026> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "8646.95" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "8646.95" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "8646.95" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000026> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Knowsley CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000101> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000101" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000101"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000026> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "13354.23" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "11184.41" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "11184.41" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000026> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Liverpool CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000151> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000151" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000151"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000026> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "54087.55" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "54087.55" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "54087.55" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000026> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS South Cheshire CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000161> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000161" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000161"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000026> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "8485.2" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "7504.75" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "7504.75" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000026> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS South Sefton CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000170> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000170" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000170"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000026> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "11992.3" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "7808.87" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "7808.87" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000026> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Southport and Formby CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000172> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000172" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000172"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000026> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "13638.13" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "13638.13" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "13638.13" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000026> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS St Helens CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000189> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000189" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000189"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000026> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "24852.25" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "24852.25" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "24852.25" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000026> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Vale Royal CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000194> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000194" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000194"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000026> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "18237.86" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "18062.32" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "18062.32" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000026> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Warrington CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000196> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000196" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000196"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000026> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "69263.99" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "66813.3" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "66813.3" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000026> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS West Cheshire CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000208> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000208" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000208"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000026> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "25503.16" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "15704.99" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "15704.99" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000026> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Wirral CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E40000002> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E40000002" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E40000002"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "2996/2012" , <http://legislation.gov.uk/id/uksi/2012/2996> ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The National Health Service Commissioning Board and Clinical Commissioning Groups (Responsibilities and Standing Rules) Regulations 2012" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2013-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E40> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "72992174.37" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "72094942.7" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "63440.87" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "72031501.83" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E40> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Midlands and East of England" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E39000032> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E39000032" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E39000032"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E40000002> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E39> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "1022910.24" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "1022860.74" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "703.23" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "1022157.51" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E39> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E40000002> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS England Midlands and East (North Midlands)" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000028> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000028" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000028"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "13372.17" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "13372.17" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "13372.17" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Cannock Chase CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000053> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000053" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000053"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "47550.37" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "47550.37" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "302.78" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "47247.59" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS East Staffordshire CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000058> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000058" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000058"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "6002.29" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "6002.29" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "6002.29" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Erewash CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000071> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000071" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000071"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "21721.46" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "21721.46" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "21721.46" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Hardwick CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000103> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000103" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000103"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "17012.08" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "17012.08" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "17012.08" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Mansfield and Ashfield CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000109> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000109" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000109"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "63153.93" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "63104.43" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "63104.43" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Newark & Sherwood CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000115> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000115" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000115"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "113351.55" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "113351.55" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "111.08" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "113240.47" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS North Derbyshire CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000126> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000126" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000126"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "73857.08" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "73857.08" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "73857.08" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS North Staffordshire CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000132> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000132" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000132"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "7461.21" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "7461.21" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "7461.21" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Nottingham City CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000133> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000133" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000133"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "15640.53" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "15640.53" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "15640.53" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Nottingham North and East CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000134> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000134" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000134"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "8009.87" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "8009.87" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "8009.87" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Nottingham West CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000142> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000142" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000142"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "40923.61" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "40923.61" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "40923.61" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Rushcliffe CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000147> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000147" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000147"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "319730.28" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "319730.28" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "319730.28" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Shropshire CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000153> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000153" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000153"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "46187.28" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "46187.28" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "46187.28" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS South East Staffordshire and Seisdon Peninsula CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000169> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000169" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000169"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "109195.4" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "109195.4" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "289.37" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "108906.03" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Southern Derbyshire CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000173> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000173" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000173"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "76541.48" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "76541.48" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "76541.48" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Stafford and Surrounds CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000175> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000175" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000175"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "14168.28" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "14168.28" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "14168.28" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Stoke on Trent CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000183> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000183" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000183"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "29031.37" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "29031.37" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "29031.37" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000032> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Telford and Wrekin CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E39000033> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E39000033" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E39000033"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-04-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E40000002> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E39> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "679942.03" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "679942.03" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "244.4" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "679697.63" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E39> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E40000002> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS England Midlands and East (West Midlands)" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000012> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000012" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000012"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000033> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "19665.14" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "19665.14" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "19665.14" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000033> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Birmingham CrossCity CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000013> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000013" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000013"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000033> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "3819.88" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "3819.88" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "3819.88" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000033> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Birmingham South and Central CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000038> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000038" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000038"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000033> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "45220.88" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "45220.88" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "244.4" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "44976.48" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000033> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Coventry and Rugby CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000046> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000046" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000046"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000033> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "9795.75" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "9795.75" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "9795.75" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000033> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Dudley CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000078> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000078" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000078"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000033> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "217973.29" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "217973.29" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "217973.29" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000033> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Herefordshire CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000139> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000139" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000139"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000033> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "27121.94" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "27121.94" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "27121.94" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000033> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Redditch and Bromsgrove CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000144> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000144" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000144"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000033> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "11850.48" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "11850.48" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "11850.48" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000033> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Sandwell and West Birmingham CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000149> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000149" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000149"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000033> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "17828.8" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "17828.8" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "17828.8" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000033> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Solihull CCG" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000164> a <http://publishmydata.com/def/ontology/spatial/Area> , <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000164" ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000164"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-07-01> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000033> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "126074.96" ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "126074.96" ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0" ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "126074.96" ;
+	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/spatial/within> <http://statistics.data.gov.uk/id/statistical-geography/E39000033> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS South Warwickshire CCG" .
