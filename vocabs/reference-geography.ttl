@@ -14451,3 +14451,114 @@
 	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "51295548.37" ;
 	<http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E40> ;
 	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "South of England" .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000219> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000219" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "ODS Organisation Changes" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000031> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "169330.12"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "169209.95"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0.0"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "169209.95"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2017-04-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000219" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS South Norfolk CCG" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/E38000219/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/E39000031> , <http://statistics.data.gov.uk/id/statistical-geography/E40000002> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/parent> <http://statistics.data.gov.uk/id/statistical-geography/E39000031> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E38000219" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "NHS South Norfolk CCG" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000218> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000218" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "ODS Organisation Changes" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000031> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "9516.62"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "9363.29"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0.0"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "9363.29"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2017-04-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000218" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Norwich CCG" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/E38000218/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/E39000031> , <http://statistics.data.gov.uk/id/statistical-geography/E40000002> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/parent> <http://statistics.data.gov.uk/id/statistical-geography/E39000031> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E38000218" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "NHS Norwich CCG" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000217> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000217" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "ODS Organisation Changes" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000037> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "11564.56"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "11564.56"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "0.0"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "11564.56"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2017-04-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000217" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Manchester CCG" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/E38000217/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/E39000037> , <http://statistics.data.gov.uk/id/statistical-geography/E40000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/parent> <http://statistics.data.gov.uk/id/statistical-geography/E39000037> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E38000217" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "NHS Manchester CCG" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000216> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000216" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "ODS Organisation Changes" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000040> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "terminated" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2017-04-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000216" ;
+	<http://statistics.data.gov.uk/def/boundary-change/terminateddate> <http://reference.data.gov.uk/id/day/2018-03-31> ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS Morecambe Bay CCG" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/E39000040> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/parent> <http://statistics.data.gov.uk/id/statistical-geography/E39000040> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E38000216" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "NHS Morecambe Bay CCG" ;
+	<http://publishmydata.com/def/ontology/foi/active> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E38000215> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E38000215" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "ODS Organisation Changes" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#parentcode> <http://statistics.data.gov.uk/id/statistical-geography/E39000039> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E38> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "513594.53"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "504321.66"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "3613.15"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "500708.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2017-04-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E38000215" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "NHS North Cumbria CCG" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/E38000215/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E38> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/E39000039> , <http://statistics.data.gov.uk/id/statistical-geography/E40000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/parent> <http://statistics.data.gov.uk/id/statistical-geography/E39000039> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E38000215" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "NHS North Cumbria CCG" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
