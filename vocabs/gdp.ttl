@@ -37,3 +37,6 @@ gdp:migration a gdp:DatasetFamily ;
 
 gdp:health a gdp:DatasetFamily ;
   rdfs:label "Health" .
+
+gdp:housing a gdp:DatasetFamily ;
+  rdfs:label "Housing" .
