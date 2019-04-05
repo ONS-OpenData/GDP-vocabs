@@ -52,5 +52,8 @@
     "src": "vocabs/ons-cpa-additional.ttl",
     "graph": "http://gss-data.org.uk/graph/ons-cpa-additional",
     "format": "text/turtle"
+  }, {
+    "src": "http://business.data.gov.uk/companies/sources/vocab/sic-2007.ttl",
+    "format": "text/turtle"
   }
 ]
