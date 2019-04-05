@@ -55,5 +55,9 @@
   }, {
     "src": "http://business.data.gov.uk/companies/sources/vocab/sic-2007.ttl",
     "format": "text/turtle"
+  }, {
+    "src": "vocabs/sic-2007-labels.ttl",
+    "graph": "http://business.data.gov.uk/companies/sources/vocab/sic-2007-labels",
+    "format": "text/turtle"
   }
 ]

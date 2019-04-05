@@ -1,0 +1,2380 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sic: <http://business.data.gov.uk/companies/def/sic-2007/> .
+
+sic:26511 rdfs:label "Manufacture of electronic instruments and appliances for measuring, testing, and navigation, except industrial process control equipment"@en .
+
+sic:26510 rdfs:label "Manufacture of instruments and appliances for measuring, testing and navigation"@en .
+
+sic:47.7 rdfs:label "Retail sale of other goods in specialised stores"@en .
+
+sic:47 rdfs:label "Retail trade, except of motor vehicles and motorcycles"@en .
+
+sic:47760 rdfs:label "Retail sale of flowers, plants, seeds, fertilisers, pet animals and pet food in specialised stores"@en .
+
+sic:47720 rdfs:label "Retail sale of footwear and leather goods in specialised stores"@en .
+
+sic:47750 rdfs:label "Retail sale of cosmetic and toilet articles in specialised stores"@en .
+
+sic:47710 rdfs:label "Retail sale of clothing in specialised stores"@en .
+
+sic:47790 rdfs:label "Retail sale of second-hand goods in stores"@en .
+
+sic:47780 rdfs:label "Other retail sale of new goods in specialised stores"@en .
+
+sic:47740 rdfs:label "Retail sale of medical and orthopaedic goods in specialised stores"@en .
+
+sic:47770 rdfs:label "Retail sale of watches and jewellery in specialised stores"@en .
+
+sic:47730 rdfs:label "Dispensing chemist in specialised stores"@en .
+
+sic:42.9 rdfs:label "Construction of other civil engineering projects"@en .
+
+sic:42 rdfs:label "Civil engineering"@en .
+
+sic:42990 rdfs:label "Construction of other civil engineering projects n.e.c."@en .
+
+sic:42910 rdfs:label "Construction of water projects"@en .
+
+sic:10612 rdfs:label "Manufacture of breakfast cereals and cereals-based foods"@en .
+
+sic:10610 rdfs:label "Manufacture of grain mill products"@en .
+
+sic:46710 rdfs:label "Wholesale of solid, liquid and gaseous fuels and related products"@en .
+
+sic:46.7 rdfs:label "Other specialised wholesale"@en .
+
+sic:46711 rdfs:label "Wholesale of petroleum and petroleum products"@en .
+
+sic:46719 rdfs:label "Wholesale of fuels and related products (other than petroleum and petroleum products)"@en .
+
+sic:71120 rdfs:label "Engineering activities and related technical consultancy"@en .
+
+sic:71.1 rdfs:label "Architectural and engineering activities and related technical consultancy"@en .
+
+sic:71121 rdfs:label "Engineering design activities for industrial process and production"@en .
+
+sic:71129 rdfs:label "Other engineering activities (not including engineering design for industrial process and production or engineering related scientific and technical consulting activities)"@en .
+
+sic:71122 rdfs:label "Engineering related scientific and technical consulting activities"@en .
+
+sic:74901 rdfs:label "Environmental consulting activities"@en .
+
+sic:74900 rdfs:label "Other professional, scientific and technical activities n.e.c."@en .
+
+sic:81291 rdfs:label "Disinfecting and extermination services"@en .
+
+sic:81290 rdfs:label "Other cleaning activities"@en .
+
+sic:01470 rdfs:label "Raising of poultry"@en .
+
+sic:01.4 rdfs:label "Animal production"@en .
+
+sic:26700 rdfs:label "Manufacture of optical instruments and photographic equipment"@en .
+
+sic:26.7 rdfs:label "Manufacture of optical instruments and photographic equipment"@en .
+
+sic:26702 rdfs:label "Manufacture of photographic and cinematographic equipment"@en .
+
+sic:26701 rdfs:label "Manufacture of optical precision instruments"@en .
+
+sic:49320 rdfs:label "Taxi operation"@en .
+
+sic:49.3 rdfs:label "Other passenger land transport"@en .
+
+sic:33200 rdfs:label "Installation of industrial machinery and equipment"@en .
+
+sic:33.2 rdfs:label "Installation of industrial machinery and equipment"@en .
+
+sic:66.1 rdfs:label "Activities auxiliary to financial services, except insurance and pension funding"@en .
+
+sic:66 rdfs:label "Activities auxiliary to financial services and insurance activities"@en .
+
+sic:66110 rdfs:label "Administration of financial markets"@en .
+
+sic:66190 rdfs:label "Other activities auxiliary to financial services, except insurance and pension funding"@en .
+
+sic:66120 rdfs:label "Security and commodity contracts brokerage"@en .
+
+sic:23140 rdfs:label "Manufacture of glass fibres"@en .
+
+sic:23.1 rdfs:label "Manufacture of glass and glass products"@en .
+
+sic:86 rdfs:label "Human health activities"@en .
+
+sic:Q rdfs:label "HUMAN HEALTH AND SOCIAL WORK ACTIVITIES"@en .
+
+sic:86.2 rdfs:label "Medical and dental practice activities"@en .
+
+sic:86.1 rdfs:label "Hospital activities"@en .
+
+sic:86.9 rdfs:label "Other human health activities"@en .
+
+sic:61.3 rdfs:label "Satellite telecommunications activities"@en .
+
+sic:61 rdfs:label "Telecommunications"@en .
+
+sic:61300 rdfs:label "Satellite telecommunications activities"@en .
+
+sic:29310 rdfs:label "Manufacture of electrical and electronic equipment for motor vehicles"@en .
+
+sic:29.3 rdfs:label "Manufacture of parts and accessories for motor vehicles"@en .
+
+sic:32990 rdfs:label "Other manufacturing n.e.c."@en .
+
+sic:32.9 rdfs:label "Other manufacturing n.e.c."@en .
+
+sic:18.2 rdfs:label "Reproduction of recorded media"@en .
+
+sic:18 rdfs:label "Printing and reproduction of recorded media"@en .
+
+sic:18200 rdfs:label "Reproduction of recorded media"@en .
+
+sic:08 rdfs:label "Other mining and quarrying"@en .
+
+sic:B rdfs:label "MINING AND QUARRYING"@en .
+
+sic:08.1 rdfs:label "Quarrying of stone, sand and clay"@en .
+
+sic:08.9 rdfs:label "Mining and quarrying n.e.c."@en .
+
+sic:87.2 rdfs:label "Residential care activities for learning disabilities, mental health and substance abuse"@en .
+
+sic:87 rdfs:label "Residential care activities"@en .
+
+sic:87200 rdfs:label "Residential care activities for learning disabilities, mental health and substance abuse"@en .
+
+sic:14141 rdfs:label "Manufacture of men's underwear"@en .
+
+sic:14140 rdfs:label "Manufacture of underwear"@en .
+
+sic:91010 rdfs:label "Library and archive activities"@en .
+
+sic:91.0 rdfs:label "Libraries, archives, museums and other cultural activities"@en .
+
+sic:91011 rdfs:label "Library activities"@en .
+
+sic:91012 rdfs:label "Archive activities"@en .
+
+sic:22 rdfs:label "Manufacture of rubber and plastic products"@en .
+
+sic:C rdfs:label "MANUFACTURING"@en .
+
+sic:22.1 rdfs:label "Manufacture of rubber products"@en .
+
+sic:22.2 rdfs:label "Manufacture of plastics products"@en .
+
+sic:33190 rdfs:label "Repair of other equipment"@en .
+
+sic:33.1 rdfs:label "Repair of fabricated metal products, machinery and equipment"@en .
+
+sic:20.2 rdfs:label "Manufacture of pesticides and other agrochemical products"@en .
+
+sic:20 rdfs:label "Manufacture of chemicals and chemical products"@en .
+
+sic:20200 rdfs:label "Manufacture of pesticides and other agrochemical products"@en .
+
+sic:46170 rdfs:label "Agents involved in the sale of food, beverages and tobacco"@en .
+
+sic:46.1 rdfs:label "Wholesale on a fee or contract basis"@en .
+
+sic:46 rdfs:label "Wholesale trade, except of motor vehicles and motorcycles"@en .
+
+sic:46190 rdfs:label "Agents involved in the sale of a variety of goods"@en .
+
+sic:46110 rdfs:label "Agents involved in the sale of agricultural raw materials, live animals, textile raw materials and semi-finished goods"@en .
+
+sic:46130 rdfs:label "Agents involved in the sale of timber and building materials"@en .
+
+sic:46120 rdfs:label "Agents involved in the sale of fuels, ores, metals and industrial chemicals"@en .
+
+sic:46150 rdfs:label "Agents involved in the sale of furniture, household goods, hardware and ironmongery"@en .
+
+sic:46160 rdfs:label "Agents involved in the sale of textiles, clothing, fur, footwear and leather goods"@en .
+
+sic:46140 rdfs:label "Agents involved in the sale of machinery, industrial equipment, ships and aircraft"@en .
+
+sic:46180 rdfs:label "Agents specialised in the sale of other particular products"@en .
+
+sic:49200 rdfs:label "Freight rail transport"@en .
+
+sic:49.2 rdfs:label "Freight rail transport"@en .
+
+sic:27310 rdfs:label "Manufacture of fibre optic cables"@en .
+
+sic:27.3 rdfs:label "Manufacture of wiring and wiring devices"@en .
+
+sic:30990 rdfs:label "Manufacture of other transport equipment n.e.c."@en .
+
+sic:30.9 rdfs:label "Manufacture of transport equipment n.e.c."@en .
+
+sic:16210 rdfs:label "Manufacture of veneer sheets and wood-based panels"@en .
+
+sic:16.2 rdfs:label "Manufacture of products of wood, cork, straw and plaiting materials"@en .
+
+sic:F rdfs:label "CONSTRUCTION"@en .
+
+sic:43 rdfs:label "Specialised construction activities"@en .
+
+sic:41 rdfs:label "Construction of buildings"@en .
+
+sic:80100 rdfs:label "Private security activities"@en .
+
+sic:80.1 rdfs:label "Private security activities"@en .
+
+sic:20510 rdfs:label "Manufacture of explosives"@en .
+
+sic:20.5 rdfs:label "Manufacture of other chemical products"@en .
+
+sic:49319 rdfs:label "Urban, suburban or metropolitan area passenger land transport other than railway transportation by underground, metro and similar systems"@en .
+
+sic:49310 rdfs:label "Urban and suburban passenger land transport"@en .
+
+sic:98100 rdfs:label "Undifferentiated goods-producing activities of private households for own use"@en .
+
+sic:98.1 rdfs:label "Undifferentiated goods-producing activities of private households for own use"@en .
+
+sic:69109 rdfs:label "Activities of patent and copyright agents; other legal activities (other than those of barristers and solicitors) n.e.c."@en .
+
+sic:69100 rdfs:label "Legal activities"@en .
+
+sic:45320 rdfs:label "Retail trade of motor vehicle parts and accessories"@en .
+
+sic:45.3 rdfs:label "Sale of motor vehicle parts and accessories"@en .
+
+sic:23430 rdfs:label "Manufacture of ceramic insulators and insulating fittings"@en .
+
+sic:23.4 rdfs:label "Manufacture of other porcelain and ceramic products"@en .
+
+sic:26.1 rdfs:label "Manufacture of electronic components and boards"@en .
+
+sic:26 rdfs:label "Manufacture of computer, electronic and optical products"@en .
+
+sic:26110 rdfs:label "Manufacture of electronic components"@en .
+
+sic:26120 rdfs:label "Manufacture of loaded electronic boards"@en .
+
+sic:01230 rdfs:label "Growing of citrus fruits"@en .
+
+sic:01.2 rdfs:label "Growing of perennial crops"@en .
+
+sic:95.1 rdfs:label "Repair of computers and communication equipment"@en .
+
+sic:95 rdfs:label "Repair of computers and personal and household goods"@en .
+
+sic:95120 rdfs:label "Repair of communication equipment"@en .
+
+sic:95110 rdfs:label "Repair of computers and peripheral equipment"@en .
+
+sic:82920 rdfs:label "Packaging activities"@en .
+
+sic:82.9 rdfs:label "Business support service activities n.e.c."@en .
+
+sic:03110 rdfs:label "Marine fishing"@en .
+
+sic:03.1 rdfs:label "Fishing"@en .
+
+sic:93290 rdfs:label "Other amusement and recreation activities"@en .
+
+sic:93.2 rdfs:label "Amusement and recreation activities"@en .
+
+sic:47421 rdfs:label "Retail sale of mobile telephones in specialised stores"@en .
+
+sic:47420 rdfs:label "Retail sale of telecommunications equipment in specialised stores"@en .
+
+sic:47.2 rdfs:label "Retail sale of food, beverages and tobacco in specialised stores"@en .
+
+sic:47220 rdfs:label "Retail sale of meat and meat products in specialised stores"@en .
+
+sic:47210 rdfs:label "Retail sale of fruit and vegetables in specialised stores"@en .
+
+sic:47240 rdfs:label "Retail sale of bread, cakes, flour confectionery and sugar confectionery in specialised stores"@en .
+
+sic:47230 rdfs:label "Retail sale of fish, crustaceans and molluscs in specialised stores"@en .
+
+sic:47260 rdfs:label "Retail sale of tobacco products in specialised stores"@en .
+
+sic:47290 rdfs:label "Other retail sale of food in specialised stores"@en .
+
+sic:47250 rdfs:label "Retail sale of beverages in specialised stores"@en .
+
+sic:99 rdfs:label "Activities of extraterritorial organisations and bodies"@en .
+
+sic:U rdfs:label "ACTIVITIES OF EXTRATERRITORIAL ORGANISATIONS AND BODIES"@en .
+
+sic:99.0 rdfs:label "Activities of extraterritorial organisations and bodies"@en .
+
+sic:85530 rdfs:label "Driving school activities"@en .
+
+sic:85.5 rdfs:label "Other education"@en .
+
+sic:13922 rdfs:label "Manufacture of canvas goods, sacks etc."@en .
+
+sic:13920 rdfs:label "Manufacture of made-up textile articles, except apparel"@en .
+
+sic:10860 rdfs:label "Manufacture of homogenised food preparations and dietetic food"@en .
+
+sic:10.8 rdfs:label "Manufacture of other food products"@en .
+
+sic:68.3 rdfs:label "Real estate activities on a fee or contract basis"@en .
+
+sic:68 rdfs:label "Real estate activities"@en .
+
+sic:68310 rdfs:label "Real estate agencies"@en .
+
+sic:68320 rdfs:label "Management of real estate on a fee or contract basis"@en .
+
+sic:46460 rdfs:label "Wholesale of pharmaceutical goods"@en .
+
+sic:46.4 rdfs:label "Wholesale of household goods"@en .
+
+sic:58290 rdfs:label "Other software publishing"@en .
+
+sic:58.2 rdfs:label "Software publishing"@en .
+
+sic:47610 rdfs:label "Retail sale of books in specialised stores"@en .
+
+sic:47.6 rdfs:label "Retail sale of cultural and recreation goods in specialised stores"@en .
+
+sic:01640 rdfs:label "Seed processing for propagation"@en .
+
+sic:01.6 rdfs:label "Support activities to agriculture and post-harvest crop activities"@en .
+
+sic:47190 rdfs:label "Other retail sale in non-specialised stores"@en .
+
+sic:47.1 rdfs:label "Retail sale in non-specialised stores"@en .
+
+sic:25720 rdfs:label "Manufacture of locks and hinges"@en .
+
+sic:25.7 rdfs:label "Manufacture of cutlery, tools and general hardware"@en .
+
+sic:43320 rdfs:label "Joinery installation"@en .
+
+sic:43.3 rdfs:label "Building completion and finishing"@en .
+
+sic:56300 rdfs:label "Beverage serving activities"@en .
+
+sic:56.3 rdfs:label "Beverage serving activities"@en .
+
+sic:56301 rdfs:label "Licensed clubs"@en .
+
+sic:56302 rdfs:label "Public houses and bars"@en .
+
+sic:06.1 rdfs:label "Extraction of crude petroleum"@en .
+
+sic:06 rdfs:label "Extraction of crude petroleum and natural gas"@en .
+
+sic:06100 rdfs:label "Extraction of crude petroleum"@en .
+
+sic:35 rdfs:label "Electricity, gas, steam and air conditioning supply"@en .
+
+sic:D rdfs:label "ELECTRICITY, GAS, STEAM AND AIR CONDITIONING SUPPLY"@en .
+
+sic:35.1 rdfs:label "Electric power generation, transmission and distribution"@en .
+
+sic:35.2 rdfs:label "Manufacture of gas; distribution of gaseous fuels through mains"@en .
+
+sic:35.3 rdfs:label "Steam and air conditioning supply"@en .
+
+sic:64203 rdfs:label "Activities of construction holding companies"@en .
+
+sic:64200 rdfs:label "Activities of holding companies"@en .
+
+sic:45200 rdfs:label "Maintenance and repair of motor vehicles"@en .
+
+sic:45.2 rdfs:label "Maintenance and repair of motor vehicles"@en .
+
+sic:11060 rdfs:label "Manufacture of malt"@en .
+
+sic:11.0 rdfs:label "Manufacture of beverages"@en .
+
+sic:23310 rdfs:label "Manufacture of ceramic tiles and flags"@en .
+
+sic:23.3 rdfs:label "Manufacture of clay building materials"@en .
+
+sic:01.3 rdfs:label "Plant propagation"@en .
+
+sic:01 rdfs:label "Crop and animal production, hunting and related service activities"@en .
+
+sic:01300 rdfs:label "Plant propagation"@en .
+
+sic:81 rdfs:label "Services to buildings and landscape activities"@en .
+
+sic:N rdfs:label "ADMINISTRATIVE AND SUPPORT SERVICE ACTIVITIES"@en .
+
+sic:81.1 rdfs:label "Combined facilities support activities"@en .
+
+sic:81.2 rdfs:label "Cleaning activities"@en .
+
+sic:81.3 rdfs:label "Landscape service activities"@en .
+
+sic:64922 rdfs:label "Activities of mortgage finance companies"@en .
+
+sic:64920 rdfs:label "Other credit granting"@en .
+
+sic:17230 rdfs:label "Manufacture of paper stationery"@en .
+
+sic:17.2 rdfs:label "Manufacture of articles of paper and paperboard"@en .
+
+sic:01110 rdfs:label "Growing of cereals (except rice), leguminous crops and oil seeds"@en .
+
+sic:01.1 rdfs:label "Growing of non-perennial crops"@en .
+
+sic:03 rdfs:label "Fishing and aquaculture"@en .
+
+sic:A rdfs:label "AGRICULTURE, FORESTRY AND FISHING"@en .
+
+sic:03.2 rdfs:label "Aquaculture"@en .
+
+sic:10 rdfs:label "Manufacture of food products"@en .
+
+sic:10850 rdfs:label "Manufacture of prepared meals and dishes"@en .
+
+sic:10820 rdfs:label "Manufacture of cocoa, chocolate and sugar confectionery"@en .
+
+sic:10810 rdfs:label "Manufacture of sugar"@en .
+
+sic:10840 rdfs:label "Manufacture of condiments and seasonings"@en .
+
+sic:10830 rdfs:label "Processing of tea and coffee"@en .
+
+sic:10890 rdfs:label "Manufacture of other food products n.e.c."@en .
+
+sic:27.2 rdfs:label "Manufacture of batteries and accumulators"@en .
+
+sic:27 rdfs:label "Manufacture of electrical equipment"@en .
+
+sic:27200 rdfs:label "Manufacture of batteries and accumulators"@en .
+
+sic:59131 rdfs:label "Motion picture distribution activities"@en .
+
+sic:59130 rdfs:label "Motion picture, video and television programme distribution activities"@en .
+
+sic:82302 rdfs:label "Activities of conference organizers"@en .
+
+sic:82300 rdfs:label "Organisation of conventions and trade shows"@en .
+
+sic:90030 rdfs:label "Artistic creation"@en .
+
+sic:90.0 rdfs:label "Creative, arts and entertainment activities"@en .
+
+sic:29203 rdfs:label "Manufacture of caravans"@en .
+
+sic:29200 rdfs:label "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers"@en .
+
+sic:96090 rdfs:label "Other personal service activities n.e.c."@en .
+
+sic:96.0 rdfs:label "Other personal service activities"@en .
+
+sic:85410 rdfs:label "Post-secondary non-tertiary education"@en .
+
+sic:85.4 rdfs:label "Higher education"@en .
+
+sic:56290 rdfs:label "Other food service activities"@en .
+
+sic:56.2 rdfs:label "Event catering and other food service activities"@en .
+
+sic:20302 rdfs:label "Manufacture of printing ink"@en .
+
+sic:20300 rdfs:label "Manufacture of paints, varnishes and similar coatings, printing ink and mastics"@en .
+
+sic:45190 rdfs:label "Sale of other motor vehicles"@en .
+
+sic:45.1 rdfs:label "Sale of motor vehicles"@en .
+
+sic:46340 rdfs:label "Wholesale of beverages"@en .
+
+sic:46.3 rdfs:label "Wholesale of food, beverages and tobacco"@en .
+
+sic:46342 rdfs:label "Wholesale of wine, beer, spirits and other alcoholic beverages"@en .
+
+sic:46341 rdfs:label "Wholesale of fruit and vegetable juices, mineral waters and soft drinks"@en .
+
+sic:45112 rdfs:label "Sale of used cars and light motor vehicles"@en .
+
+sic:45110 rdfs:label "Sale of cars and light motor vehicles"@en .
+
+sic:24450 rdfs:label "Other non-ferrous metal production"@en .
+
+sic:24.4 rdfs:label "Manufacture of basic precious and other non-ferrous metals"@en .
+
+sic:09.9 rdfs:label "Support activities for other mining and quarrying"@en .
+
+sic:09 rdfs:label "Mining support service activities"@en .
+
+sic:09900 rdfs:label "Support activities for other mining and quarrying"@en .
+
+sic:55.1 rdfs:label "Hotels and similar accommodation"@en .
+
+sic:55 rdfs:label "Accommodation"@en .
+
+sic:55100 rdfs:label "Hotels and similar accommodation"@en .
+
+sic:28210 rdfs:label "Manufacture of ovens, furnaces and furnace burners"@en .
+
+sic:28.2 rdfs:label "Manufacture of other general-purpose machinery"@en .
+
+sic:50.3 rdfs:label "Inland passenger water transport"@en .
+
+sic:50 rdfs:label "Water transport"@en .
+
+sic:50300 rdfs:label "Inland passenger water transport"@en .
+
+sic:07.2 rdfs:label "Mining of non-ferrous metal ores"@en .
+
+sic:07 rdfs:label "Mining of metal ores"@en .
+
+sic:07290 rdfs:label "Mining of other non-ferrous metal ores"@en .
+
+sic:07210 rdfs:label "Mining of uranium and thorium ores"@en .
+
+sic:17110 rdfs:label "Manufacture of pulp"@en .
+
+sic:17.1 rdfs:label "Manufacture of pulp, paper and paperboard"@en .
+
+sic:64304 rdfs:label "Activities of open-ended investment companies"@en .
+
+sic:64300 rdfs:label "Trusts, funds and similar financial entities"@en .
+
+sic:02.4 rdfs:label "Support services to forestry"@en .
+
+sic:02 rdfs:label "Forestry and logging"@en .
+
+sic:02400 rdfs:label "Support services to forestry"@en .
+
+sic:46750 rdfs:label "Wholesale of chemical products"@en .
+
+sic:94200 rdfs:label "Activities of trade unions"@en .
+
+sic:94.2 rdfs:label "Activities of trade unions"@en .
+
+sic:95240 rdfs:label "Repair of furniture and home furnishings"@en .
+
+sic:95.2 rdfs:label "Repair of personal and household goods"@en .
+
+sic:77330 rdfs:label "Renting and leasing of office machinery and equipment (including computers)"@en .
+
+sic:77.3 rdfs:label "Renting and leasing of other machinery, equipment and tangible goods"@en .
+
+sic:28.3 rdfs:label "Manufacture of agricultural and forestry machinery"@en .
+
+sic:28 rdfs:label "Manufacture of machinery and equipment n.e.c."@en .
+
+sic:28300 rdfs:label "Manufacture of agricultural and forestry machinery"@en .
+
+sic:10620 rdfs:label "Manufacture of starches and starch products"@en .
+
+sic:10.6 rdfs:label "Manufacture of grain mill products, starches and starch products"@en .
+
+sic:64999 rdfs:label "Other financial service activities, except insurance and pension funding, (not including security dealing on own account and factoring) n.e.c."@en .
+
+sic:64990 rdfs:label "Other financial service activities, except insurance and pension funding, n.e.c."@en .
+
+sic:23.5 rdfs:label "Manufacture of cement, lime and plaster"@en .
+
+sic:23 rdfs:label "Manufacture of other non-metallic mineral products"@en .
+
+sic:23510 rdfs:label "Manufacture of cement"@en .
+
+sic:23520 rdfs:label "Manufacture of lime and plaster"@en .
+
+sic:99000 rdfs:label "Activities of extraterritorial organisations and bodies"@en .
+
+sic:41200 rdfs:label "Construction of residential and non-residential buildings"@en .
+
+sic:41.2 rdfs:label "Construction of residential and non-residential buildings"@en .
+
+sic:41202 rdfs:label "Construction of domestic buildings"@en .
+
+sic:41201 rdfs:label "Construction of commercial buildings"@en .
+
+sic:81221 rdfs:label "Window cleaning services"@en .
+
+sic:81220 rdfs:label "Other building and industrial cleaning activities"@en .
+
+sic:46220 rdfs:label "Wholesale of flowers and plants"@en .
+
+sic:46.2 rdfs:label "Wholesale of agricultural raw materials and live animals"@en .
+
+sic:59200 rdfs:label "Sound recording and music publishing activities"@en .
+
+sic:59.2 rdfs:label "Sound recording and music publishing activities"@en .
+
+sic:24330 rdfs:label "Cold forming or folding"@en .
+
+sic:24.3 rdfs:label "Manufacture of other products of first processing of steel"@en .
+
+sic:35120 rdfs:label "Transmission of electricity"@en .
+
+sic:35130 rdfs:label "Distribution of electricity"@en .
+
+sic:35140 rdfs:label "Trade of electricity"@en .
+
+sic:35110 rdfs:label "Production of electricity"@en .
+
+sic:49.4 rdfs:label "Freight transport by road and removal services"@en .
+
+sic:49 rdfs:label "Land transport and transport via pipelines"@en .
+
+sic:49410 rdfs:label "Freight transport by road"@en .
+
+sic:49420 rdfs:label "Removal services"@en .
+
+sic:30.3 rdfs:label "Manufacture of air and spacecraft and related machinery"@en .
+
+sic:30 rdfs:label "Manufacture of other transport equipment"@en .
+
+sic:30300 rdfs:label "Manufacture of air and spacecraft and related machinery"@en .
+
+sic:37000 rdfs:label "Sewerage"@en .
+
+sic:37.0 rdfs:label "Sewerage"@en .
+
+sic:01621 rdfs:label "Farm animal boarding and care"@en .
+
+sic:01620 rdfs:label "Support activities for animal production"@en .
+
+sic:15110 rdfs:label "Tanning and dressing of leather; dressing and dyeing of fur"@en .
+
+sic:15.1 rdfs:label "Tanning and dressing of leather; manufacture of luggage, handbags, saddlery and harness; dressing and dyeing of fur"@en .
+
+sic:94 rdfs:label "Activities of membership organisations"@en .
+
+sic:S rdfs:label "OTHER SERVICE ACTIVITIES"@en .
+
+sic:94.1 rdfs:label "Activities of business, employers and professional membership organisations"@en .
+
+sic:94.9 rdfs:label "Activities of other membership organisations"@en .
+
+sic:47599 rdfs:label "Retail sale of furniture, lighting equipment and other household articles (other than musical instruments) n.e.c., in specialised stores"@en .
+
+sic:47590 rdfs:label "Retail sale of furniture, lighting equipment and other household articles in specialised stores"@en .
+
+sic:47890 rdfs:label "Retail sale via stalls and markets of other goods"@en .
+
+sic:47.8 rdfs:label "Retail sale via stalls and markets"@en .
+
+sic:16 rdfs:label "Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials"@en .
+
+sic:16.1 rdfs:label "Sawmilling and planing of wood"@en .
+
+sic:56 rdfs:label "Food and beverage service activities"@en .
+
+sic:56210 rdfs:label "Event catering activities"@en .
+
+sic:62 rdfs:label "Computer programming, consultancy and related activities"@en .
+
+sic:J rdfs:label "INFORMATION AND COMMUNICATION"@en .
+
+sic:62.0 rdfs:label "Computer programming, consultancy and related activities"@en .
+
+sic:52290 rdfs:label "Other transportation support activities"@en .
+
+sic:52.2 rdfs:label "Support activities for transportation"@en .
+
+sic:R rdfs:label "ARTS, ENTERTAINMENT AND RECREATION"@en .
+
+sic:92 rdfs:label "Gambling and betting activities"@en .
+
+sic:93 rdfs:label "Sports activities and amusement and recreation activities"@en .
+
+sic:90 rdfs:label "Creative, arts and entertainment activities"@en .
+
+sic:91 rdfs:label "Libraries, archives, museums and other cultural activities"@en .
+
+sic:17211 rdfs:label "Manufacture of corrugated paper and paperboard; manufacture of sacks and bags of paper"@en .
+
+sic:17210 rdfs:label "Manufacture of corrugated paper and paperboard and of containers of paper and paperboard"@en .
+
+sic:46630 rdfs:label "Wholesale of mining, construction and civil engineering machinery"@en .
+
+sic:46.6 rdfs:label "Wholesale of other machinery, equipment and supplies"@en .
+
+sic:52212 rdfs:label "Operation of rail passenger facilities at railway stations"@en .
+
+sic:52210 rdfs:label "Service activities incidental to land transportation"@en .
+
+sic:77210 rdfs:label "Renting and leasing of recreational and sports goods"@en .
+
+sic:77.2 rdfs:label "Renting and leasing of personal and household goods"@en .
+
+sic:77 rdfs:label "Rental and leasing activities"@en .
+
+sic:77310 rdfs:label "Renting and leasing of agricultural machinery and equipment"@en .
+
+sic:77390 rdfs:label "Renting and leasing of other machinery, equipment and tangible goods n.e.c."@en .
+
+sic:77320 rdfs:label "Renting and leasing of construction and civil engineering machinery and equipment"@en .
+
+sic:77350 rdfs:label "Renting and leasing of air transport equipment"@en .
+
+sic:77340 rdfs:label "Renting and leasing of water transport equipment"@en .
+
+sic:30.4 rdfs:label "Manufacture of military fighting vehicles"@en .
+
+sic:30.2 rdfs:label "Manufacture of railway locomotives and rolling stock"@en .
+
+sic:30.1 rdfs:label "Building of ships and boats"@en .
+
+sic:20140 rdfs:label "Manufacture of other organic basic chemicals"@en .
+
+sic:20.1 rdfs:label "Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms"@en .
+
+sic:97000 rdfs:label "Activities of households as employers of domestic personnel"@en .
+
+sic:97.0 rdfs:label "Activities of households as employers of domestic personnel"@en .
+
+sic:59112 rdfs:label "Video production activities"@en .
+
+sic:59110 rdfs:label "Motion picture, video and television programme production activities"@en .
+
+sic:33120 rdfs:label "Repair of machinery"@en .
+
+sic:15 rdfs:label "Manufacture of leather and related products"@en .
+
+sic:15120 rdfs:label "Manufacture of luggage, handbags and the like, saddlery and harness"@en .
+
+sic:10.3 rdfs:label "Processing and preserving of fruit and vegetables"@en .
+
+sic:10310 rdfs:label "Processing and preserving of potatoes"@en .
+
+sic:10320 rdfs:label "Manufacture of fruit and vegetable juice"@en .
+
+sic:10390 rdfs:label "Other processing and preserving of fruit and vegetables"@en .
+
+sic:84.1 rdfs:label "Administration of the State and the economic and social policy of the community"@en .
+
+sic:84 rdfs:label "Public administration and defence; compulsory social security"@en .
+
+sic:84110 rdfs:label "General public administration activities"@en .
+
+sic:84130 rdfs:label "Regulation of and contribution to more efficient operation of businesses"@en .
+
+sic:84120 rdfs:label "Regulation of the activities of providing health care, education, cultural services and other social services, excluding social security"@en .
+
+sic:18130 rdfs:label "Pre-press and pre-media services"@en .
+
+sic:18.1 rdfs:label "Printing and service activities related to printing"@en .
+
+sic:63910 rdfs:label "News agency activities"@en .
+
+sic:63.9 rdfs:label "Other information service activities"@en .
+
+sic:30920 rdfs:label "Manufacture of bicycles and invalid carriages"@en .
+
+sic:50400 rdfs:label "Inland freight water transport"@en .
+
+sic:50.4 rdfs:label "Inland freight water transport"@en .
+
+sic:10910 rdfs:label "Manufacture of prepared feeds for farm animals"@en .
+
+sic:10.9 rdfs:label "Manufacture of prepared animal feeds"@en .
+
+sic:64110 rdfs:label "Central banking"@en .
+
+sic:64.1 rdfs:label "Monetary intermediation"@en .
+
+sic:28910 rdfs:label "Manufacture of machinery for metallurgy"@en .
+
+sic:28.9 rdfs:label "Manufacture of other special-purpose machinery"@en .
+
+sic:46510 rdfs:label "Wholesale of computers, computer peripheral equipment and software"@en .
+
+sic:46.5 rdfs:label "Wholesale of information and communication equipment"@en .
+
+sic:28490 rdfs:label "Manufacture of other machine tools"@en .
+
+sic:28.4 rdfs:label "Manufacture of metal forming machinery and machine tools"@en .
+
+sic:66300 rdfs:label "Fund management activities"@en .
+
+sic:66.3 rdfs:label "Fund management activities"@en .
+
+sic:42220 rdfs:label "Construction of utility projects for electricity and telecommunications"@en .
+
+sic:42.2 rdfs:label "Construction of utility projects"@en .
+
+sic:01270 rdfs:label "Growing of beverage crops"@en .
+
+sic:55200 rdfs:label "Holiday and other short-stay accommodation"@en .
+
+sic:55.2 rdfs:label "Holiday and other short-stay accommodation"@en .
+
+sic:55209 rdfs:label "Other holiday and other short-stay accommodation (not including holiday centres and villages or youth hostels) n.e.c."@en .
+
+sic:55202 rdfs:label "Youth hostels"@en .
+
+sic:55201 rdfs:label "Holiday centres and villages"@en .
+
+sic:74203 rdfs:label "Film processing"@en .
+
+sic:74200 rdfs:label "Photographic activities"@en .
+
+sic:22210 rdfs:label "Manufacture of plastic plates, sheets, tubes and profiles"@en .
+
+sic:64 rdfs:label "Financial service activities, except insurance and pension funding"@en .
+
+sic:64190 rdfs:label "Other monetary intermediation"@en .
+
+sic:16220 rdfs:label "Manufacture of assembled parquet floors"@en .
+
+sic:16240 rdfs:label "Manufacture of wooden containers"@en .
+
+sic:16290 rdfs:label "Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting materials"@en .
+
+sic:16230 rdfs:label "Manufacture of other builders' carpentry and joinery"@en .
+
+sic:87.9 rdfs:label "Other residential care activities"@en .
+
+sic:87900 rdfs:label "Other residential care activities"@en .
+
+sic:10822 rdfs:label "Manufacture of sugar confectionery"@en .
+
+sic:09100 rdfs:label "Support activities for petroleum and natural gas extraction"@en .
+
+sic:09.1 rdfs:label "Support activities for petroleum and natural gas extraction"@en .
+
+sic:25 rdfs:label "Manufacture of fabricated metal products, except machinery and equipment"@en .
+
+sic:25710 rdfs:label "Manufacture of cutlery"@en .
+
+sic:25730 rdfs:label "Manufacture of tools"@en .
+
+sic:85.2 rdfs:label "Primary education"@en .
+
+sic:85 rdfs:label "Education"@en .
+
+sic:85200 rdfs:label "Primary education"@en .
+
+sic:47650 rdfs:label "Retail sale of games and toys in specialised stores"@en .
+
+sic:13930 rdfs:label "Manufacture of carpets and rugs"@en .
+
+sic:13.9 rdfs:label "Manufacture of other textiles"@en .
+
+sic:13931 rdfs:label "Manufacture of woven or tufted carpets and rugs"@en .
+
+sic:13939 rdfs:label "Manufacture of carpets and rugs (other than woven or tufted) n.e.c."@en .
+
+sic:29 rdfs:label "Manufacture of motor vehicles, trailers and semi-trailers"@en .
+
+sic:29.1 rdfs:label "Manufacture of motor vehicles"@en .
+
+sic:29.2 rdfs:label "Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers"@en .
+
+sic:66290 rdfs:label "Other activities auxiliary to insurance and pension funding"@en .
+
+sic:66.2 rdfs:label "Activities auxiliary to insurance and pension funding"@en .
+
+sic:75 rdfs:label "Veterinary activities"@en .
+
+sic:M rdfs:label "PROFESSIONAL, SCIENTIFIC AND TECHNICAL ACTIVITIES"@en .
+
+sic:75.0 rdfs:label "Veterinary activities"@en .
+
+sic:32.5 rdfs:label "Manufacture of medical and dental instruments and supplies"@en .
+
+sic:32 rdfs:label "Other manufacturing"@en .
+
+sic:32500 rdfs:label "Manufacture of medical and dental instruments and supplies"@en .
+
+sic:53200 rdfs:label "Other postal and courier activities"@en .
+
+sic:53.2 rdfs:label "Other postal and courier activities"@en .
+
+sic:53201 rdfs:label "Licensed Carriers"@en .
+
+sic:53202 rdfs:label "Unlicensed Carriers"@en .
+
+sic:92.0 rdfs:label "Gambling and betting activities"@en .
+
+sic:92000 rdfs:label "Gambling and betting activities"@en .
+
+sic:18129 rdfs:label "Printing (other than printing of newspapers and printing on labels and tags) n.e.c."@en .
+
+sic:18120 rdfs:label "Other printing"@en .
+
+sic:01150 rdfs:label "Growing of tobacco"@en .
+
+sic:43.9 rdfs:label "Other specialised construction activities"@en .
+
+sic:43.2 rdfs:label "Electrical, plumbing and other construction installation activities"@en .
+
+sic:43.1 rdfs:label "Demolition and site preparation"@en .
+
+sic:02300 rdfs:label "Gathering of wild growing non-wood products"@en .
+
+sic:02.3 rdfs:label "Gathering of wild growing non-wood products"@en .
+
+sic:14130 rdfs:label "Manufacture of other outerwear"@en .
+
+sic:14.1 rdfs:label "Manufacture of wearing apparel, except fur apparel"@en .
+
+sic:14131 rdfs:label "Manufacture of men's outerwear, other than leather clothes and workwear"@en .
+
+sic:14132 rdfs:label "Manufacture of women's outerwear, other than leather clothes and workwear"@en .
+
+sic:38210 rdfs:label "Treatment and disposal of non-hazardous waste"@en .
+
+sic:38.2 rdfs:label "Waste treatment and disposal"@en .
+
+sic:27110 rdfs:label "Manufacture of electric motors, generators and transformers"@en .
+
+sic:27.1 rdfs:label "Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus"@en .
+
+sic:11 rdfs:label "Manufacture of beverages"@en .
+
+sic:69 rdfs:label "Legal and accounting activities"@en .
+
+sic:73 rdfs:label "Advertising and market research"@en .
+
+sic:74 rdfs:label "Other professional, scientific and technical activities"@en .
+
+sic:71 rdfs:label "Architectural and engineering activities; technical testing and analysis"@en .
+
+sic:72 rdfs:label "Scientific research and development"@en .
+
+sic:70 rdfs:label "Activities of head offices; management consultancy activities"@en .
+
+sic:65.2 rdfs:label "Reinsurance"@en .
+
+sic:65 rdfs:label "Insurance, reinsurance and pension funding, except compulsory social security"@en .
+
+sic:65200 rdfs:label "Reinsurance"@en .
+
+sic:08990 rdfs:label "Other mining and quarrying n.e.c."@en .
+
+sic:43991 rdfs:label "Scaffold erection"@en .
+
+sic:43990 rdfs:label "Other specialised construction activities n.e.c."@en .
+
+sic:86102 rdfs:label "Medical nursing home activities"@en .
+
+sic:86100 rdfs:label "Hospital activities"@en .
+
+sic:46380 rdfs:label "Wholesale of other food, including fish, crustaceans and molluscs"@en .
+
+sic:47530 rdfs:label "Retail sale of carpets, rugs, wall and floor coverings in specialised stores"@en .
+
+sic:47.5 rdfs:label "Retail sale of other household equipment in specialised stores"@en .
+
+sic:96020 rdfs:label "Hairdressing and other beauty treatment"@en .
+
+sic:26.8 rdfs:label "Manufacture of magnetic and optical media"@en .
+
+sic:26800 rdfs:label "Manufacture of magnetic and optical media"@en .
+
+sic:27520 rdfs:label "Manufacture of non-electric domestic appliances"@en .
+
+sic:27.5 rdfs:label "Manufacture of domestic appliances"@en .
+
+sic:28923 rdfs:label "Manufacture of equipment for concrete crushing and screening roadworks"@en .
+
+sic:28920 rdfs:label "Manufacture of machinery for mining, quarrying and construction"@en .
+
+sic:69200 rdfs:label "Accounting, bookkeeping and auditing activities; tax consultancy"@en .
+
+sic:69.2 rdfs:label "Accounting, bookkeeping and auditing activities; tax consultancy"@en .
+
+sic:69202 rdfs:label "Bookkeeping activities"@en .
+
+sic:69201 rdfs:label "Accounting, and auditing activities"@en .
+
+sic:69203 rdfs:label "Tax consultancy"@en .
+
+sic:28250 rdfs:label "Manufacture of non-domestic cooling and ventilation equipment"@en .
+
+sic:24.1 rdfs:label "Manufacture of basic iron and steel and of ferro-alloys"@en .
+
+sic:24 rdfs:label "Manufacture of basic metals"@en .
+
+sic:24100 rdfs:label "Manufacture of basic iron and steel and of ferro-alloys"@en .
+
+sic:79909 rdfs:label "Other reservation service activities (not including activities of tourist guides)"@en .
+
+sic:79900 rdfs:label "Other reservation service and related activities"@en .
+
+sic:25110 rdfs:label "Manufacture of metal structures and parts of structures"@en .
+
+sic:25.1 rdfs:label "Manufacture of structural metal products"@en .
+
+sic:26513 rdfs:label "Manufacture of non-electronic instruments and appliances for measuring, testing and navigation, except industrial process control equipment"@en .
+
+sic:47.9 rdfs:label "Retail trade not in stores, stalls or markets"@en .
+
+sic:47910 rdfs:label "Retail sale via mail order houses or via Internet"@en .
+
+sic:47990 rdfs:label "Other retail sale not in stores, stalls or markets"@en .
+
+sic:93.1 rdfs:label "Sports activities"@en .
+
+sic:93120 rdfs:label "Activities of sport clubs"@en .
+
+sic:93110 rdfs:label "Operation of sports facilities"@en .
+
+sic:93190 rdfs:label "Other sports activities"@en .
+
+sic:93130 rdfs:label "Fitness facilities"@en .
+
+sic:46499 rdfs:label "Wholesale of household goods (other than musical instruments) n.e.c."@en .
+
+sic:46490 rdfs:label "Wholesale of other household goods"@en .
+
+sic:45 rdfs:label "Wholesale and retail trade and repair of motor vehicles and motorcycles"@en .
+
+sic:55900 rdfs:label "Other accommodation"@en .
+
+sic:55.9 rdfs:label "Other accommodation"@en .
+
+sic:23640 rdfs:label "Manufacture of mortars"@en .
+
+sic:23.6 rdfs:label "Manufacture of articles of concrete, cement and plaster"@en .
+
+sic:47410 rdfs:label "Retail sale of computers, peripheral units and software in specialised stores"@en .
+
+sic:47.4 rdfs:label "Retail sale of information and communication equipment in specialised stores"@en .
+
+sic:01440 rdfs:label "Raising of camels and camelids"@en .
+
+sic:43120 rdfs:label "Site preparation"@en .
+
+sic:88 rdfs:label "Social work activities without accommodation"@en .
+
+sic:88.9 rdfs:label "Other social work activities without accommodation"@en .
+
+sic:88.1 rdfs:label "Social work activities without accommodation for the elderly and disabled"@en .
+
+sic:64929 rdfs:label "Other credit granting (not including credit granting by non-deposit taking finance houses and other specialist consumer credit grantors and activities of mortgage finance companies) n.e.c."@en .
+
+sic:56100 rdfs:label "Restaurants and mobile food service activities"@en .
+
+sic:56.1 rdfs:label "Restaurants and mobile food service activities"@en .
+
+sic:56102 rdfs:label "Unlicensed restaurants and cafes"@en .
+
+sic:56101 rdfs:label "Licensed restaurants"@en .
+
+sic:56103 rdfs:label "Take away food shops and mobile food stands"@en .
+
+sic:10130 rdfs:label "Production of meat and poultry meat products"@en .
+
+sic:10.1 rdfs:label "Processing and preserving of meat and production of meat products"@en .
+
+sic:27400 rdfs:label "Manufacture of electric lighting equipment"@en .
+
+sic:27.4 rdfs:label "Manufacture of electric lighting equipment"@en .
+
+sic:28130 rdfs:label "Manufacture of other pumps and compressors"@en .
+
+sic:28.1 rdfs:label "Manufacture of general-purpose machinery"@en .
+
+sic:28132 rdfs:label "Manufacture of compressors"@en .
+
+sic:28131 rdfs:label "Manufacture of pumps"@en .
+
+sic:23110 rdfs:label "Manufacture of flat glass"@en .
+
+sic:43341 rdfs:label "Painting"@en .
+
+sic:43340 rdfs:label "Painting and glazing"@en .
+
+sic:20411 rdfs:label "Manufacture of soap and detergents"@en .
+
+sic:20410 rdfs:label "Manufacture of soap and detergents, cleaning and polishing preparations"@en .
+
+sic:27.9 rdfs:label "Manufacture of other electrical equipment"@en .
+
+sic:27900 rdfs:label "Manufacture of other electrical equipment"@en .
+
+sic:05200 rdfs:label "Mining of lignite"@en .
+
+sic:05.2 rdfs:label "Mining of lignite"@en .
+
+sic:73.1 rdfs:label "Advertising"@en .
+
+sic:73120 rdfs:label "Media representation"@en .
+
+sic:73110 rdfs:label "Advertising agencies"@en .
+
+sic:I rdfs:label "ACCOMMODATION AND FOOD SERVICE ACTIVITIES"@en .
+
+sic:25.2 rdfs:label "Manufacture of tanks, reservoirs and containers of metal"@en .
+
+sic:25290 rdfs:label "Manufacture of other tanks, reservoirs and containers of metal"@en .
+
+sic:25210 rdfs:label "Manufacture of central heating radiators and boilers"@en .
+
+sic:94120 rdfs:label "Activities of professional membership organisations"@en .
+
+sic:24.2 rdfs:label "Manufacture of tubes, pipes, hollow profiles and related fittings, of steel"@en .
+
+sic:24.5 rdfs:label "Casting of metals"@en .
+
+sic:47820 rdfs:label "Retail sale via stalls and markets of textiles, clothing and footwear"@en .
+
+sic:20.4 rdfs:label "Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations"@en .
+
+sic:20420 rdfs:label "Manufacture of perfumes and toilet preparations"@en .
+
+sic:25930 rdfs:label "Manufacture of wire products, chain and springs"@en .
+
+sic:25.9 rdfs:label "Manufacture of other fabricated metal products"@en .
+
+sic:78109 rdfs:label "Activities of employment placement agencies (other than motion picture, television and other theatrical casting) n.e.c."@en .
+
+sic:78100 rdfs:label "Activities of employment placement agencies"@en .
+
+sic:20600 rdfs:label "Manufacture of man-made fibres"@en .
+
+sic:20.6 rdfs:label "Manufacture of man-made fibres"@en .
+
+sic:70.1 rdfs:label "Activities of head offices"@en .
+
+sic:70.2 rdfs:label "Management consultancy activities"@en .
+
+sic:93191 rdfs:label "Activities of racehorse owners"@en .
+
+sic:52220 rdfs:label "Service activities incidental to water transportation"@en .
+
+sic:46350 rdfs:label "Wholesale of tobacco products"@en .
+
+sic:46320 rdfs:label "Wholesale of meat and meat products"@en .
+
+sic:46360 rdfs:label "Wholesale of sugar and chocolate and sugar confectionery"@en .
+
+sic:46310 rdfs:label "Wholesale of fruit and vegetables"@en .
+
+sic:46390 rdfs:label "Non-specialised wholesale of food, beverages and tobacco"@en .
+
+sic:46330 rdfs:label "Wholesale of dairy products, eggs and edible oils and fats"@en .
+
+sic:46370 rdfs:label "Wholesale of coffee, tea, cocoa and spices"@en .
+
+sic:33160 rdfs:label "Repair and maintenance of aircraft and spacecraft"@en .
+
+sic:59120 rdfs:label "Motion picture, video and television programme post-production activities"@en .
+
+sic:59.1 rdfs:label "Motion picture, video and television programme activities"@en .
+
+sic:25400 rdfs:label "Manufacture of weapons and ammunition"@en .
+
+sic:25.4 rdfs:label "Manufacture of weapons and ammunition"@en .
+
+sic:53.1 rdfs:label "Postal activities under universal service obligation"@en .
+
+sic:53 rdfs:label "Postal and courier activities"@en .
+
+sic:53100 rdfs:label "Postal activities under universal service obligation"@en .
+
+sic:05 rdfs:label "Mining of coal and lignite"@en .
+
+sic:20590 rdfs:label "Manufacture of other chemical products n.e.c."@en .
+
+sic:H rdfs:label "TRANSPORTATION AND STORAGE"@en .
+
+sic:52 rdfs:label "Warehousing and support activities for transportation"@en .
+
+sic:51 rdfs:label "Air transport"@en .
+
+sic:74.2 rdfs:label "Photographic activities"@en .
+
+sic:28950 rdfs:label "Manufacture of machinery for paper and paperboard production"@en .
+
+sic:72110 rdfs:label "Research and experimental development on biotechnology"@en .
+
+sic:72.1 rdfs:label "Research and experimental development on natural sciences and engineering"@en .
+
+sic:65300 rdfs:label "Pension funding"@en .
+
+sic:65.3 rdfs:label "Pension funding"@en .
+
+sic:12.0 rdfs:label "Manufacture of tobacco products"@en .
+
+sic:12 rdfs:label "Manufacture of tobacco products"@en .
+
+sic:12000 rdfs:label "Manufacture of tobacco products"@en .
+
+sic:26.3 rdfs:label "Manufacture of communication equipment"@en .
+
+sic:26300 rdfs:label "Manufacture of communication equipment"@en .
+
+sic:10420 rdfs:label "Manufacture of margarine and similar edible fats"@en .
+
+sic:10.4 rdfs:label "Manufacture of vegetable and animal oils and fats"@en .
+
+sic:52100 rdfs:label "Warehousing and storage"@en .
+
+sic:52.1 rdfs:label "Warehousing and storage"@en .
+
+sic:52102 rdfs:label "Operation of warehousing and storage facilities for air transport activities of division 51"@en .
+
+sic:52101 rdfs:label "Operation of warehousing and storage facilities for water transport activities of division 50"@en .
+
+sic:52103 rdfs:label "Operation of warehousing and storage facilities for land transport activities of division 49"@en .
+
+sic:77351 rdfs:label "Renting and leasing of passenger air transport equipment"@en .
+
+sic:33 rdfs:label "Repair and installation of machinery and equipment"@en .
+
+sic:33130 rdfs:label "Repair of electronic and optical equipment"@en .
+
+sic:33110 rdfs:label "Repair of fabricated metal products"@en .
+
+sic:33140 rdfs:label "Repair of electrical equipment"@en .
+
+sic:33150 rdfs:label "Repair and maintenance of ships and boats"@en .
+
+sic:33170 rdfs:label "Repair and maintenance of other transport equipment"@en .
+
+sic:47430 rdfs:label "Retail sale of audio and video equipment in specialised stores"@en .
+
+sic:19200 rdfs:label "Manufacture of refined petroleum products"@en .
+
+sic:19.2 rdfs:label "Manufacture of refined petroleum products"@en .
+
+sic:19209 rdfs:label "Other treatment of petroleum products (excluding mineral oil refining/petrochemicals manufacture)"@en .
+
+sic:19201 rdfs:label "Mineral oil refining"@en .
+
+sic:69.1 rdfs:label "Legal activities"@en .
+
+sic:81210 rdfs:label "General cleaning of buildings"@en .
+
+sic:10831 rdfs:label "Tea processing"@en .
+
+sic:10832 rdfs:label "Production of coffee and coffee substitutes"@en .
+
+sic:52219 rdfs:label "Other service activities incidental to land transportation, n.e.c. (not including operation of rail freight terminals, passenger facilities at railway stations or passenger facilities at bus and coach stations)"@en .
+
+sic:86230 rdfs:label "Dental practice activities"@en .
+
+sic:66220 rdfs:label "Activities of insurance agents and brokers"@en .
+
+sic:37 rdfs:label "Sewerage"@en .
+
+sic:E rdfs:label "WATER SUPPLY; SEWERAGE, WASTE MANAGEMENT AND REMEDIATION ACTIVITIES"@en .
+
+sic:46430 rdfs:label "Wholesale of electrical household appliances"@en .
+
+sic:46431 rdfs:label "Wholesale of gramophone records, audio tapes, compact discs and video tapes and of the equipment on which these are played"@en .
+
+sic:46439 rdfs:label "Wholesale of radio and television goods and of electrical household appliances (other than of gramophone records, audio tapes, compact discs and video tapes and the equipment on which these are played) n.e.c."@en .
+
+sic:64205 rdfs:label "Activities of financial services holding companies"@en .
+
+sic:24540 rdfs:label "Casting of other non-ferrous metals"@en .
+
+sic:01610 rdfs:label "Support activities for crop production"@en .
+
+sic:01.5 rdfs:label "Mixed farming"@en .
+
+sic:01500 rdfs:label "Mixed farming"@en .
+
+sic:01190 rdfs:label "Growing of other non-perennial crops"@en .
+
+sic:05.1 rdfs:label "Mining of hard coal"@en .
+
+sic:68100 rdfs:label "Buying and selling of own real estate"@en .
+
+sic:68.1 rdfs:label "Buying and selling of own real estate"@en .
+
+sic:13.1 rdfs:label "Preparation and spinning of textile fibres"@en .
+
+sic:13 rdfs:label "Manufacture of textiles"@en .
+
+sic:13100 rdfs:label "Preparation and spinning of textile fibres"@en .
+
+sic:11030 rdfs:label "Manufacture of cider and other fruit wines"@en .
+
+sic:51.1 rdfs:label "Passenger air transport"@en .
+
+sic:51.2 rdfs:label "Freight air transport and space transport"@en .
+
+sic:28302 rdfs:label "Manufacture of agricultural and forestry machinery (other than agricultural tractors)"@en .
+
+sic:28301 rdfs:label "Manufacture of agricultural tractors"@en .
+
+sic:59133 rdfs:label "Television programme distribution activities"@en .
+
+sic:82.1 rdfs:label "Office administrative and support activities"@en .
+
+sic:82 rdfs:label "Office administrative, office support and other business support activities"@en .
+
+sic:82190 rdfs:label "Photocopying, document preparation and other specialised office support activities"@en .
+
+sic:82110 rdfs:label "Combined office administrative service activities"@en .
+
+sic:70229 rdfs:label "Management consultancy activities (other than financial management)"@en .
+
+sic:70220 rdfs:label "Business and other management consultancy activities"@en .
+
+sic:39.0 rdfs:label "Remediation activities and other waste management services"@en .
+
+sic:39 rdfs:label "Remediation activities and other waste management services."@en .
+
+sic:39000 rdfs:label "Remediation activities and other waste management services"@en .
+
+sic:84230 rdfs:label "Justice and judicial activities"@en .
+
+sic:84.2 rdfs:label "Provision of services to the community as a whole"@en .
+
+sic:50200 rdfs:label "Sea and coastal freight water transport"@en .
+
+sic:50.2 rdfs:label "Sea and coastal freight water transport"@en .
+
+sic:10710 rdfs:label "Manufacture of bread; manufacture of fresh pastry goods and cakes"@en .
+
+sic:10.7 rdfs:label "Manufacture of bakery and farinaceous products"@en .
+
+sic:62030 rdfs:label "Computer facilities management activities"@en .
+
+sic:08920 rdfs:label "Extraction of peat"@en .
+
+sic:47791 rdfs:label "Retail sale of antiques including antique books, in stores"@en .
+
+sic:58140 rdfs:label "Publishing of journals and periodicals"@en .
+
+sic:58.1 rdfs:label "Publishing of books, periodicals and other publishing activities"@en .
+
+sic:58142 rdfs:label "Publishing of consumer, business and professional journals and periodicals"@en .
+
+sic:58141 rdfs:label "Publishing of learned journals"@en .
+
+sic:55.3 rdfs:label "Camping grounds, recreational vehicle parks and trailer parks"@en .
+
+sic:55300 rdfs:label "Camping grounds, recreational vehicle parks and trailer parks"@en .
+
+sic:28290 rdfs:label "Manufacture of other general-purpose machinery n.e.c."@en .
+
+sic:24420 rdfs:label "Aluminium production"@en .
+
+sic:35210 rdfs:label "Manufacture of gas"@en .
+
+sic:26309 rdfs:label "Manufacture of communication equipment (other than telegraph and telephone apparatus and equipment)"@en .
+
+sic:26301 rdfs:label "Manufacture of telegraph and telephone apparatus and equipment"@en .
+
+sic:15200 rdfs:label "Manufacture of footwear"@en .
+
+sic:15.2 rdfs:label "Manufacture of footwear"@en .
+
+sic:64306 rdfs:label "Activities of real estate investment trusts"@en .
+
+sic:31 rdfs:label "Manufacture of furniture"@en .
+
+sic:21 rdfs:label "Manufacture of basic pharmaceutical products and pharmaceutical preparations"@en .
+
+sic:17 rdfs:label "Manufacture of paper and paper products"@en .
+
+sic:14 rdfs:label "Manufacture of wearing apparel"@en .
+
+sic:19 rdfs:label "Manufacture of coke and refined petroleum products"@en .
+
+sic:68201 rdfs:label "Renting and operating of Housing Association real estate"@en .
+
+sic:68200 rdfs:label "Renting and operating of own or leased real estate"@en .
+
+sic:14.2 rdfs:label "Manufacture of articles of fur"@en .
+
+sic:14200 rdfs:label "Manufacture of articles of fur"@en .
+
+sic:46720 rdfs:label "Wholesale of metals and metal ores"@en .
+
+sic:23.7 rdfs:label "Cutting, shaping and finishing of stone"@en .
+
+sic:23700 rdfs:label "Cutting, shaping and finishing of stone"@en .
+
+sic:95210 rdfs:label "Repair of consumer electronics"@en .
+
+sic:81223 rdfs:label "Furnace and chimney cleaning services"@en .
+
+sic:35300 rdfs:label "Steam and air conditioning supply"@en .
+
+sic:90010 rdfs:label "Performing arts"@en .
+
+sic:90040 rdfs:label "Operation of arts facilities"@en .
+
+sic:90020 rdfs:label "Support activities to performing arts"@en .
+
+sic:96 rdfs:label "Other personal service activities"@en .
+
+sic:29320 rdfs:label "Manufacture of other parts and accessories for motor vehicles"@en .
+
+sic:13200 rdfs:label "Weaving of textiles"@en .
+
+sic:13.2 rdfs:label "Weaving of textiles"@en .
+
+sic:42.1 rdfs:label "Construction of roads and railways"@en .
+
+sic:42110 rdfs:label "Construction of roads and motorways"@en .
+
+sic:42130 rdfs:label "Construction of bridges and tunnels"@en .
+
+sic:42120 rdfs:label "Construction of railways and underground railways"@en .
+
+sic:02100 rdfs:label "Silviculture and other forestry activities"@en .
+
+sic:02.1 rdfs:label "Silviculture and other forestry activities"@en .
+
+sic:K rdfs:label "FINANCIAL AND INSURANCE ACTIVITIES"@en .
+
+sic:64.9 rdfs:label "Other financial service activities, except insurance and pension funding"@en .
+
+sic:64.3 rdfs:label "Trusts, funds and similar financial entities"@en .
+
+sic:64.2 rdfs:label "Activities of holding companies"@en .
+
+sic:T rdfs:label "ACTIVITIES OF HOUSEHOLDS AS EMPLOYERS; UNDIFFERENTIATED GOODS-AND SERVICES-PRODUCING ACTIVITIES OF HOUSEHOLDS FOR OWN USE"@en .
+
+sic:97 rdfs:label "Activities of households as employers of domestic personnel"@en .
+
+sic:98 rdfs:label "Undifferentiated goods- and services-producing activities of private households for own use"@en .
+
+sic:77290 rdfs:label "Renting and leasing of other personal and household goods"@en .
+
+sic:77299 rdfs:label "Renting and leasing of other personal and household goods (other than media entertainment equipment)"@en .
+
+sic:77291 rdfs:label "Renting and leasing of media entertainment equipment"@en .
+
+sic:91020 rdfs:label "Museum activities"@en .
+
+sic:32.1 rdfs:label "Manufacture of jewellery, bijouterie and related articles"@en .
+
+sic:32.3 rdfs:label "Manufacture of sports goods"@en .
+
+sic:32.2 rdfs:label "Manufacture of musical instruments"@en .
+
+sic:32.4 rdfs:label "Manufacture of games and toys"@en .
+
+sic:64202 rdfs:label "Activities of production holding companies"@en .
+
+sic:64201 rdfs:label "Activities of agricultural holding companies"@en .
+
+sic:64204 rdfs:label "Activities of distribution holding companies"@en .
+
+sic:64209 rdfs:label "Activities of other holding companies (not including agricultural, production, construction, distribution and financial services holding companies) n.e.c."@en .
+
+sic:20110 rdfs:label "Manufacture of industrial gases"@en .
+
+sic:10.5 rdfs:label "Manufacture of dairy products"@en .
+
+sic:10520 rdfs:label "Manufacture of ice cream"@en .
+
+sic:10510 rdfs:label "Operation of dairies and cheese making"@en .
+
+sic:63990 rdfs:label "Other information service activities n.e.c."@en .
+
+sic:84.3 rdfs:label "Compulsory social security activities"@en .
+
+sic:84300 rdfs:label "Compulsory social security activities"@en .
+
+sic:27320 rdfs:label "Manufacture of other electronic and electric wires and cables"@en .
+
+sic:22110 rdfs:label "Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres"@en .
+
+sic:22190 rdfs:label "Manufacture of other rubber products"@en .
+
+sic:62011 rdfs:label "Ready-made interactive leisure and entertainment software development"@en .
+
+sic:62010 rdfs:label "Computer programming activities"@en .
+
+sic:29202 rdfs:label "Manufacture of trailers and semi-trailers"@en .
+
+sic:29201 rdfs:label "Manufacture of bodies (coachwork) for motor vehicles (except caravans)"@en .
+
+sic:28990 rdfs:label "Manufacture of other special-purpose machinery n.e.c."@en .
+
+sic:64192 rdfs:label "Building societies"@en .
+
+sic:64191 rdfs:label "Banks"@en .
+
+sic:47749 rdfs:label "Retail sale of medical and orthopaedic goods (other than hearing aids) n.e.c., in specialised stores"@en .
+
+sic:47741 rdfs:label "Retail sale of hearing aids in specialised stores"@en .
+
+sic:43290 rdfs:label "Other construction installation"@en .
+
+sic:43210 rdfs:label "Electrical installation"@en .
+
+sic:43220 rdfs:label "Plumbing, heat and air-conditioning installation"@en .
+
+sic:20520 rdfs:label "Manufacture of glues"@en .
+
+sic:22290 rdfs:label "Manufacture of other plastic products"@en .
+
+sic:23440 rdfs:label "Manufacture of other technical ceramic products"@en .
+
+sic:01240 rdfs:label "Growing of pome fruits and stone fruits"@en .
+
+sic:71111 rdfs:label "Architectural activities"@en .
+
+sic:71110 rdfs:label "Architectural activities"@en .
+
+sic:64301 rdfs:label "Activities of investment trusts"@en .
+
+sic:03120 rdfs:label "Freshwater fishing"@en .
+
+sic:16100 rdfs:label "Sawmilling and planing of wood"@en .
+
+sic:85420 rdfs:label "Tertiary education"@en .
+
+sic:51101 rdfs:label "Scheduled passenger air transport"@en .
+
+sic:51100 rdfs:label "Passenger air transport"@en .
+
+sic:25940 rdfs:label "Manufacture of fasteners and screw machine products"@en .
+
+sic:25990 rdfs:label "Manufacture of other fabricated metal products n.e.c."@en .
+
+sic:25920 rdfs:label "Manufacture of light metal packaging"@en .
+
+sic:25910 rdfs:label "Manufacture of steel drums and similar containers"@en .
+
+sic:49311 rdfs:label "Urban, suburban or metropolitan area passenger railway transportation by underground, metro and similar systems"@en .
+
+sic:69101 rdfs:label "Barristers at law"@en .
+
+sic:23.2 rdfs:label "Manufacture of refractory products"@en .
+
+sic:23200 rdfs:label "Manufacture of refractory products"@en .
+
+sic:94990 rdfs:label "Activities of other membership organisations n.e.c."@en .
+
+sic:94920 rdfs:label "Activities of political organisations"@en .
+
+sic:94910 rdfs:label "Activities of religious organisations"@en .
+
+sic:77.1 rdfs:label "Renting and leasing of motor vehicles"@en .
+
+sic:77.4 rdfs:label "Leasing of intellectual property and similar products, except copyrighted works"@en .
+
+sic:46470 rdfs:label "Wholesale of furniture, carpets and lighting equipment"@en .
+
+sic:60200 rdfs:label "Television programming and broadcasting activities"@en .
+
+sic:60.2 rdfs:label "Television programming and broadcasting activities"@en .
+
+sic:18201 rdfs:label "Reproduction of sound recording"@en .
+
+sic:47620 rdfs:label "Retail sale of newspapers and stationery in specialised stores"@en .
+
+sic:43330 rdfs:label "Floor and wall covering"@en .
+
+sic:49.1 rdfs:label "Passenger rail transport, interurban"@en .
+
+sic:49100 rdfs:label "Passenger rail transport, interurban"@en .
+
+sic:78200 rdfs:label "Temporary employment agency activities"@en .
+
+sic:78.2 rdfs:label "Temporary employment agency activities"@en .
+
+sic:49500 rdfs:label "Transport via pipeline"@en .
+
+sic:49.5 rdfs:label "Transport via pipeline"@en .
+
+sic:G rdfs:label "WHOLESALE AND RETAIL TRADE; REPAIR OF MOTOR VEHICLES AND MOTORCYCLES"@en .
+
+sic:45.4 rdfs:label "Sale, maintenance and repair of motorcycles and related parts and accessories"@en .
+
+sic:11070 rdfs:label "Manufacture of soft drinks; production of mineral waters and other bottled waters"@en .
+
+sic:23320 rdfs:label "Manufacture of bricks, tiles and construction products, in baked clay"@en .
+
+sic:17240 rdfs:label "Manufacture of wallpaper"@en .
+
+sic:01120 rdfs:label "Growing of rice"@en .
+
+sic:13.3 rdfs:label "Finishing of textiles"@en .
+
+sic:52241 rdfs:label "Cargo handling for water transport activities of division 50"@en .
+
+sic:52240 rdfs:label "Cargo handling"@en .
+
+sic:O rdfs:label "PUBLIC ADMINISTRATION AND DEFENCE; COMPULSORY SOCIAL SECURITY"@en .
+
+sic:03210 rdfs:label "Marine aquaculture"@en .
+
+sic:03220 rdfs:label "Freshwater aquaculture"@en .
+
+sic:74.9 rdfs:label "Other professional, scientific and technical activities n.e.c."@en .
+
+sic:85422 rdfs:label "Post-graduate level higher education"@en .
+
+sic:85421 rdfs:label "First-degree level higher education"@en .
+
+sic:87300 rdfs:label "Residential care activities for the elderly and disabled"@en .
+
+sic:87.3 rdfs:label "Residential care activities for the elderly and disabled"@en .
+
+sic:05101 rdfs:label "Mining of hard coal from deep coal mines (underground mining)"@en .
+
+sic:05100 rdfs:label "Mining of hard coal"@en .
+
+sic:72.2 rdfs:label "Research and experimental development on social sciences and humanities"@en .
+
+sic:72200 rdfs:label "Research and experimental development on social sciences and humanities"@en .
+
+sic:29100 rdfs:label "Manufacture of motor vehicles"@en .
+
+sic:24460 rdfs:label "Processing of nuclear fuel"@en .
+
+sic:25610 rdfs:label "Treatment and coating of metals"@en .
+
+sic:25.6 rdfs:label "Treatment and coating of metals; machining"@en .
+
+sic:24310 rdfs:label "Cold drawing of bars"@en .
+
+sic:24320 rdfs:label "Cold rolling of narrow strip"@en .
+
+sic:24340 rdfs:label "Cold drawing of wire"@en .
+
+sic:32110 rdfs:label "Striking of coins"@en .
+
+sic:47721 rdfs:label "Retail sale of footwear in specialised stores"@en .
+
+sic:28220 rdfs:label "Manufacture of lifting and handling equipment"@en .
+
+sic:17120 rdfs:label "Manufacture of paper and paperboard"@en .
+
+sic:45400 rdfs:label "Sale, maintenance and repair of motorcycles and related parts and accessories"@en .
+
+sic:46760 rdfs:label "Wholesale of other intermediate products"@en .
+
+sic:95250 rdfs:label "Repair of watches, clocks and jewellery"@en .
+
+sic:82911 rdfs:label "Activities of collection agencies"@en .
+
+sic:82910 rdfs:label "Activities of collection agencies and credit bureaus"@en .
+
+sic:77342 rdfs:label "Renting and leasing of freight water transport equipment"@en .
+
+sic:77341 rdfs:label "Renting and leasing of passenger water transport equipment"@en .
+
+sic:52230 rdfs:label "Service activities incidental to air transportation"@en .
+
+sic:74201 rdfs:label "Portrait photographic activities"@en .
+
+sic:74209 rdfs:label "Other photographic activities (not including portrait and other specialist photography and film processing) n.e.c."@en .
+
+sic:74202 rdfs:label "Other specialist photography (not including portrait photography)"@en .
+
+sic:78.1 rdfs:label "Activities of employment placement agencies"@en .
+
+sic:78 rdfs:label "Employment activities"@en .
+
+sic:23610 rdfs:label "Manufacture of concrete products for construction purposes"@en .
+
+sic:23190 rdfs:label "Manufacture and processing of other glass, including technical glassware"@en .
+
+sic:46230 rdfs:label "Wholesale of live animals"@en .
+
+sic:30110 rdfs:label "Building of ships and floating structures"@en .
+
+sic:01410 rdfs:label "Raising of dairy cattle"@en .
+
+sic:58 rdfs:label "Publishing activities"@en .
+
+sic:65201 rdfs:label "Life reinsurance"@en .
+
+sic:26.2 rdfs:label "Manufacture of computers and peripheral equipment"@en .
+
+sic:26.5 rdfs:label "Manufacture of instruments and appliances for measuring, testing and navigation; watches and clocks"@en .
+
+sic:26.6 rdfs:label "Manufacture of irradiation, electromedical and electrotherapeutic equipment"@en .
+
+sic:26.4 rdfs:label "Manufacture of consumer electronics"@en .
+
+sic:64991 rdfs:label "Security dealing on own account"@en .
+
+sic:80 rdfs:label "Security and investigation activities"@en .
+
+sic:46640 rdfs:label "Wholesale of machinery for the textile industry and of sewing and knitting machines"@en .
+
+sic:32200 rdfs:label "Manufacture of musical instruments"@en .
+
+sic:46520 rdfs:label "Wholesale of electronic and telecommunications equipment and parts"@en .
+
+sic:77220 rdfs:label "Renting of video tapes and disks"@en .
+
+sic:61100 rdfs:label "Wired telecommunications activities"@en .
+
+sic:61.1 rdfs:label "Wired telecommunications activities"@en .
+
+sic:20150 rdfs:label "Manufacture of fertilisers and nitrogen compounds"@en .
+
+sic:32400 rdfs:label "Manufacture of games and toys"@en .
+
+sic:32401 rdfs:label "Manufacture of professional and arcade games and toys"@en .
+
+sic:32409 rdfs:label "Manufacture of games and toys (other than professional and arcade games and toys) n.e.c."@en .
+
+sic:10519 rdfs:label "Manufacture of milk products (other than liquid milk and cream, butter, cheese) n.e.c."@en .
+
+sic:10512 rdfs:label "Butter and cheese production"@en .
+
+sic:10511 rdfs:label "Liquid milk and cream production"@en .
+
+sic:58110 rdfs:label "Book publishing"@en .
+
+sic:58130 rdfs:label "Publishing of newspapers"@en .
+
+sic:58120 rdfs:label "Publishing of directories and mailing lists"@en .
+
+sic:58190 rdfs:label "Other publishing activities"@en .
+
+sic:47591 rdfs:label "Retail sale of musical instruments and scores in specialised stores"@en .
+
+sic:18140 rdfs:label "Binding and related services"@en .
+
+sic:59 rdfs:label "Motion picture, video and television programme production, sound recording and music publishing activities"@en .
+
+sic:63 rdfs:label "Information service activities"@en .
+
+sic:60 rdfs:label "Programming and broadcasting activities"@en .
+
+sic:72190 rdfs:label "Other research and experimental development on natural sciences and engineering"@en .
+
+sic:60.1 rdfs:label "Radio broadcasting"@en .
+
+sic:60100 rdfs:label "Radio broadcasting"@en .
+
+sic:47782 rdfs:label "Retail sale by opticians"@en .
+
+sic:47789 rdfs:label "Other retail sale of new goods in specialised stores (other than by opticians or commercial art galleries), n.e.c"@en .
+
+sic:47781 rdfs:label "Retail sale in commercial art galleries"@en .
+
+sic:43910 rdfs:label "Roofing activities"@en .
+
+sic:10920 rdfs:label "Manufacture of prepared pet foods"@en .
+
+sic:81300 rdfs:label "Landscape service activities"@en .
+
+sic:26520 rdfs:label "Manufacture of watches and clocks"@en .
+
+sic:28922 rdfs:label "Manufacture of earthmoving equipment"@en .
+
+sic:28921 rdfs:label "Manufacture of machinery for mining"@en .
+
+sic:30400 rdfs:label "Manufacture of military fighting vehicles"@en .
+
+sic:01700 rdfs:label "Hunting, trapping and related service activities"@en .
+
+sic:01.7 rdfs:label "Hunting, trapping and related service activities"@en .
+
+sic:38.1 rdfs:label "Waste collection"@en .
+
+sic:38 rdfs:label "Waste collection, treatment and disposal activities; materials recovery"@en .
+
+sic:38110 rdfs:label "Collection of non-hazardous waste"@en .
+
+sic:38120 rdfs:label "Collection of hazardous waste"@en .
+
+sic:01280 rdfs:label "Growing of spices, aromatic, drug and pharmaceutical crops"@en .
+
+sic:26514 rdfs:label "Manufacture of non-electronic industrial process control equipment"@en .
+
+sic:26512 rdfs:label "Manufacture of electronic industrial process control equipment"@en .
+
+sic:47640 rdfs:label "Retail sale of sporting equipment in specialised stores"@en .
+
+sic:47630 rdfs:label "Retail sale of music and video recordings in specialised stores"@en .
+
+sic:22220 rdfs:label "Manufacture of plastic packing goods"@en .
+
+sic:10611 rdfs:label "Grain milling"@en .
+
+sic:74902 rdfs:label "Quantity surveying activities"@en .
+
+sic:74909 rdfs:label "Other professional, scientific and technical activities (not including environmental consultancy or quantity surveying) n.e.c."@en .
+
+sic:81299 rdfs:label "Cleaning services (other than disinfecting and extermination services) n.e.c."@en .
+
+sic:13940 rdfs:label "Manufacture of cordage, rope, twine and netting"@en .
+
+sic:P rdfs:label "EDUCATION"@en .
+
+sic:85.6 rdfs:label "Educational support activities"@en .
+
+sic:85.3 rdfs:label "Secondary education"@en .
+
+sic:85.1 rdfs:label "Pre-primary education"@en .
+
+sic:61.2 rdfs:label "Wireless telecommunications activities"@en .
+
+sic:61200 rdfs:label "Wireless telecommunications activities"@en .
+
+sic:18110 rdfs:label "Printing of newspapers"@en .
+
+sic:87.1 rdfs:label "Residential nursing care activities"@en .
+
+sic:87100 rdfs:label "Residential nursing care activities"@en .
+
+sic:07.1 rdfs:label "Mining of iron ores"@en .
+
+sic:24510 rdfs:label "Casting of iron"@en .
+
+sic:13300 rdfs:label "Finishing of textiles"@en .
+
+sic:31010 rdfs:label "Manufacture of office and shop furniture"@en .
+
+sic:31.0 rdfs:label "Manufacture of furniture"@en .
+
+sic:01160 rdfs:label "Growing of fibre crops"@en .
+
+sic:14142 rdfs:label "Manufacture of women's underwear"@en .
+
+sic:38220 rdfs:label "Treatment and disposal of hazardous waste"@en .
+
+sic:82.3 rdfs:label "Organisation of conventions and trade shows"@en .
+
+sic:27120 rdfs:label "Manufacture of electricity distribution and control apparatus"@en .
+
+sic:21.2 rdfs:label "Manufacture of pharmaceutical preparations"@en .
+
+sic:21.1 rdfs:label "Manufacture of basic pharmaceutical products"@en .
+
+sic:20130 rdfs:label "Manufacture of other inorganic basic chemicals"@en .
+
+sic:20160 rdfs:label "Manufacture of plastics in primary forms"@en .
+
+sic:20170 rdfs:label "Manufacture of synthetic rubber in primary forms"@en .
+
+sic:20120 rdfs:label "Manufacture of dyes and pigments"@en .
+
+sic:18121 rdfs:label "Manufacture of printed labels"@en .
+
+sic:47540 rdfs:label "Retail sale of electrical household appliances in specialised stores"@en .
+
+sic:96030 rdfs:label "Funeral and related activities"@en .
+
+sic:51210 rdfs:label "Freight air transport"@en .
+
+sic:25120 rdfs:label "Manufacture of doors and windows of metal"@en .
+
+sic:36 rdfs:label "Water collection, treatment and supply"@en .
+
+sic:95290 rdfs:label "Repair of other personal and household goods"@en .
+
+sic:23.9 rdfs:label "Manufacture of abrasive products and non-metallic mineral products n.e.c."@en .
+
+sic:23910 rdfs:label "Production of abrasive products"@en .
+
+sic:23990 rdfs:label "Manufacture of other non-metallic mineral products n.e.c."@en .
+
+sic:82200 rdfs:label "Activities of call centres"@en .
+
+sic:82.2 rdfs:label "Activities of call centres"@en .
+
+sic:21200 rdfs:label "Manufacture of pharmaceutical preparations"@en .
+
+sic:23650 rdfs:label "Manufacture of fibre cement"@en .
+
+sic:79901 rdfs:label "Activities of tourist guides"@en .
+
+sic:47429 rdfs:label "Retail sale of telecommunications equipment (other than mobile telephones) n.e.c., in specialised stores"@en .
+
+sic:01450 rdfs:label "Raising of sheep and goats"@en .
+
+sic:47110 rdfs:label "Retail sale in non-specialised stores with food, beverages or tobacco predominating"@en .
+
+sic:43130 rdfs:label "Test drilling and boring"@en .
+
+sic:98.2 rdfs:label "Undifferentiated service-producing activities of private households for own use"@en .
+
+sic:46491 rdfs:label "Wholesale of musical instruments"@en .
+
+sic:13921 rdfs:label "Manufacture of soft furnishings"@en .
+
+sic:23120 rdfs:label "Shaping and processing of flat glass"@en .
+
+sic:28140 rdfs:label "Manufacture of other taps and valves"@en .
+
+sic:86900 rdfs:label "Other human health activities"@en .
+
+sic:68.2 rdfs:label "Renting and operating of own or leased real estate"@en .
+
+sic:80200 rdfs:label "Security systems service activities"@en .
+
+sic:80.2 rdfs:label "Security systems service activities"@en .
+
+sic:01210 rdfs:label "Growing of grapes"@en .
+
+sic:01250 rdfs:label "Growing of other tree and bush fruits and nuts"@en .
+
+sic:01260 rdfs:label "Growing of oleaginous fruits"@en .
+
+sic:01290 rdfs:label "Growing of other perennial crops"@en .
+
+sic:01220 rdfs:label "Growing of tropical and subtropical fruits"@en .
+
+sic:80.3 rdfs:label "Investigation activities"@en .
+
+sic:64921 rdfs:label "Credit granting by non-deposit taking finance houses and other specialist consumer credit grantors"@en .
+
+sic:75000 rdfs:label "Veterinary activities"@en .
+
+sic:98200 rdfs:label "Undifferentiated service-producing activities of private households for own use"@en .
+
+sic:02.2 rdfs:label "Logging"@en .
+
+sic:10720 rdfs:label "Manufacture of rusks and biscuits; manufacture of preserved pastry goods and cakes"@en .
+
+sic:10730 rdfs:label "Manufacture of macaroni, noodles, couscous and similar farinaceous products"@en .
+
+sic:70210 rdfs:label "Public relations and communication activities"@en .
+
+sic:47300 rdfs:label "Retail sale of automotive fuel in specialised stores"@en .
+
+sic:47.3 rdfs:label "Retail sale of automotive fuel in specialised stores"@en .
+
+sic:59132 rdfs:label "Video distribution activities"@en .
+
+sic:82301 rdfs:label "Activities of exhibition and fair organizers"@en .
+
+sic:14310 rdfs:label "Manufacture of knitted and crocheted hosiery"@en .
+
+sic:14.3 rdfs:label "Manufacture of knitted and crocheted apparel"@en .
+
+sic:20301 rdfs:label "Manufacture of paints, varnishes and similar coatings, mastics and sealants"@en .
+
+sic:78101 rdfs:label "Motion picture, television and other theatrical casting"@en .
+
+sic:45111 rdfs:label "Sale of new cars and light motor vehicles"@en .
+
+sic:28960 rdfs:label "Manufacture of plastics and rubber machinery"@en .
+
+sic:85100 rdfs:label "Pre-primary education"@en .
+
+sic:07100 rdfs:label "Mining of iron ores"@en .
+
+sic:64303 rdfs:label "Activities of venture and development capital companies"@en .
+
+sic:23410 rdfs:label "Manufacture of ceramic household and ornamental articles"@en .
+
+sic:85600 rdfs:label "Educational support activities"@en .
+
+sic:28230 rdfs:label "Manufacture of office machinery and equipment (except computers and peripheral equipment)"@en .
+
+sic:28240 rdfs:label "Manufacture of power-driven hand tools"@en .
+
+sic:08110 rdfs:label "Quarrying of ornamental and building stone, limestone, gypsum, chalk and slate"@en .
+
+sic:23420 rdfs:label "Manufacture of ceramic sanitary fixtures"@en .
+
+sic:23490 rdfs:label "Manufacture of other ceramic products"@en .
+
+sic:79 rdfs:label "Travel agency, tour operator and other reservation service and related activities"@en .
+
+sic:79.9 rdfs:label "Other reservation service and related activities"@en .
+
+sic:79.1 rdfs:label "Travel agency and tour operator activities"@en .
+
+sic:85510 rdfs:label "Sports and recreation education"@en .
+
+sic:18203 rdfs:label "Reproduction of computer media"@en .
+
+sic:32910 rdfs:label "Manufacture of brooms and brushes"@en .
+
+sic:81222 rdfs:label "Specialised cleaning services"@en .
+
+sic:81229 rdfs:label "Building and industrial cleaning activities (other than window cleaning, specialised cleaning and furnace and chimney cleaning services) n.e.c."@en .
+
+sic:49390 rdfs:label "Other passenger land transport n.e.c."@en .
+
+sic:46440 rdfs:label "Wholesale of china and glassware and cleaning materials"@en .
+
+sic:30200 rdfs:label "Manufacture of railway locomotives and rolling stock"@en .
+
+sic:01629 rdfs:label "Support activities for animal production (other than farm animal boarding and care) n.e.c."@en .
+
+sic:52243 rdfs:label "Cargo handling for land transport activities of division 49"@en .
+
+sic:21100 rdfs:label "Manufacture of basic pharmaceutical products"@en .
+
+sic:11040 rdfs:label "Manufacture of other non-distilled fermented beverages"@en .
+
+sic:61.9 rdfs:label "Other telecommunications activities"@en .
+
+sic:17219 rdfs:label "Manufacture of paper and paperboard containers other than sacks and bags"@en .
+
+sic:52211 rdfs:label "Operation of rail freight terminals"@en .
+
+sic:59111 rdfs:label "Motion picture production activities"@en .
+
+sic:84240 rdfs:label "Public order and safety activities"@en .
+
+sic:81100 rdfs:label "Combined facilities support activities"@en .
+
+sic:08930 rdfs:label "Extraction of salt"@en .
+
+sic:10.2 rdfs:label "Processing and preserving of fish, crustaceans and molluscs"@en .
+
+sic:10200 rdfs:label "Processing and preserving of fish, crustaceans and molluscs"@en .
+
+sic:24530 rdfs:label "Casting of light metals"@en .
+
+sic:24520 rdfs:label "Casting of steel"@en .
+
+sic:35220 rdfs:label "Distribution of gaseous fuels through mains"@en .
+
+sic:24430 rdfs:label "Lead, zinc and tin production"@en .
+
+sic:70221 rdfs:label "Financial management"@en .
+
+sic:23690 rdfs:label "Manufacture of other articles of concrete, plaster and cement"@en .
+
+sic:46730 rdfs:label "Wholesale of wood, construction materials and sanitary equipment"@en .
+
+sic:95220 rdfs:label "Repair of household appliances and home and garden equipment"@en .
+
+sic:61900 rdfs:label "Other telecommunications activities"@en .
+
+sic:01490 rdfs:label "Raising of other animals"@en .
+
+sic:78.3 rdfs:label "Other human resources provision"@en .
+
+sic:78300 rdfs:label "Other human resources provision"@en .
+
+sic:10821 rdfs:label "Manufacture of cocoa, and chocolate confectionery"@en .
+
+sic:25620 rdfs:label "Machining"@en .
+
+sic:80300 rdfs:label "Investigation activities"@en .
+
+sic:74.3 rdfs:label "Translation and interpretation activities"@en .
+
+sic:74.1 rdfs:label "Specialised design activities"@en .
+
+sic:46740 rdfs:label "Wholesale of hardware, plumbing and heating equipment and supplies"@en .
+
+sic:46770 rdfs:label "Wholesale of waste and scrap"@en .
+
+sic:91030 rdfs:label "Operation of historical sites and buildings and similar visitor attractions"@en .
+
+sic:46610 rdfs:label "Wholesale of agricultural machinery, equipment and supplies"@en .
+
+sic:26600 rdfs:label "Manufacture of irradiation, electromedical and electrotherapeutic equipment"@en .
+
+sic:27330 rdfs:label "Manufacture of wiring devices"@en .
+
+sic:L rdfs:label "REAL ESTATE ACTIVITIES"@en .
+
+sic:65.1 rdfs:label "Insurance"@en .
+
+sic:65120 rdfs:label "Non-life insurance"@en .
+
+sic:65110 rdfs:label "Life insurance"@en .
+
+sic:43999 rdfs:label "Specialised construction activities (other than scaffold erection) n.e.c."@en .
+
+sic:88990 rdfs:label "Other social work activities without accommodation n.e.c."@en .
+
+sic:88910 rdfs:label "Child day-care activities"@en .
+
+sic:86101 rdfs:label "Hospital activities"@en .
+
+sic:17220 rdfs:label "Manufacture of household and sanitary goods and of toilet requisites"@en .
+
+sic:17290 rdfs:label "Manufacture of other articles of paper and paperboard"@en .
+
+sic:86220 rdfs:label "Specialist medical practice activities"@en .
+
+sic:86210 rdfs:label "General medical practice activities"@en .
+
+sic:20530 rdfs:label "Manufacture of essential oils"@en .
+
+sic:38.3 rdfs:label "Materials recovery"@en .
+
+sic:38310 rdfs:label "Dismantling of wrecks"@en .
+
+sic:38320 rdfs:label "Recovery of sorted materials"@en .
+
+sic:47810 rdfs:label "Retail sale via stalls and markets of food, beverages and tobacco products"@en .
+
+sic:66210 rdfs:label "Risk and damage evaluation"@en .
+
+sic:46900 rdfs:label "Non-specialised wholesale trade"@en .
+
+sic:46.9 rdfs:label "Non-specialised wholesale trade"@en .
+
+sic:46480 rdfs:label "Wholesale of watches and jewellery"@en .
+
+sic:13910 rdfs:label "Manufacture of knitted and crocheted fabrics"@en .
+
+sic:43342 rdfs:label "Glazing"@en .
+
+sic:31090 rdfs:label "Manufacture of other furniture"@en .
+
+sic:20412 rdfs:label "Manufacture of cleaning and polishing preparations"@en .
+
+sic:01130 rdfs:label "Growing of vegetables and melons, roots and tubers"@en .
+
+sic:20.3 rdfs:label "Manufacture of paints, varnishes and similar coatings, printing ink and mastics"@en .
+
+sic:36000 rdfs:label "Water collection, treatment and supply"@en .
+
+sic:36.0 rdfs:label "Water collection, treatment and supply"@en .
+
+sic:14110 rdfs:label "Manufacture of leather clothes"@en .
+
+sic:94110 rdfs:label "Activities of business and employers membership organisations"@en .
+
+sic:93199 rdfs:label "Other sports activities (not including activities of racehorse owners) n.e.c."@en .
+
+sic:64910 rdfs:label "Financial leasing"@en .
+
+sic:46210 rdfs:label "Wholesale of grain, unmanufactured tobacco, seeds and animal feeds"@en .
+
+sic:46240 rdfs:label "Wholesale of hides, skins and leather"@en .
+
+sic:47510 rdfs:label "Retail sale of textiles in specialised stores"@en .
+
+sic:32120 rdfs:label "Manufacture of jewellery and related articles"@en .
+
+sic:28940 rdfs:label "Manufacture of machinery for textile, apparel and leather production"@en .
+
+sic:28930 rdfs:label "Manufacture of machinery for food, beverage and tobacco processing"@en .
+
+sic:74100 rdfs:label "Specialised design activities"@en .
+
+sic:26200 rdfs:label "Manufacture of computers and peripheral equipment"@en .
+
+sic:95230 rdfs:label "Repair of footwear and leather goods"@en .
+
+sic:77352 rdfs:label "Renting and leasing of freight air transport equipment"@en .
+
+sic:85310 rdfs:label "General secondary education"@en .
+
+sic:30910 rdfs:label "Manufacture of motorcycles"@en .
+
+sic:63110 rdfs:label "Data processing, hosting and related activities"@en .
+
+sic:63.1 rdfs:label "Data processing, hosting and related activities; web portals"@en .
+
+sic:23620 rdfs:label "Manufacture of plaster products for construction purposes"@en .
+
+sic:13923 rdfs:label "Manufacture of household textiles (other than soft furnishings of 13.92/1)"@en .
+
+sic:30120 rdfs:label "Building of pleasure and sporting boats"@en .
+
+sic:01420 rdfs:label "Raising of other cattle and buffaloes"@en .
+
+sic:25500 rdfs:label "Forging, pressing, stamping and roll-forming of metal; powder metallurgy"@en .
+
+sic:25.5 rdfs:label "Forging, pressing, stamping and roll-forming of metal; powder metallurgy"@en .
+
+sic:08910 rdfs:label "Mining of chemical and fertiliser minerals"@en .
+
+sic:10110 rdfs:label "Processing and preserving of meat"@en .
+
+sic:28110 rdfs:label "Manufacture of engines and turbines, except aircraft, vehicle and cycle engines"@en .
+
+sic:06.2 rdfs:label "Extraction of natural gas"@en .
+
+sic:06200 rdfs:label "Extraction of natural gas"@en .
+
+sic:01430 rdfs:label "Raising of horses and other equines"@en .
+
+sic:01460 rdfs:label "Raising of swine/pigs"@en .
+
+sic:46650 rdfs:label "Wholesale of office furniture"@en .
+
+sic:79110 rdfs:label "Travel agency activities"@en .
+
+sic:50.1 rdfs:label "Sea and coastal passenger water transport"@en .
+
+sic:14390 rdfs:label "Manufacture of other knitted and crocheted apparel"@en .
+
+sic:41100 rdfs:label "Development of building projects"@en .
+
+sic:41.1 rdfs:label "Development of building projects"@en .
+
+sic:47799 rdfs:label "Retail sale of second-hand goods (other than antiques and antique books) in stores"@en .
+
+sic:64305 rdfs:label "Activities of property unit trusts"@en .
+
+sic:77110 rdfs:label "Renting and leasing of cars and light motor vehicles"@en .
+
+sic:62020 rdfs:label "Computer consultancy activities"@en .
+
+sic:62090 rdfs:label "Other information technology and computer service activities"@en .
+
+sic:68209 rdfs:label "Letting and operating of own or leased real estate (other than Housing Association real estate and conference and exhibition services) n.e.c."@en .
+
+sic:68202 rdfs:label "Letting and operating of conference and exhibition centres"@en .
+
+sic:22230 rdfs:label "Manufacture of builders� ware of plastic"@en .
+
+sic:14190 rdfs:label "Manufacture of other wearing apparel and accessories"@en .
+
+sic:14120 rdfs:label "Manufacture of workwear"@en .
+
+sic:28410 rdfs:label "Manufacture of metal forming machinery"@en .
+
+sic:85590 rdfs:label "Other education n.e.c."@en .
+
+sic:23630 rdfs:label "Manufacture of ready-mixed concrete"@en .
+
+sic:35230 rdfs:label "Trade of gas through mains"@en .
+
+sic:13950 rdfs:label "Manufacture of non-wovens and articles made from non-wovens, except apparel"@en .
+
+sic:46410 rdfs:label "Wholesale of textiles"@en .
+
+sic:31020 rdfs:label "Manufacture of kitchen furniture"@en .
+
+sic:26400 rdfs:label "Manufacture of consumer electronics"@en .
+
+sic:52213 rdfs:label "Operation of bus and coach passenger facilities at bus and coach stations"@en .
+
+sic:77400 rdfs:label "Leasing of intellectual property and similar products, except copyrighted works"@en .
+
+sic:11010 rdfs:label "Distilling, rectifying and blending of spirits"@en .
+
+sic:63120 rdfs:label "Web portals"@en .
+
+sic:59113 rdfs:label "Television programme production activities"@en .
+
+sic:10410 rdfs:label "Manufacture of oils and fats"@en .
+
+sic:84210 rdfs:label "Foreign affairs"@en .
+
+sic:84250 rdfs:label "Fire service activities"@en .
+
+sic:84220 rdfs:label "Defence activities"@en .
+
+sic:96040 rdfs:label "Physical well-being activities"@en .
+
+sic:51220 rdfs:label "Space transport"@en .
+
+sic:62012 rdfs:label "Business and domestic software development"@en .
+
+sic:91040 rdfs:label "Botanical and zoological gardens and nature reserve activities"@en .
+
+sic:02200 rdfs:label "Logging"@en .
+
+sic:43110 rdfs:label "Demolition"@en .
+
+sic:71112 rdfs:label "Urban planning and landscape architectural activities"@en .
+
+sic:64302 rdfs:label "Activities of unit trusts"@en .
+
+sic:51102 rdfs:label "Non-scheduled passenger air transport"@en .
+
+sic:85320 rdfs:label "Technical and vocational secondary education"@en .
+
+sic:69102 rdfs:label "Solicitors"@en .
+
+sic:23130 rdfs:label "Manufacture of hollow glass"@en .
+
+sic:28150 rdfs:label "Manufacture of bearings, gears, gearing and driving elements"@en .
+
+sic:18202 rdfs:label "Reproduction of video recording"@en .
+
+sic:46690 rdfs:label "Wholesale of other machinery and equipment"@en .
+
+sic:52242 rdfs:label "Cargo handling for air transport activities of division 51"@en .
+
+sic:59140 rdfs:label "Motion picture projection activities"@en .
+
+sic:05102 rdfs:label "Mining of hard coal from open cast coal working (surface mining)"@en .
+
+sic:24200 rdfs:label "Manufacture of tubes, pipes, hollow profiles and related fittings, of steel"@en .
+
+sic:47722 rdfs:label "Retail sale of leather goods in specialised stores"@en .
+
+sic:93210 rdfs:label "Activities of amusement parks and theme parks"@en .
+
+sic:99999 rdfs:label "Dormant Company"@en .
+
+sic:45310 rdfs:label "Wholesale trade of motor vehicle parts and accessories"@en .
+
+sic:31030 rdfs:label "Manufacture of mattresses"@en .
+
+sic:25300 rdfs:label "Manufacture of steam generators, except central heating hot water boilers"@en .
+
+sic:25.3 rdfs:label "Manufacture of steam generators, except central heating hot water boilers"@en .
+
+sic:82912 rdfs:label "Activities of credit bureaus"@en .
+
+sic:08120 rdfs:label "Operation of gravel and sand pits; mining of clays and kaolin"@en .
+
+sic:13990 rdfs:label "Manufacture of other textiles n.e.c."@en .
+
+sic:85520 rdfs:label "Cultural education"@en .
+
+sic:73.2 rdfs:label "Market research and public opinion polling"@en .
+
+sic:73200 rdfs:label "Market research and public opinion polling"@en .
+
+sic:46450 rdfs:label "Wholesale of perfume and cosmetics"@en .
+
+sic:65202 rdfs:label "Non-life reinsurance"@en .
+
+sic:11020 rdfs:label "Manufacture of wine from grape"@en .
+
+sic:11050 rdfs:label "Manufacture of beer"@en .
+
+sic:01630 rdfs:label "Post-harvest crop activities"@en .
+
+sic:43310 rdfs:label "Plastering"@en .
+
+sic:64992 rdfs:label "Factoring"@en .
+
+sic:71.2 rdfs:label "Technical testing and analysis"@en .
+
+sic:32130 rdfs:label "Manufacture of imitation jewellery and related articles"@en .
+
+sic:46420 rdfs:label "Wholesale of clothing and footwear"@en .
+
+sic:19100 rdfs:label "Manufacture of coke oven products"@en .
+
+sic:19.1 rdfs:label "Manufacture of coke oven products"@en .
+
+sic:74300 rdfs:label "Translation and interpretation activities"@en .
+
+sic:79120 rdfs:label "Tour operator activities"@en .
+
+sic:24440 rdfs:label "Copper production"@en .
+
+sic:47520 rdfs:label "Retail sale of hardware, paints and glass in specialised stores"@en .
+
+sic:50100 rdfs:label "Sea and coastal passenger water transport"@en .
+
+sic:27510 rdfs:label "Manufacture of electric domestic appliances"@en .
+
+sic:46620 rdfs:label "Wholesale of machine tools"@en .
+
+sic:42210 rdfs:label "Construction of utility projects for fluids"@en .
+
+sic:88100 rdfs:label "Social work activities without accommodation for the elderly and disabled"@en .
+
+sic:58210 rdfs:label "Publishing of computer games"@en .
+
+sic:01140 rdfs:label "Growing of sugar cane"@en .
+
+sic:70100 rdfs:label "Activities of head offices"@en .
+
+sic:96010 rdfs:label "Washing and (dry-)cleaning of textile and fur products"@en .
+
+sic:71200 rdfs:label "Technical testing and analysis"@en .
+
+sic:43390 rdfs:label "Other building completion and finishing"@en .
+
+sic:28120 rdfs:label "Manufacture of fluid power equipment"@en .
+
+sic:10120 rdfs:label "Processing and preserving of poultry meat"@en .
+
+sic:46660 rdfs:label "Wholesale of other office machinery and equipment"@en .
+
+sic:77120 rdfs:label "Renting and leasing of trucks"@en .
+
+sic:24410 rdfs:label "Precious metals production"@en .
+
+sic:32300 rdfs:label "Manufacture of sports goods"@en .
+
+sic:82990 rdfs:label "Other business support service activities n.e.c."@en .
+
+sic:13960 rdfs:label "Manufacture of other technical and industrial textiles"@en .
