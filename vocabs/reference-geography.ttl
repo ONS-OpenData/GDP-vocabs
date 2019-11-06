@@ -569,7 +569,7 @@
    <http://statistics.data.gov.uk/def/statistical-geography#status> "live";
    <http://www.w3.org/2004/02/skos/core#notation> "K04000001"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> .
 
-<http://statistics.data.gov.uk/id/statistical-geography/E92000001> a <http://publishmydata.com/def/ontology/spatial/Area> , 
+<http://statistics.data.gov.uk/id/statistical-geography/E92000001> a <http://publishmydata.com/def/ontology/spatial/Area> ,
     <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
   <http://www.w3.org/2000/01/rdf-schema#label> "E92000001" ;
   <http://www.w3.org/2004/02/skos/core#notation> "E92000001"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
@@ -587,7 +587,7 @@
   <http://statistics.data.gov.uk/def/statistical-geography#officialname> "England";
   <http://statistics.data.gov.uk/def/statistical-geography#alternativelanguagename> "Lloegr" .
 
-<http://statistics.data.gov.uk/id/statistical-geography/K03000001> a <http://publishmydata.com/def/ontology/spatial/Area> , 
+<http://statistics.data.gov.uk/id/statistical-geography/K03000001> a <http://publishmydata.com/def/ontology/spatial/Area> ,
     <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
   <http://www.w3.org/2000/01/rdf-schema#label> "K03000001" ;
   <http://www.w3.org/2004/02/skos/core#notation> "K03000001"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
@@ -604,7 +604,7 @@
   <http://publishmydata.com/def/ontology/spatial/memberOf> <http://statistics.data.gov.uk/def/geography/collection/K03> ;
   <http://statistics.data.gov.uk/def/statistical-geography#officialname> "Great Britain" .
 
-<http://statistics.data.gov.uk/id/statistical-geography/W92000004> a <http://publishmydata.com/def/ontology/spatial/Area> , 
+<http://statistics.data.gov.uk/id/statistical-geography/W92000004> a <http://publishmydata.com/def/ontology/spatial/Area> ,
     <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
   <http://www.w3.org/2000/01/rdf-schema#label> "W92000004" ;
   <http://www.w3.org/2004/02/skos/core#notation> "W92000004"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
@@ -622,7 +622,7 @@
   <http://statistics.data.gov.uk/def/statistical-geography#officialname> "Wales" ;
   <http://statistics.data.gov.uk/def/statistical-geography#alternativelanguagename> "Cymru" .
 
-<http://statistics.data.gov.uk/id/statistical-geography/S92000003> a <http://publishmydata.com/def/ontology/spatial/Area> , 
+<http://statistics.data.gov.uk/id/statistical-geography/S92000003> a <http://publishmydata.com/def/ontology/spatial/Area> ,
     <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
   <http://www.w3.org/2000/01/rdf-schema#label> "S92000003" ;
   <http://www.w3.org/2004/02/skos/core#notation> "S92000003"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
@@ -640,7 +640,7 @@
   <http://statistics.data.gov.uk/def/statistical-geography#officialname> "Scotland" ;
   <http://statistics.data.gov.uk/def/statistical-geography#alternativelanguagename> "Yr Alban" .
 
-<http://statistics.data.gov.uk/id/statistical-geography/N92000002> a <http://publishmydata.com/def/ontology/spatial/Area> , 
+<http://statistics.data.gov.uk/id/statistical-geography/N92000002> a <http://publishmydata.com/def/ontology/spatial/Area> ,
     <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
   <http://www.w3.org/2000/01/rdf-schema#label> "N92000002" ;
   <http://www.w3.org/2004/02/skos/core#notation> "N92000002"^^<http://statistics.data.gov.uk/def/statistical-geography#gssCode> ;
@@ -14705,7 +14705,6 @@
 	<http://publishmydata.com/def/ontology/foi/code> "E07000245" ;
 	<http://publishmydata.com/def/ontology/foi/displayName> "West Suffolk" ;
 	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-Resource not found
 <http://statistics.data.gov.uk/id/statistical-geography/N11000001> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
 	<http://www.w3.org/2000/01/rdf-schema#label> "N11000001" ;
 	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N11> ;
@@ -14785,7 +14784,6 @@ Resource not found
 	<http://publishmydata.com/def/ontology/foi/code> "N11000131" ;
 	<http://publishmydata.com/def/ontology/foi/displayName> "Banbridge" ;
 	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-Resource not foundResource not foundResource not foundResource not foundResource not found
 <http://statistics.data.gov.uk/id/statistical-geography/N11000153> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
 	<http://www.w3.org/2000/01/rdf-schema#label> "N11000153" ;
 	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N11> ;
@@ -14801,7 +14799,6 @@ Resource not foundResource not foundResource not foundResource not foundResource
 	<http://publishmydata.com/def/ontology/foi/code> "N11000153" ;
 	<http://publishmydata.com/def/ontology/foi/displayName> "Carrickfergus" ;
 	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-Resource not foundResource not foundResource not found
 <http://statistics.data.gov.uk/id/statistical-geography/N11000173> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
 	<http://www.w3.org/2000/01/rdf-schema#label> "N11000173" ;
 	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N11> ;
@@ -14817,7 +14814,6 @@ Resource not foundResource not foundResource not found
 	<http://publishmydata.com/def/ontology/foi/code> "N11000173" ;
 	<http://publishmydata.com/def/ontology/foi/displayName> "Coleraine" ;
 	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-Resource not found
 <http://statistics.data.gov.uk/id/statistical-geography/N11000193> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
 	<http://www.w3.org/2000/01/rdf-schema#label> "N11000193" ;
 	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N11> ;
@@ -14833,7 +14829,6 @@ Resource not found
 	<http://publishmydata.com/def/ontology/foi/code> "N11000193" ;
 	<http://publishmydata.com/def/ontology/foi/displayName> "Cookstown" ;
 	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-Resource not foundResource not found
 <http://statistics.data.gov.uk/id/statistical-geography/N11000315> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
 	<http://www.w3.org/2000/01/rdf-schema#label> "N11000315" ;
 	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N11> ;
@@ -14849,7 +14844,6 @@ Resource not foundResource not found
 	<http://publishmydata.com/def/ontology/foi/code> "N11000315" ;
 	<http://publishmydata.com/def/ontology/foi/displayName> "Dungannon" ;
 	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-Resource not foundResource not foundResource not foundResource not foundResource not found
 <http://statistics.data.gov.uk/id/statistical-geography/N11000389> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
 	<http://www.w3.org/2000/01/rdf-schema#label> "N11000389" ;
 	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N11> ;
@@ -14881,7 +14875,6 @@ Resource not foundResource not foundResource not foundResource not foundResource
 	<http://publishmydata.com/def/ontology/foi/code> "N11000410" ;
 	<http://publishmydata.com/def/ontology/foi/displayName> "Limavady" ;
 	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-Resource not found
 <http://statistics.data.gov.uk/id/statistical-geography/N11000478> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
 	<http://www.w3.org/2000/01/rdf-schema#label> "N11000478" ;
 	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N11> ;
@@ -14897,7 +14890,6 @@ Resource not found
 	<http://publishmydata.com/def/ontology/foi/code> "N11000478" ;
 	<http://publishmydata.com/def/ontology/foi/displayName> "Magherafelt" ;
 	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-Resource not foundResource not foundResource not foundResource not foundResource not foundResource not foundResource not foundResource not foundResource not foundResource not foundResource not foundResource not found
 <http://statistics.data.gov.uk/id/statistical-geography/N11000638> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
 	<http://www.w3.org/2000/01/rdf-schema#label> "N11000638" ;
 	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N11> ;
@@ -14913,4 +14905,3 @@ Resource not foundResource not foundResource not foundResource not foundResource
 	<http://publishmydata.com/def/ontology/foi/code> "N11000638" ;
 	<http://publishmydata.com/def/ontology/foi/displayName> "Strabane" ;
 	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-Resource not foundResource not foundResource not foundResource not foundResource not foundResource not foundResource not found
