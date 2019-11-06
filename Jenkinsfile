@@ -11,7 +11,7 @@ pipeline {
                     if (draftset) {
                         pmd.drafter.deleteDraftset(draftset.id)
                     }
-                    def id = pmd.drafter.createDraftset(env.JOB_NAME).id
+		    String id = pmd.drafter.createDraftset(env.JOB_NAME).id
                     def index = readJSON(file: 'vocabs/index.json')
                     for (int i = 0; i < index.size(); i++) {
                         String src = index[i]['src']
