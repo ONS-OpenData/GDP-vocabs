@@ -14704,3 +14704,211 @@
 	<http://publishmydata.com/def/ontology/foi/code> "E07000245" ;
 	<http://publishmydata.com/def/ontology/foi/displayName> "West Suffolk" ;
 	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N11000001> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N11000001" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "NISRA" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-01-29> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N11000001" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Antrim" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N11000001" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/N92000002> ;
+	<http://publishmydata.com/def/ontology/foi/code> "N11000001" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Antrim" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N11000051> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N11000051" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "NISRA" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-01-29> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N11000051" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Armagh" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N11000051" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/N92000002> ;
+	<http://publishmydata.com/def/ontology/foi/code> "N11000051" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Armagh" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N11000099> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N11000099" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "NISRA" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-01-29> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N11000099" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Ballymena" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N11000099" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/N92000002> ;
+	<http://publishmydata.com/def/ontology/foi/code> "N11000099" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Ballymena" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N11000109> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N11000109" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "NISRA" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-01-29> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N11000109" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Ballymoney" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N11000109" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/N92000002> ;
+	<http://publishmydata.com/def/ontology/foi/code> "N11000109" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Ballymoney" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N11000131> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N11000131" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "NISRA" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-01-29> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N11000131" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Banbridge" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N11000131" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/N92000002> ;
+	<http://publishmydata.com/def/ontology/foi/code> "N11000131" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Banbridge" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N11000153> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N11000153" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "NISRA" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-01-29> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N11000153" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Carrickfergus" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N11000153" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/N92000002> ;
+	<http://publishmydata.com/def/ontology/foi/code> "N11000153" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Carrickfergus" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N11000173> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N11000173" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "NISRA" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-01-29> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N11000173" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Coleraine" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N11000173" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/N92000002> ;
+	<http://publishmydata.com/def/ontology/foi/code> "N11000173" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Coleraine" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N11000193> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N11000193" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "NISRA" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-01-29> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N11000193" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Cookstown" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N11000193" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/N92000002> ;
+	<http://publishmydata.com/def/ontology/foi/code> "N11000193" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Cookstown" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N11000315> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N11000315" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "NISRA" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-01-29> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N11000315" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Dungannon" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N11000315" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/N92000002> ;
+	<http://publishmydata.com/def/ontology/foi/code> "N11000315" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Dungannon" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N11000389> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N11000389" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "NISRA" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-01-29> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N11000389" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Larne" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N11000389" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/N92000002> ;
+	<http://publishmydata.com/def/ontology/foi/code> "N11000389" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Larne" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N11000410> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N11000410" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "NISRA" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-01-29> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N11000410" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Limavady" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N11000410" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/N92000002> ;
+	<http://publishmydata.com/def/ontology/foi/code> "N11000410" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Limavady" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N11000478> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N11000478" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "NISRA" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-01-29> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N11000478" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Magherafelt" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N11000478" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/N92000002> ;
+	<http://publishmydata.com/def/ontology/foi/code> "N11000478" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Magherafelt" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/N11000638> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N11000638" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/N11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "NISRA" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2015-01-29> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "N11000638" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Strabane" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "N11000638" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/N11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/N92000002> ;
+	<http://publishmydata.com/def/ontology/foi/code> "N11000638" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Strabane" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
