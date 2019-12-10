@@ -1,5 +1,5 @@
 #!/bin/bash
 
 while read url; do
-    curl -LH 'Accept: text/turtle' "$url"
+    curl -sfLH 'Accept: text/turtle' "$url" || true
 done
