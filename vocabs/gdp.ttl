@@ -21,7 +21,7 @@ gdp:DatasetFamily a owl:Class ;
   rdfs:label "Dataset family";
   owl:equivalentClass [
     a owl:Class ;
-    owl:oneOf ( gdp:trade gdp:migration gdp:health )
+    owl:oneOf ( gdp:trade gdp:migration gdp:health gdp:disability )
   ] .
 
 gdp:family a owl:ObjectProperty ;
@@ -40,3 +40,6 @@ gdp:health a gdp:DatasetFamily ;
 
 gdp:housing a gdp:DatasetFamily ;
   rdfs:label "Housing" .
+
+gdp:disability a gdp:DatasetFamily ;
+  rdfs:label "Disability" .
