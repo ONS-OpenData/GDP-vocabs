@@ -15463,3 +15463,109 @@
 	<http://publishmydata.com/def/ontology/foi/code> "E39000043" ;
 	<http://publishmydata.com/def/ontology/foi/displayName> "NHS England South West (South West North)" ;
 	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E40000005> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E40000005" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E40> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "1901449.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "1868694.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "1574.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "1867119.9"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2018-04-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E40000005" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "South East" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/E40000005/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E40000005" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E40> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E40000005" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "South East" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E40000006> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E40000006" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E40> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "2442225.5"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "2388155.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "1402.58"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "2386753.0"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2018-04-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E40000006" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "South West" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/E40000006/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E40000006" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E40> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E40000006" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "South West" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E40000010> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E40000010" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E40> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2019-04-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E40000010" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "North West" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E40000010" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E40> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E40000010" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "North West" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E40000009> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E40000009" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E40> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2019-04-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E40000009" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "North East and Yorkshire" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E40000009" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E40> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E40000009" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "North East and Yorkshire" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E40000008> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E40000008" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E40> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2019-04-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E40000008" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Midlands" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E40000008" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E40> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E40000008" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Midlands" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E40000007> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E40000007" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E40> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "ODS" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2019-04-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E40000007" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "East of England" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E40000007" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E40> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E40000007" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "East of England" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
