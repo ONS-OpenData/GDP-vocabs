@@ -15754,3 +15754,26 @@
 	<http://publishmydata.com/def/ontology/foi/code> "E13000001" ;
 	<http://publishmydata.com/def/ontology/foi/displayName> "Inner London" ;
 	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E13000002> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E13000002" ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1111/1001" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "GSS re-coding strategy" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E13> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "MHCLG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "126683.35"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "125423.16"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "136.92"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "125286.24"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-01-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E13000002" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Outer London" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/E13000002/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E13000002" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E13> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E13000002" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Outer London" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
