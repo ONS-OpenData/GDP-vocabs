@@ -19,14 +19,14 @@ http://statistics.data.gov.uk/id/statistical-geography/E38000228
 - Clone this repo then cd into it.
 - Add the urls of the missing codes to a file (missing.txt) within that cloned repo, one code url per line.
 - `chmod +x ./fetch_urls.sh`
-- `./fetch_urls.sh < missing.txt >> vocabs/reference-geographies.ttl`
-- sanity check with `rapper -i turtle -c vocabs/reference-geographies.ttl`.
+- `./fetch_urls.sh < missing.txt >> vocabs/reference-geography.ttl`
+- sanity check with `rapper -i turtle -c vocabs/reference-geography.ttl`.
 
 If rapper reads without any errors you'll get output similar to the following (with a different path and count) which confirms the file can be parsed.
 
 ```
-rapper: Parsing URI file:///Users/adamsm/go/src/github.com/GSS-Cogs/GDP-vocabs/vocabs/reference-geographies.ttl with parser turtle
-rapper: Parsing returned 630 triples
+rapper: Parsing URI file:///Users/adamsm/go/src/github.com/GSS-Cogs/GDP-vocabs/vocabs/reference-geography.ttl with parser turtle
+rapper: Parsing returned 16106 triples
 ```
 
-To finish, commit the updated `vocabs/reference-geographies.ttl` file and push the repo back to github.
+To finish, commit the updated `vocabs/reference-geography.ttl` file and push the repo back to github.
