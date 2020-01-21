@@ -1,0 +1,668 @@
+
+<http://statistics.data.gov.uk/id/statistical-geography/E47000001> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000001" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E47> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "MHCLG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-03-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E47000001" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Greater Manchester" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/E47000001/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000001" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E47> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E47000001" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Greater Manchester" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E47000002> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000002" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E47> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "MHCLG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-03-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E47000002" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Sheffield City Region" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/E47000002/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000002" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E47> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E47000002" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Sheffield City Region" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E47000003> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000003" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E47> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "MHCLG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-03-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E47000003" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "West Yorkshire" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/E47000003/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000003" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E47> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E47000003" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "West Yorkshire" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E47000004> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000004" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E47> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "MHCLG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-03-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E47000004" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Liverpool City Region" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/E47000004/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000004" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E47> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E47000004" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Liverpool City Region" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E47000006> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000006" ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "449/2016" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Tees Valley Combined Authority Order 2016" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E47> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "MHCLG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-04-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E47000006" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Tees Valley" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/E47000006/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000006" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E47> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E47000006" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Tees Valley" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E47000007> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000007" ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "653/2016" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The West Midlands Combined Authority Order 2016" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E47> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "MHCLG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-06-17> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E47000007" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "West Midlands" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/E47000007/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000007" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E47> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E47000007" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "West Midlands" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E47000008> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000008" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E47> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "MHCLG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2017-03-03> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E47000008" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Cambridgeshire and Peterborough" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/E47000008/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000008" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E47> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E47000008" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Cambridgeshire and Peterborough" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E47000009> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000009" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E47> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "MHCLG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2017-03-03> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E47000009" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "West of England" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/E47000009/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000009" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E47> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E47000009" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "West of England" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E47000010> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000010" ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1133/2018" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Newcastle upon Tyne, North Tyneside and Northumberland Combined Authority (Establishment and Functions) Order 2018" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E47> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "MHCLG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2018-11-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E47000010" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "North East" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000010" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E47> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E47000010" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "North East" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E47000011> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000011" ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1133/2018" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Newcastle upon Tyne, North Tyneside and Northumberland Combined Authority (Establishment and Functions) Order 2018" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E47> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "MHCLG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2018-11-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E47000011" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "North of Tyne" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000011" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E47> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E47000011" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "North of Tyne" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/W11000023> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000023" ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "778/2009" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Local Health Boards (Establishment and Dissolution)(Wales) Order 2009" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/W11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "WG (Health)" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "636447.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "617254.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "2245.26"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "615009.56"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-10-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "W11000023" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Betsi Cadwaladr University Health Board" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#alternativelanguagename> "Bwrdd Iechyd Prifysgol Betsi Cadwaladr" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/W11000023/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000023" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/W11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> , <http://statistics.data.gov.uk/id/statistical-geography/W92000004> ;
+	<http://publishmydata.com/def/ontology/foi/code> "W11000023" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Betsi Cadwaladr University Health Board" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/W11000024> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000024" ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "778/2009" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Local Health Boards (Establishment and Dissolution)(Wales) Order 2009" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/W11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "WG (Health)" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "519545.62"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "519532.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "1464.04"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "518068.06"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-10-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "W11000024" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Powys Teaching Health Board" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#alternativelanguagename> "Bwrdd Iechyd Addysgu Powys" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/W11000024/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000024" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/W11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> , <http://statistics.data.gov.uk/id/statistical-geography/W92000004> ;
+	<http://publishmydata.com/def/ontology/foi/code> "W11000024" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Powys Teaching Health Board" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/W11000025> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000025" ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "778/2009" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Local Health Boards (Establishment and Dissolution)(Wales) Order 2009" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/W11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "WG (Health)" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "589499.75"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "577885.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "422.67"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "577462.94"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-10-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "W11000025" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Hywel Dda University Health Board" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#alternativelanguagename> "Bwrdd Iechyd Prifysgol Hywel Dda" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/W11000025/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000025" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/W11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> , <http://statistics.data.gov.uk/id/statistical-geography/W92000004> ;
+	<http://publishmydata.com/def/ontology/foi/code> "W11000025" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Hywel Dda University Health Board" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/W11000028> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000028" ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "778/2009" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Local Health Boards (Establishment and Dissolution)(Wales) Order 2009" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/W11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "WG (Health)" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "161617.69"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "155315.23"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "172.51"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "155142.72"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-10-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "W11000028" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Aneurin Bevan University Health Board" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#alternativelanguagename> "Bwrdd Iechyd Prifysgol Aneurin Bevan" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/W11000028/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000028" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/W11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> , <http://statistics.data.gov.uk/id/statistical-geography/W92000004> ;
+	<http://publishmydata.com/def/ontology/foi/code> "W11000028" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Aneurin Bevan University Health Board" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/W11000029> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000029" ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "778/2009" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Local Health Boards (Establishment and Dissolution)(Wales) Order 2009" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/W11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "WG (Health)" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "48918.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "47348.0"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "150.19"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "47197.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-10-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "W11000029" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Cardiff and Vale University Health Board" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#alternativelanguagename> "Bwrdd Iechyd Prifysgol Caerdydd a’r Fro" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/W11000029/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000029" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/W11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> , <http://statistics.data.gov.uk/id/statistical-geography/W92000004> ;
+	<http://publishmydata.com/def/ontology/foi/code> "W11000029" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Cardiff and Vale University Health Board" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/W11000030> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000030" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/W11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "WG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2019-04-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "W11000030" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Cwm Taf Morgannwg University Health Board" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#alternativelanguagename> "Bwrdd Iechyd Prifysgol Cwm Taf Morgannwg" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000030" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/W11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> , <http://statistics.data.gov.uk/id/statistical-geography/W92000004> ;
+	<http://publishmydata.com/def/ontology/foi/code> "W11000030" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Cwm Taf Morgannwg University Health Board" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/W11000031> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000031" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/W11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "WG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2019-04-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "W11000031" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Swansea Bay University Health Board" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#alternativelanguagename> "Bwrdd Iechyd Prifysgol Bae Abertawe" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000031" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/W11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> , <http://statistics.data.gov.uk/id/statistical-geography/W92000004> ;
+	<http://publishmydata.com/def/ontology/foi/code> "W11000031" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Swansea Bay University Health Board" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E47000001> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000001" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E47> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "MHCLG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-03-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E47000001" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Greater Manchester" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/E47000001/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000001" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E47> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E47000001" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Greater Manchester" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E47000002> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000002" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E47> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "MHCLG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-03-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E47000002" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Sheffield City Region" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/E47000002/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000002" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E47> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E47000002" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Sheffield City Region" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E47000003> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000003" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E47> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "MHCLG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-03-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E47000003" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "West Yorkshire" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/E47000003/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000003" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E47> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E47000003" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "West Yorkshire" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E47000004> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000004" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "Name Amendment" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E47> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "MHCLG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-03-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E47000004" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Liverpool City Region" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/E47000004/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000004" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E47> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E47000004" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Liverpool City Region" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E47000006> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000006" ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "449/2016" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Tees Valley Combined Authority Order 2016" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E47> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "MHCLG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-04-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E47000006" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Tees Valley" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/E47000006/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000006" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E47> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E47000006" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Tees Valley" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E47000007> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000007" ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "653/2016" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The West Midlands Combined Authority Order 2016" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E47> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "MHCLG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2016-06-17> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E47000007" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "West Midlands" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/E47000007/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000007" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E47> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E47000007" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "West Midlands" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E47000008> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000008" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E47> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "MHCLG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2017-03-03> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E47000008" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Cambridgeshire and Peterborough" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/E47000008/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000008" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E47> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E47000008" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Cambridgeshire and Peterborough" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E47000009> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000009" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E47> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "MHCLG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2017-03-03> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E47000009" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "West of England" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/E47000009/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000009" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E47> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E47000009" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "West of England" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E47000010> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000010" ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1133/2018" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Newcastle upon Tyne, North Tyneside and Northumberland Combined Authority (Establishment and Functions) Order 2018" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E47> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "MHCLG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2018-11-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E47000010" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "North East" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000010" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E47> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E47000010" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "North East" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/E47000011> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000011" ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "1133/2018" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Newcastle upon Tyne, North Tyneside and Northumberland Combined Authority (Establishment and Functions) Order 2018" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/E47> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "MHCLG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2018-11-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "E47000011" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "North of Tyne" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "E47000011" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/E47> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/E92000001> , <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> ;
+	<http://publishmydata.com/def/ontology/foi/code> "E47000011" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "North of Tyne" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/W11000023> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000023" ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "778/2009" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Local Health Boards (Establishment and Dissolution)(Wales) Order 2009" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/W11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "WG (Health)" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "636447.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "617254.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "2245.26"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "615009.56"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-10-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "W11000023" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Betsi Cadwaladr University Health Board" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#alternativelanguagename> "Bwrdd Iechyd Prifysgol Betsi Cadwaladr" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/W11000023/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000023" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/W11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> , <http://statistics.data.gov.uk/id/statistical-geography/W92000004> ;
+	<http://publishmydata.com/def/ontology/foi/code> "W11000023" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Betsi Cadwaladr University Health Board" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/W11000024> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000024" ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "778/2009" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Local Health Boards (Establishment and Dissolution)(Wales) Order 2009" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/W11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "WG (Health)" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "519545.62"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "519532.1"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "1464.04"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "518068.06"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-10-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "W11000024" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Powys Teaching Health Board" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#alternativelanguagename> "Bwrdd Iechyd Addysgu Powys" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/W11000024/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000024" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/W11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> , <http://statistics.data.gov.uk/id/statistical-geography/W92000004> ;
+	<http://publishmydata.com/def/ontology/foi/code> "W11000024" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Powys Teaching Health Board" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/W11000025> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000025" ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "778/2009" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Local Health Boards (Establishment and Dissolution)(Wales) Order 2009" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/W11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "WG (Health)" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "589499.75"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "577885.6"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "422.67"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "577462.94"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-10-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "W11000025" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Hywel Dda University Health Board" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#alternativelanguagename> "Bwrdd Iechyd Prifysgol Hywel Dda" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/W11000025/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000025" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/W11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> , <http://statistics.data.gov.uk/id/statistical-geography/W92000004> ;
+	<http://publishmydata.com/def/ontology/foi/code> "W11000025" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Hywel Dda University Health Board" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/W11000028> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000028" ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "778/2009" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Local Health Boards (Establishment and Dissolution)(Wales) Order 2009" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/W11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "WG (Health)" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "161617.69"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "155315.23"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "172.51"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "155142.72"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-10-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "W11000028" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Aneurin Bevan University Health Board" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#alternativelanguagename> "Bwrdd Iechyd Prifysgol Aneurin Bevan" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/W11000028/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000028" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/W11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> , <http://statistics.data.gov.uk/id/statistical-geography/W92000004> ;
+	<http://publishmydata.com/def/ontology/foi/code> "W11000028" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Aneurin Bevan University Health Board" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/W11000029> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000029" ;
+	<http://statistics.data.gov.uk/def/boundary-change/originatingChangeOrder> "778/2009" ;
+	<http://statistics.data.gov.uk/def/boundary-change/changeOrderTitle> "The Local Health Boards (Establishment and Dissolution)(Wales) Order 2009" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/W11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "WG (Health)" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/measurement#hasExtentOfTheRealmHectarage> "48918.7"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasMeanHighWaterHectarage> "47348.0"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasInlandWaterHectarage> "150.19"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/measurement#hasLandHectarage> "47197.8"^^<http://www.w3.org/2001/XMLSchema#float> ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2009-10-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "W11000029" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Cardiff and Vale University Health Board" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#alternativelanguagename> "Bwrdd Iechyd Prifysgol Caerdydd a’r Fro" ;
+	<http://www.opengis.net/ont/geosparql#hasGeometry> <http://statistics.data.gov.uk/id/statistical-geography/W11000029/geometry> ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000029" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/W11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> , <http://statistics.data.gov.uk/id/statistical-geography/W92000004> ;
+	<http://publishmydata.com/def/ontology/foi/code> "W11000029" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Cardiff and Vale University Health Board" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/W11000030> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000030" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/W11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "WG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2019-04-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "W11000030" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Cwm Taf Morgannwg University Health Board" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#alternativelanguagename> "Bwrdd Iechyd Prifysgol Cwm Taf Morgannwg" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000030" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/W11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> , <http://statistics.data.gov.uk/id/statistical-geography/W92000004> ;
+	<http://publishmydata.com/def/ontology/foi/code> "W11000030" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Cwm Taf Morgannwg University Health Board" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+
+<http://statistics.data.gov.uk/id/statistical-geography/W11000031> a <http://statistics.data.gov.uk/def/statistical-geography#Statistical-Geography> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000031" ;
+	<http://statistics.data.gov.uk/def/statistical-entity#code> <http://statistics.data.gov.uk/id/statistical-entity/W11> ;
+	<http://statistics.data.gov.uk/def/statistical-entity#owner> "WG" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#status> "live" ;
+	<http://statistics.data.gov.uk/def/boundary-change/operativedate> <http://reference.data.gov.uk/id/day/2019-04-01> ;
+	<http://www.w3.org/2004/02/skos/core#notation> "W11000031" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#officialname> "Swansea Bay University Health Board" ;
+	<http://statistics.data.gov.uk/def/statistical-geography#alternativelanguagename> "Bwrdd Iechyd Prifysgol Bae Abertawe" ;
+	a <http://publishmydata.com/def/ontology/foi/Feature> ;
+	<http://www.w3.org/2000/01/rdf-schema#label> "W11000031" ;
+	<http://publishmydata.com/def/ontology/foi/memberOf> <http://statistics.data.gov.uk/def/geography/collection/W11> ;
+	<http://publishmydata.com/def/ontology/foi/within> <http://statistics.data.gov.uk/id/statistical-geography/K02000001> , <http://statistics.data.gov.uk/id/statistical-geography/K03000001> , <http://statistics.data.gov.uk/id/statistical-geography/K04000001> , <http://statistics.data.gov.uk/id/statistical-geography/W92000004> ;
+	<http://publishmydata.com/def/ontology/foi/code> "W11000031" ;
+	<http://publishmydata.com/def/ontology/foi/displayName> "Swansea Bay University Health Board" ;
+	<http://publishmydata.com/def/ontology/foi/active> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
