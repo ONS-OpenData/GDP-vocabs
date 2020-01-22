@@ -1,5 +1,9 @@
 [
   {
+    "src": "vocabs/xkos.ttl",
+    "graph": "http://rdf-vocabulary.ddialliance.org/xkos",
+    "format": "text/turtle"
+  },  {
     "src": "vocabs/gdp.ttl",
     "graph": "http://gss-data.org.uk/def/gdp",
     "format": "text/turtle"
