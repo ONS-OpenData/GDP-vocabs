@@ -60,5 +60,9 @@
     "src": "vocabs/sic-2007-labels.ttl",
     "graph": "http://business.data.gov.uk/companies/sources/vocab/sic-2007-labels",
     "format": "text/turtle"
+  }, {
+    "src": "vocabs/reference-intervals-additional.nt",
+    "graph": "http://gss-data.org.uk/graph/reference-intervals-additional",
+    "format": "application/n-triples"
   }
 ]
