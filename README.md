@@ -27,6 +27,7 @@ If rapper reads without any errors you'll get output similar to the following (w
 ```
 rapper: Parsing URI file:///Users/adamsm/go/src/github.com/GSS-Cogs/GDP-vocabs/vocabs/reference-geography.ttl with parser turtle
 rapper: Parsing returned 16106 triples
+
 ```
 
 To finish, commit the updated `vocabs/reference-geography.ttl` file and push the repo back to github.
