@@ -12,6 +12,7 @@
 <http://reference.data.gov.uk/id/gregorian-interval/2019-11-01T00:00:00/P3M> <http://www.w3.org/2000/01/rdf-schema#label> "2019-11-01 P3M" .
 <http://reference.data.gov.uk/id/gregorian-interval/2019-12-01T00:00:00/P3M> <http://www.w3.org/2000/01/rdf-schema#label> "2019-12-01 P3M" .
 <http://reference.data.gov.uk/id/gregorian-interval/2020-02-01T00:00:00/P3M> <http://www.w3.org/2000/01/rdf-schema#label> "2020-02-01 P3M" .
+<http://reference.data.gov.uk/id/gregorian-interval/2020-03-01T00:00:00/P3M> <http://www.w3.org/2000/01/rdf-schema#label> "2020-03-01 P3M" .
 <http://reference.data.gov.uk/id/quarter/1970-Q1> <http://www.w3.org/2000/01/rdf-schema#label> "1970-Q1" .
 <http://reference.data.gov.uk/id/quarter/1970-Q2> <http://www.w3.org/2000/01/rdf-schema#label> "1970-Q2" .
 <http://reference.data.gov.uk/id/quarter/1970-Q3> <http://www.w3.org/2000/01/rdf-schema#label> "1970-Q3" .
