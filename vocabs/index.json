@@ -8,14 +8,16 @@
     "graph": "http://gss-data.org.uk/def/gdp",
     "format": "text/turtle"
   }, {
-    "src": "http://purl.org/dc/elements/1.1",
+    "src": "vocabs/dublin_core_elements.ttl",
+    "graph": "http://purl.org/dc/elements/1.1",
     "format": "text/turtle"
   }, {
     "src": "vocabs/foaf.rdf",
     "graph": "http://xmlns.com/foaf/0.1/",
     "format": "application/rdf+xml"
   }, {
-    "src": "http://purl.org/dc/terms/",
+    "src": "vocabs/dublin_core_terms.ttl",
+    "graph": "http://purl.org/dc/terms/",
     "format": "text/turtle"
   }, {
     "src": "https://creativecommons.org/schema.rdf",
