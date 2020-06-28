@@ -1,5 +1,7 @@
 @Library('pmd@family-pmd4') _
 
+import uk.org.floop.jenkins_pmd.Drafter
+
 pipeline {
     agent {
         label 'master'
@@ -10,7 +12,7 @@ pipeline {
                 script {
                     def pmd = pmdConfig('pmd')
                     for (myDraft in pmd.drafter
-                            .listDraftsets(Include.OWNED)
+                            .listDraftsets(Drafter.Include.OWNED)
                             .findAll { it['display-name'] == env.JOB_NAME }) {
                         pmd.drafter.deleteDraftset(it.id)
                     }
