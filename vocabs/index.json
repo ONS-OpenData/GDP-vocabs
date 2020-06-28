@@ -1,5 +1,8 @@
 [
   {
+    "src": "http://purl.org/linked-data/cube",
+    "format": "text/turtle"
+  }, {
     "src": "vocabs/xkos.ttl",
     "graph": "http://rdf-vocabulary.ddialliance.org/xkos",
     "format": "text/turtle"
