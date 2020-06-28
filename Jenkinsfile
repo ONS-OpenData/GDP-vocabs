@@ -14,7 +14,7 @@ pipeline {
                     for (myDraft in pmd.drafter
                             .listDraftsets(Drafter.Include.OWNED)
                             .findAll { it['display-name'] == env.JOB_NAME }) {
-                        pmd.drafter.deleteDraftset(myDraft)
+                        pmd.drafter.deleteDraftset(myDraft.id)
                     }
                     def id = pmd.drafter.createDraftset(env.JOB_NAME).id
                     for (graph in util.jobGraphs(pmd, id)) {
@@ -29,7 +29,7 @@ pipeline {
                         } else {
                             graph = vocab.graph
                             pmd.drafter.deleteGraph(id, graph)
-                            pmd.drafter.addData(id, "${WORKSPACE}/${src}", vocab.format, 'UTF-8', graph)
+                            pmd.drafter.addData(id, "${WORKSPACE}/${vocab.src}", vocab.format, 'UTF-8', graph)
                         }
                         writeFile(file: "prov.ttl", text: util.jobPROV(graph))
                         pmd.drafter.addData(id, "prov.ttl", "text/turtle", "UTF-8", graph)
