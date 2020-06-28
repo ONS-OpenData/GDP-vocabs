@@ -20,8 +20,7 @@ pipeline {
                     for (graph in util.jobGraphs(pmd, id)) {
                         pmd.drafter.deleteGraph(id, graph)
                     }
-                    readJSON(file: 'vocabs/index.json').each { vocab ->
-                        def src = index[i]['src']
+                    for (vocab in readJSON(file: 'vocabs/index.json')) {
                         echo "Adding ${vocab.src}..."
                         def graph = vocab.src
                         if (vocab.src.startsWith('http')) {
