@@ -14,7 +14,7 @@ pipeline {
                     for (myDraft in pmd.drafter
                             .listDraftsets(Drafter.Include.OWNED)
                             .findAll { it['display-name'] == env.JOB_NAME }) {
-                        pmd.drafter.deleteDraftset(it.id)
+                        pmd.drafter.deleteDraftset(myDraft)
                     }
                     def id = pmd.drafter.createDraftset(env.JOB_NAME).id
                     for (graph in util.jobGraphs(pmd, id)) {
