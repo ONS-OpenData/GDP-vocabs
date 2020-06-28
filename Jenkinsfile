@@ -32,7 +32,7 @@ pipeline {
                             pmd.drafter.addData(id, "${WORKSPACE}/${vocab.src}", vocab.format, 'UTF-8', graph)
                         }
                         writeFile(file: "prov.ttl", text: util.jobPROV(graph))
-                        pmd.drafter.addData(id, "prov.ttl", "text/turtle", "UTF-8", graph)
+                        pmd.drafter.addData(id, "${WORKSPACE}/prov.ttl", "text/turtle", "UTF-8", graph)
                     }
                     pmd.drafter.publishDraftset(id)
                 }
