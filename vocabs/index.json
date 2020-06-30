@@ -1,5 +1,20 @@
 [
   {
+    "src": "http://purl.org/linked-data/sdmx/2009/concept",
+    "format": "text/turtle"
+  }, {
+    "src": "http://purl.org/linked-data/sdmx/2009/code",
+    "format": "text/turtle"
+  }, {
+    "src": "http://purl.org/linked-data/sdmx/2009/dimension",
+    "format": "text/turtle"
+  }, {
+    "src": "http://purl.org/linked-data/sdmx/2009/attribute",
+    "format": "text/turtle"
+  }, {
+    "src": "http://purl.org/linked-data/sdmx/2009/measure",
+    "format": "text/turtle"
+  }, {
     "src": "vocabs/xkos.ttl",
     "graph": "http://rdf-vocabulary.ddialliance.org/xkos",
     "format": "text/turtle"
