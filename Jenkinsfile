@@ -19,6 +19,7 @@ pipeline {
                     def id = pmd.drafter.createDraftset(env.JOB_NAME).id
                     for (graph in util.jobGraphs(pmd, id)) {
                         pmd.drafter.deleteGraph(id, graph)
+                        echo "Removing own graph ${graph}"
                     }
                     for (vocab in readJSON(file: 'vocabs/index.json')) {
                         echo "Adding ${vocab.src}..."
