@@ -1,7 +1,25 @@
 [
   {
     "src": "http://purl.org/linked-data/sdmx/2009/concept",
-    "format": "text/turtle"
+    "format": "text/turtle",
+    "conceptSchemes": [
+      {
+        "identifier": "sdmx-concept-cog",
+        "conceptSchemeUri": "http://purl.org/linked-data/sdmx/2009/concept#cog",
+        "catalogUri": "http://gss-data.org.uk/catalog/vocabularies",
+        "newIdentifierBasePath": "http://gss-data.org.uk/def/concept-scheme",
+        "label": "SDMX Content Orientated Guidelines",
+        "comment": "SDMX Content Orientated Guidelines concept scheme.",
+        "markdownDescription": "SDMX Content Orientated Guidelines concept scheme.",
+        "dtIssued": "2010-04-06T00:00:00Z",
+        "dtModified": "2016-02-06T00:00:00Z",
+        "licenseUri": "https://opensource.org/licenses/mit-license.php",
+        "creatorUri": "https://github.com/UKGovLD/publishing-statistical-data",
+        "contactPointUri": "https://github.com/UKGovLD/publishing-statistical-data/issues",
+        "publisherUri": "https://github.com/UKGovLD/publishing-statistical-data",
+        "landingPageUri": "https://github.com/UKGovLD/publishing-statistical-data/blob/master/specs/src/main/vocab/sdmx-concept.ttl"
+      }
+    ]
   }, {
     "src": "http://purl.org/linked-data/sdmx/2009/code",
     "format": "text/turtle"
