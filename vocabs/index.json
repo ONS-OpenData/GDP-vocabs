@@ -5,7 +5,7 @@
     "conceptSchemes": [
       {
         "identifier": "sdmx-concept-cog",
-        "conceptSchemeUri": "http://purl.org/linked-data/sdmx/2009/concept#cog",
+        "catalogSchemeUri": "http://purl.org/linked-data/sdmx/2009/concept#cog",
         "catalogUri": "http://gss-data.org.uk/catalog/vocabularies",
         "newIdentifierBasePath": "http://gss-data.org.uk/def/concept-scheme",
         "label": "SDMX Content Orientated Guidelines",
