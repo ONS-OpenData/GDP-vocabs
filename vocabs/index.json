@@ -11,28 +11,40 @@
         "catalogSchemeUri": "http://purl.org/linked-data/sdmx/2009/code#currency",
         "catalogUri": "http://gss-data.org.uk/catalog/vocabularies",
         "newIdentifierBasePath": "http://gss-data.org.uk/def/concept-scheme",
-        "label": "SDMX Code List for Currency"
+        "label": "SDMX Code List for Currency",
+        "dtIssued": "2010-04-08T00:00:00Z",
+        "dtModified": "2013-04-11T00:00:00Z",
+        "landingPageUri": "https://github.com/UKGovLD/publishing-statistical-data/blob/master/specs/src/main/vocab/sdmx-code.ttl"
       },
       {
         "identifier": "sdmx-code-area",
         "catalogSchemeUri": "http://purl.org/linked-data/sdmx/2009/code#area",
         "catalogUri": "http://gss-data.org.uk/catalog/vocabularies",
         "newIdentifierBasePath": "http://gss-data.org.uk/def/concept-scheme",
-        "label": "SDMX Code List for Areas"
+        "label": "SDMX Code List for Areas",
+        "dtIssued": "2010-04-08T00:00:00Z",
+        "dtModified": "2013-04-11T00:00:00Z",
+        "landingPageUri": "https://github.com/UKGovLD/publishing-statistical-data/blob/master/specs/src/main/vocab/sdmx-code.ttl"
       },
       {
         "identifier": "sdmx-code-decimals",
         "catalogSchemeUri": "http://purl.org/linked-data/sdmx/2009/code#decimals",
         "catalogUri": "http://gss-data.org.uk/catalog/vocabularies",
         "newIdentifierBasePath": "http://gss-data.org.uk/def/concept-scheme",
-        "label": "SDMX Code List for Decimals"
+        "label": "SDMX Code List for Decimals",
+        "dtIssued": "2010-04-08T00:00:00Z",
+        "dtModified": "2013-04-11T00:00:00Z",
+        "landingPageUri": "https://github.com/UKGovLD/publishing-statistical-data/blob/master/specs/src/main/vocab/sdmx-code.ttl"
       },
       {
         "identifier": "sdmx-code-freq",
         "catalogSchemeUri": "http://purl.org/linked-data/sdmx/2009/code#freq",
         "catalogUri": "http://gss-data.org.uk/catalog/vocabularies",
         "newIdentifierBasePath": "http://gss-data.org.uk/def/concept-scheme",
-        "label": "SDMX Code List for Frequency"
+        "label": "SDMX Code List for Frequency",
+        "dtIssued": "2010-04-08T00:00:00Z",
+        "dtModified": "2013-04-11T00:00:00Z",
+        "landingPageUri": "https://github.com/UKGovLD/publishing-statistical-data/blob/master/specs/src/main/vocab/sdmx-code.ttl"
       },
       {
         "identifier": "sdmx-code-confStatus",
@@ -46,7 +58,10 @@
         "catalogSchemeUri": "http://purl.org/linked-data/sdmx/2009/code#obsStatus",
         "catalogUri": "http://gss-data.org.uk/catalog/vocabularies",
         "newIdentifierBasePath": "http://gss-data.org.uk/def/concept-scheme",
-        "label": "SDMX Code List for Observation Status"
+        "label": "SDMX Code List for Observation Status",
+        "dtIssued": "2010-04-08T00:00:00Z",
+        "dtModified": "2013-04-11T00:00:00Z",
+        "landingPageUri": "https://github.com/UKGovLD/publishing-statistical-data/blob/master/specs/src/main/vocab/sdmx-code.ttl"
       },
       {
         "identifier": "sdmx-code-sex",
@@ -60,14 +75,20 @@
         "catalogSchemeUri": "http://purl.org/linked-data/sdmx/2009/code#timeFormat",
         "catalogUri": "http://gss-data.org.uk/catalog/vocabularies",
         "newIdentifierBasePath": "http://gss-data.org.uk/def/concept-scheme",
-        "label": "SDMX Code List for Time Formats"
+        "label": "SDMX Code List for Time Formats",
+        "dtIssued": "2010-04-08T00:00:00Z",
+        "dtModified": "2013-04-11T00:00:00Z",
+        "landingPageUri": "https://github.com/UKGovLD/publishing-statistical-data/blob/master/specs/src/main/vocab/sdmx-code.ttl"
       },
       {
         "identifier": "sdmx-code-unitMult",
         "catalogSchemeUri": "http://purl.org/linked-data/sdmx/2009/code#unitMult",
         "catalogUri": "http://gss-data.org.uk/catalog/vocabularies",
         "newIdentifierBasePath": "http://gss-data.org.uk/def/concept-scheme",
-        "label": "SDMX Code List for Unit Multipliers"
+        "label": "SDMX Code List for Unit Multipliers",
+        "dtIssued": "2010-04-08T00:00:00Z",
+        "dtModified": "2013-04-11T00:00:00Z",
+        "landingPageUri": "https://github.com/UKGovLD/publishing-statistical-data/blob/master/specs/src/main/vocab/sdmx-code.ttl"
       }
     ]
   }, {
