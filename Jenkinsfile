@@ -37,9 +37,7 @@ pipeline {
                         if (vocab.conceptSchemes != null){
                             for (conceptScheme in vocab.conceptSchemes) {
                                 def catalogMetadata = new CatalogMetadata(conceptScheme)
-                                def stuff = util.getCatalogMetadata(graph, catalogMetadata)
-                                echo stuff
-                                writeFile(file: "catalogConceptSchemeMeta.ttl", text: stuff)
+                                writeFile(file: "catalogConceptSchemeMeta.ttl", text: util.getCatalogMetadata(graph, catalogMetadata))
                                 pmd.drafter.addData(id, "${WORKSPACE}/catalogConceptSchemeMeta.ttl", "text/turtle", 'UTF-8', graph)
                             }
                         }

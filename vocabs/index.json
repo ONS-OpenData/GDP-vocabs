@@ -68,7 +68,10 @@
         "catalogSchemeUri": "http://purl.org/linked-data/sdmx/2009/code#sex",
         "catalogUri": "http://gss-data.org.uk/catalog/vocabularies",
         "newIdentifierBasePath": "http://gss-data.org.uk/def/concept-scheme",
-        "label": "SDMX Code List for Sex"
+        "label": "SDMX Code List for Sex",
+        "dtIssued": "2010-04-08T00:00:00Z",
+        "dtModified": "2013-04-11T00:00:00Z",
+        "landingPageUri": "https://github.com/UKGovLD/publishing-statistical-data/blob/master/specs/src/main/vocab/sdmx-code.ttl"
       },
       {
         "identifier": "sdmx-code-timeFormat",
