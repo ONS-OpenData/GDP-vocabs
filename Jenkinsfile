@@ -32,6 +32,15 @@ pipeline {
                             pmd.drafter.deleteGraph(id, graph)
                             pmd.drafter.addData(id, "${WORKSPACE}/${vocab.src}", vocab.format, 'UTF-8', graph)
                         }
+
+                        if (vocab.conceptSchemes != null){
+                            for (conceptScheme in vocab.conceptSchemes) {
+                                def catalogMetadata = new CatalogMetadata(conceptScheme)
+                                writeFile(file: "catalogConceptSchemeMeta.ttl", text: util.getCatalogMetadata(catalogMetadata))
+                                pmd.drafter.addData(id, "${WORKSPACE}/catalogConceptSchemeMeta.ttl", "text/turtle", 'UTF-8', graph)
+                            }
+                        }
+
                         writeFile(file: "prov.ttl", text: util.jobPROV(graph))
                         pmd.drafter.addData(id, "${WORKSPACE}/prov.ttl", "text/turtle", "UTF-8", graph)
                     }
