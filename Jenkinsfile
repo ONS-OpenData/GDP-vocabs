@@ -1,6 +1,7 @@
 @Library('pmd@family-pmd4') _
 
 import uk.org.floop.jenkins_pmd.Drafter
+import uk.org.floop.jenkins_pmd.models.CatalogMetadata
 
 pipeline {
     agent {
