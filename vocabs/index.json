@@ -29,7 +29,7 @@
       },
       {
         "identifier": "sdmx-code-freq",
-        "catalogSchemeUri": "http://purl.org/linked-data/sdmx/2009/code#area",
+        "catalogSchemeUri": "http://purl.org/linked-data/sdmx/2009/code#freq",
         "catalogUri": "http://gss-data.org.uk/catalog/vocabularies",
         "newIdentifierBasePath": "http://gss-data.org.uk/def/concept-scheme",
         "label": "SDMX Code List for Frequency"
