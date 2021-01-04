@@ -1,28 +1,75 @@
 [
   {
     "src": "http://purl.org/linked-data/sdmx/2009/concept",
+    "format": "text/turtle"
+  }, {
+    "src": "http://purl.org/linked-data/sdmx/2009/code",
     "format": "text/turtle",
     "conceptSchemes": [
       {
-        "identifier": "sdmx-concept-cog",
-        "catalogSchemeUri": "http://purl.org/linked-data/sdmx/2009/concept#cog",
+        "identifier": "sdmx-code-currency",
+        "catalogSchemeUri": "http://purl.org/linked-data/sdmx/2009/code#currency",
         "catalogUri": "http://gss-data.org.uk/catalog/vocabularies",
         "newIdentifierBasePath": "http://gss-data.org.uk/def/concept-scheme",
-        "label": "SDMX Content Orientated Guidelines",
-        "comment": "SDMX Content Orientated Guidelines concept scheme.",
-        "markdownDescription": "SDMX Content Orientated Guidelines concept scheme.",
-        "dtIssued": "2010-04-06T00:00:00Z",
-        "dtModified": "2016-02-06T00:00:00Z",
-        "licenseUri": "https://opensource.org/licenses/mit-license.php",
-        "creatorUri": "https://github.com/UKGovLD/publishing-statistical-data",
-        "contactPointUri": "https://github.com/UKGovLD/publishing-statistical-data/issues",
-        "publisherUri": "https://github.com/UKGovLD/publishing-statistical-data",
-        "landingPageUri": "https://github.com/UKGovLD/publishing-statistical-data/blob/master/specs/src/main/vocab/sdmx-concept.ttl"
+        "label": "SDMX Code List for Currency"
+      },
+      {
+        "identifier": "sdmx-code-area",
+        "catalogSchemeUri": "http://purl.org/linked-data/sdmx/2009/code#area",
+        "catalogUri": "http://gss-data.org.uk/catalog/vocabularies",
+        "newIdentifierBasePath": "http://gss-data.org.uk/def/concept-scheme",
+        "label": "SDMX Code List for Areas"
+      },
+      {
+        "identifier": "sdmx-code-decimals",
+        "catalogSchemeUri": "http://purl.org/linked-data/sdmx/2009/code#decimals",
+        "catalogUri": "http://gss-data.org.uk/catalog/vocabularies",
+        "newIdentifierBasePath": "http://gss-data.org.uk/def/concept-scheme",
+        "label": "SDMX Code List for Decimals"
+      },
+      {
+        "identifier": "sdmx-code-freq",
+        "catalogSchemeUri": "http://purl.org/linked-data/sdmx/2009/code#area",
+        "catalogUri": "http://gss-data.org.uk/catalog/vocabularies",
+        "newIdentifierBasePath": "http://gss-data.org.uk/def/concept-scheme",
+        "label": "SDMX Code List for Frequency"
+      },
+      {
+        "identifier": "sdmx-code-confStatus",
+        "catalogSchemeUri": "http://purl.org/linked-data/sdmx/2009/code#confStatus",
+        "catalogUri": "http://gss-data.org.uk/catalog/vocabularies",
+        "newIdentifierBasePath": "http://gss-data.org.uk/def/concept-scheme",
+        "label": "SDMX Code List for Confidentiality Status"
+      },
+      {
+        "identifier": "sdmx-code-obsStatus",
+        "catalogSchemeUri": "http://purl.org/linked-data/sdmx/2009/code#obsStatus",
+        "catalogUri": "http://gss-data.org.uk/catalog/vocabularies",
+        "newIdentifierBasePath": "http://gss-data.org.uk/def/concept-scheme",
+        "label": "SDMX Code List for Observation Status"
+      },
+      {
+        "identifier": "sdmx-code-sex",
+        "catalogSchemeUri": "http://purl.org/linked-data/sdmx/2009/code#sex",
+        "catalogUri": "http://gss-data.org.uk/catalog/vocabularies",
+        "newIdentifierBasePath": "http://gss-data.org.uk/def/concept-scheme",
+        "label": "SDMX Code List for Sex"
+      },
+      {
+        "identifier": "sdmx-code-timeFormat",
+        "catalogSchemeUri": "http://purl.org/linked-data/sdmx/2009/code#timeFormat",
+        "catalogUri": "http://gss-data.org.uk/catalog/vocabularies",
+        "newIdentifierBasePath": "http://gss-data.org.uk/def/concept-scheme",
+        "label": "SDMX Code List for Time Formats"
+      },
+      {
+        "identifier": "sdmx-code-unitMult",
+        "catalogSchemeUri": "http://purl.org/linked-data/sdmx/2009/code#unitMult",
+        "catalogUri": "http://gss-data.org.uk/catalog/vocabularies",
+        "newIdentifierBasePath": "http://gss-data.org.uk/def/concept-scheme",
+        "label": "SDMX Code List for Unit Multipliers"
       }
     ]
-  }, {
-    "src": "http://purl.org/linked-data/sdmx/2009/code",
-    "format": "text/turtle"
   }, {
     "src": "http://purl.org/linked-data/sdmx/2009/dimension",
     "format": "text/turtle"
