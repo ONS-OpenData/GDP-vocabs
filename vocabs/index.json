@@ -176,6 +176,18 @@
   },
   {
     "src": "https://data.europa.eu/euodp/repository/ec/estat/nuts/nuts.rdf",
-    "format": "application/rdf+xml"
+    "format": "application/rdf+xml",
+    "conceptSchemes": [
+      {
+        "identifier": "nuts",
+        "catalogSchemeUri": "http://data.europa.eu/nuts/scheme/2016",
+        "catalogUri": "http://gss-data.org.uk/catalog/vocabularies",
+        "newIdentifierBasePath": "http://gss-data.org.uk/def/concept-scheme",
+        "label": "NUTS - Nomenclature of territorial units for statistics classification",
+        "dtIssued": "2018-03-01T00:00:00Z",
+        "dtModified": "2018-03-02T00:00:00Z",
+        "landingPageUri": "http://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units"
+      }
+    ]
   }
 ]
