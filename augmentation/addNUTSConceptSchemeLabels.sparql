@@ -1,0 +1,23 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+
+CONSTRUCT {
+    ?cs 
+        rdfs:label ?newLabel;
+        dct:title ?newLabel.
+}
+WHERE {
+    VALUES (?cs ?newLabel) {
+        (<http://data.europa.eu/nuts/scheme/2016> "NUTS - Nomenclature of territorial units for statistics classification (2016)"@en)
+        (<http://data.europa.eu/nuts/scheme/2013> "NUTS - Nomenclature of territorial units for statistics classification (2013)"@en)
+        (<http://data.europa.eu/nuts/scheme/2010> "NUTS - Nomenclature of territorial units for statistics classification (2010)"@en)
+    }
+
+    ?cs rdf:type skos:ConceptScheme.
+    FILTER NOT EXISTS {
+        ?cs rdfs:label ?existingLabel.
+    }
+}

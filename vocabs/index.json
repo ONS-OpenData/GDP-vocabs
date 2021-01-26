@@ -182,15 +182,36 @@
     ],
     "augment": [
       "augmentation/copySkosPrefLabelsToRdfsLabels.sparql",
-      "augmentation/copySkosNotationToRdfsLabelsWhereNotExists.sparql"
+      "augmentation/copySkosNotationToRdfsLabelsWhereNotExists.sparql",
+      "augmentation/addNUTSConceptSchemeLabels.sparql"
     ],
     "conceptSchemes": [
       {
-        "identifier": "nuts",
+        "identifier": "nuts-2016",
         "catalogSchemeUri": "http://data.europa.eu/nuts/scheme/2016",
         "catalogUri": "http://gss-data.org.uk/catalog/vocabularies",
         "newIdentifierBasePath": "http://gss-data.org.uk/def/concept-scheme",
-        "label": "NUTS - Nomenclature of territorial units for statistics classification",
+        "label": "NUTS - Nomenclature of territorial units for statistics classification (2016)",
+        "dtIssued": "2018-03-01T00:00:00Z",
+        "dtModified": "2018-03-02T00:00:00Z",
+        "landingPageUri": "http://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units"
+      },
+      {
+        "identifier": "nuts-2013",
+        "catalogSchemeUri": "http://data.europa.eu/nuts/scheme/2013",
+        "catalogUri": "http://gss-data.org.uk/catalog/vocabularies",
+        "newIdentifierBasePath": "http://gss-data.org.uk/def/concept-scheme",
+        "label": "NUTS - Nomenclature of territorial units for statistics classification (2013)",
+        "dtIssued": "2018-03-01T00:00:00Z",
+        "dtModified": "2018-03-02T00:00:00Z",
+        "landingPageUri": "http://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units"
+      },
+      {
+        "identifier": "nuts-2010",
+        "catalogSchemeUri": "http://data.europa.eu/nuts/scheme/2010",
+        "catalogUri": "http://gss-data.org.uk/catalog/vocabularies",
+        "newIdentifierBasePath": "http://gss-data.org.uk/def/concept-scheme",
+        "label": "NUTS - Nomenclature of territorial units for statistics classification (2010)",
         "dtIssued": "2018-03-01T00:00:00Z",
         "dtModified": "2018-03-02T00:00:00Z",
         "landingPageUri": "http://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units"
