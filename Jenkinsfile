@@ -30,7 +30,7 @@ pipeline {
                         if (vocab.src.startsWith('http')) {
                             graph = vocab.src
 
-                            def fileContents = Request.Get(source)
+                            def fileContents = Request.Get(vocab.src)
                                 // .userAgent(PMDConfig.UA)
                                 .execute().returnContent().asString()
 
