@@ -60,12 +60,21 @@ pipeline {
                             localFilePath = "${WORKSPACE}/${vocab.src}"
                         }
                         // Standardise the format so we can augment it if necessary
-                        sh "sparql --data \"${localFilePath}\" 'CONSTRUCT {?s ?p ?o.} WHERE {?s ?p ?o.}' > \"${WORKSPACE}/standardised.format.ttl\""
+                        def standardisedFormatOutputFilePath = "${WORKSPACE}/standardised.format.ttl"
+                        sh "sparql --data \"${localFilePath}\" 'CONSTRUCT {?s ?p ?o.} WHERE {?s ?p ?o.}' > \"${standardisedFormatOutputFilePath}\""
                         
+                        if (vocab.filter != null) {
+                            for (filterQueryFilePath in vocab.filter) {
+                                echo "Filtering with ${filterQueryFilePath}"
+                                // N.B. **Overwrites** standardised.format.ttl with filtered data.
+                                sh "sparql --data \"${standardisedFormatOutputFilePath}\" --query \"${WORKSPACE}/${filterQueryFilePath}\" > \"${standardisedFormatOutputFilePath}\""
+                            }
+                        }
+
                         if (vocab.augment != null) {
                             for (augmentationQueryFilePath in vocab.augment) {
                                 echo "Augmenting with ${augmentationQueryFilePath}"
-                                sh "sparql --data \"${WORKSPACE}/standardised.format.ttl\" --query \"${WORKSPACE}/${augmentationQueryFilePath}\" >> \"${WORKSPACE}/standardised.format.ttl\""
+                                sh "sparql --data \"${standardisedFormatOutputFilePath}\" --query \"${WORKSPACE}/${augmentationQueryFilePath}\" >> \"${standardisedFormatOutputFilePath}\""
                             }
                         }
 

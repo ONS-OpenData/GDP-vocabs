@@ -1,0 +1,52 @@
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX void: <http://rdfs.org/ns/void#>
+PREFIX pmdkos: <http://publishmydata.com/def/pmdkos/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX pmdui: <http://publishmydata.com/def/pmdui/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX markdown: <https://www.w3.org/ns/iana/media-types/text/markdown#>
+PREFIX qb: <http://purl.org/linked-data/cube#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX measure: <http://gss-data.org.uk/def/measure/>
+PREFIX sdmx: <http://purl.org/linked-data/sdmx/2009/attribute#>
+PREFIX measureUnit: <http://gss-data.org.uk/def/concept/measurement-units/>
+PREFIX pmdcat: <http://publishmydata.com/pmdcat#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+
+# We fail the SKOS s14 SPARQL test when a concept has multiple `skos:prefLabel`s in the same language.
+# This modification concatenates such labels in a given language together.
+
+CONSTRUCT {
+    ?concept 
+        rdf:type skos:Concept;
+        skos:prefLabel ?conceptLabel.
+
+    # Keep all the other triples which are in the file which we don't want to alter.
+    ?s ?p ?o.
+} 
+WHERE {
+    {
+        SELECT ?concept (GROUP_CONCAT(?existingLabel; separator=', ') as ?conceptLabel)
+        WHERE {
+            ?concept 
+                rdf:type skos:Concept;
+                skos:prefLabel ?existingLabel.
+
+            BIND(lang(?existingLabel) as ?conceptLabelLanguage)
+        }
+        GROUP BY ?concept ?conceptLabelLanguage
+    } UNION {
+        # Keep all the other triples which are in the file which we don't want to alter.
+        {
+            ?s ?p ?o.
+        } MINUS {
+            ?concept 
+                rdf:type skos:Concept;
+                skos:prefLabel ?existingLabel.
+        }
+    }
+}

@@ -1,0 +1,18 @@
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+
+# Where a concept exists without an `rdfs:label`, set it to the `skos:notation` property which is likely set.
+
+CONSTRUCT {
+    ?concept rdfs:label ?conceptNotation.
+}
+WHERE {
+    ?concept 
+        rdf:type skos:Concept;
+        skos:notation ?conceptNotation;
+
+    FILTER NOT EXISTS {
+        ?concept rdfs:label ?conceptLabel.
+    }
+}

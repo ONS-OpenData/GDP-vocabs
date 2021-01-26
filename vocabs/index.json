@@ -177,8 +177,12 @@
   {
     "src": "https://data.europa.eu/euodp/repository/ec/estat/nuts/nuts.rdf",
     "format": "application/rdf+xml",
+    "filter": [
+      "filters/deDuplicateSkosPrefLabels.sparql"
+    ],
     "augment": [
-      "augmentation/copySkosPrefLabelsToRdfsLabels.sparql"
+      "augmentation/copySkosPrefLabelsToRdfsLabels.sparql",
+      "augmentation/copySkosNotationToRdfsLabelsWhereNotExists.sparql"
     ],
     "conceptSchemes": [
       {
