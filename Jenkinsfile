@@ -31,7 +31,7 @@ pipeline {
                             graph = vocab.src
 
                             def fileContents = Request.Get(source)
-                                .userAgent(PMDConfig.UA)
+                                // .userAgent(PMDConfig.UA)
                                 .execute().returnContent().asString()
 
                             writeFile(file: "download.ttl", text: fileContents)
