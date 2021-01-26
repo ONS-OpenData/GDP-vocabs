@@ -31,8 +31,8 @@ pipeline {
 
                             def fileContents = util.getUrlAsText(vocab.src)
 
-                            writeFile(file: "download.ttl", text: fileContents)
-                            localFilePath = "download.ttl"
+                            writeFile(file: "${WORKSPACE}/download.ttl", text: fileContents)
+                            localFilePath = "${WORKSPACE}/download.ttl"
                         } else {
                             graph = vocab.graph
                             localFilePath = "${WORKSPACE}/${vocab.src}"
