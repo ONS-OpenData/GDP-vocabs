@@ -73,6 +73,7 @@ pipeline {
                             for (filterQueryFilePath in vocab.filter) {
                                 echo "Filtering with ${filterQueryFilePath}"
                                 // N.B. **Overwrites** standardised.format.ttl with filtered data.
+                                sh "sparql --data \"${standardisedFormatOutputFilePath}\" --query \"${WORKSPACE}/${filterQueryFilePath}\""
                                 sh "sparql --data \"${standardisedFormatOutputFilePath}\" --query \"${WORKSPACE}/${filterQueryFilePath}\" > \"${standardisedFormatOutputFilePath}\""
                                 sh "sparql --data \"${standardisedFormatOutputFilePath}\" 'SELECT (COUNT(*) as ?numTriples) WHERE { ?s ?p ?o. }'"
                             }
