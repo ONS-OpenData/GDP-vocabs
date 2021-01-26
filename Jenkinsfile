@@ -105,7 +105,7 @@ pipeline {
     post {
             always {
                 script {
-                    archiveArtifacts artifacts: "${WORKSPACE}/*.out.ttl"
+                    archiveArtifacts artifacts: "**/*.out.ttl"
                 }
             }
     }
