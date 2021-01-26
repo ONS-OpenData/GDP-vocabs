@@ -37,9 +37,24 @@ pipeline {
                             graph = vocab.src
 
                             def fileContents = util.getUrlAsText(vocab.src, vocab.format)
+                            String downloadedFileExtension
+                            switch (vocab.format.toLowerCase()) {
+                                case 'application/rdf+xml':
+                                    downloadedFileExtension = 'rdf'
+                                    break
+                                case 'application/n-triples':
+                                    downloadedFileExtension = 'nt'
+                                    break
+                                case 'text/turtle':
+                                    downloadedFileExtension = 'ttl'
+                                    break
+                                default:
+                                    throw new Exception("Download file type '${vocab.format}' has not been configured.")
+                            }
 
-                            writeFile(file: "${WORKSPACE}/download.file", text: fileContents)
-                            localFilePath = "${WORKSPACE}/download.file"
+                            def downloadedFilePath = "${WORKSPACE}/download.file.${downloadedFileExtension}"
+                            writeFile(file: downloadedFilePath, text: fileContents)
+                            localFilePath = downloadedFilePath
                         } else {
                             graph = vocab.graph
                             localFilePath = "${WORKSPACE}/${vocab.src}"
