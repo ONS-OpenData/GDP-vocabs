@@ -45,7 +45,7 @@ pipeline {
                             localFilePath = "${WORKSPACE}/${vocab.src}"
                         }
                         // Standardise the format so we can augment it if necessary
-                        sh "sparql --data \"${localFilePath}\" 'SELECT * WHERE {?s ?p ?o.}' > \"${WORKSPACE}/standardised.format.ttl\""
+                        sh "sparql --data \"${localFilePath}\" 'CONSTRUCT {?s ?p ?o.} WHERE {?s ?p ?o.}' > \"${WORKSPACE}/standardised.format.ttl\""
                         
                         if (vocab.augment != null) {
                             for (augmentationQueryFilePath in vocab.augment) {
