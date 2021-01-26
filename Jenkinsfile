@@ -36,7 +36,6 @@ pipeline {
                         def fileFriendlyIdentifier = src.replaceAll(/[^A-Za-z0-9]+/, "-")
                         echo "Adding ${src} (${fileFriendlyIdentifier})..."
 
-
                         String graph, localFilePath
                         if (vocab.src.startsWith('http')) {
                             graph = vocab.src
@@ -68,11 +67,14 @@ pipeline {
                         def standardisedFormatOutputFilePath = "${WORKSPACE}/${fileFriendlyIdentifier}.standard.out.ttl"
                         sh "sparql --data \"${localFilePath}\" 'CONSTRUCT {?s ?p ?o.} WHERE {?s ?p ?o.}' > \"${standardisedFormatOutputFilePath}\""
                         
+                        sh "sparql --data \"${localFilePath}\" 'SELECT (COUNT(*) as ?numTriples) WHERE { ?s ?p ?o. }'"
+
                         if (vocab.filter != null) {
                             for (filterQueryFilePath in vocab.filter) {
                                 echo "Filtering with ${filterQueryFilePath}"
                                 // N.B. **Overwrites** standardised.format.ttl with filtered data.
                                 sh "sparql --data \"${standardisedFormatOutputFilePath}\" --query \"${WORKSPACE}/${filterQueryFilePath}\" > \"${standardisedFormatOutputFilePath}\""
+                                sh "sparql --data \"${localFilePath}\" 'SELECT (COUNT(*) as ?numTriples) WHERE { ?s ?p ?o. }'"
                             }
                         }
 
@@ -80,6 +82,7 @@ pipeline {
                             for (augmentationQueryFilePath in vocab.augment) {
                                 echo "Augmenting with ${augmentationQueryFilePath}"
                                 sh "sparql --data \"${standardisedFormatOutputFilePath}\" --query \"${WORKSPACE}/${augmentationQueryFilePath}\" >> \"${standardisedFormatOutputFilePath}\""
+                                sh "sparql --data \"${localFilePath}\" 'SELECT (COUNT(*) as ?numTriples) WHERE { ?s ?p ?o. }'"
                             }
                         }
 
@@ -89,8 +92,9 @@ pipeline {
                         if (vocab.conceptSchemes != null){
                             for (conceptScheme in vocab.conceptSchemes) {
                                 def catalogMetadata = new CatalogMetadata(conceptScheme)
-                                writeFile(file: "catalogConceptSchemeMeta.ttl", text: util.getCatalogMetadata(graph, catalogMetadata))
-                                pmd.drafter.addData(id, "${WORKSPACE}/catalogConceptSchemeMeta.ttl", "text/turtle", 'UTF-8', graph)
+                                def metadataFilePath = "${WORKSPACE}/${fileFriendlyIdentifier}.${catalogMetadata.identifier}.catalog.out.ttl"
+                                writeFile(file: metadataFilePath, text: util.getCatalogMetadata(graph, catalogMetadata))
+                                pmd.drafter.addData(id, metadataFilePath, "text/turtle", 'UTF-8', graph)
                             }
                         }
 
