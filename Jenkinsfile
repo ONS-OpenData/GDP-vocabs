@@ -74,7 +74,7 @@ pipeline {
                                 echo "Filtering with ${filterQueryFilePath}"
                                 // N.B. **Overwrites** standardised.format.ttl with filtered data.
                                 sh "sparql --data \"${standardisedFormatOutputFilePath}\" --query \"${WORKSPACE}/${filterQueryFilePath}\" > \"${standardisedFormatOutputFilePath}\""
-                                sh "sparql --data \"${localFilePath}\" 'SELECT (COUNT(*) as ?numTriples) WHERE { ?s ?p ?o. }'"
+                                sh "sparql --data \"${standardisedFormatOutputFilePath}\" 'SELECT (COUNT(*) as ?numTriples) WHERE { ?s ?p ?o. }'"
                             }
                         }
 
@@ -82,7 +82,7 @@ pipeline {
                             for (augmentationQueryFilePath in vocab.augment) {
                                 echo "Augmenting with ${augmentationQueryFilePath}"
                                 sh "sparql --data \"${standardisedFormatOutputFilePath}\" --query \"${WORKSPACE}/${augmentationQueryFilePath}\" >> \"${standardisedFormatOutputFilePath}\""
-                                sh "sparql --data \"${localFilePath}\" 'SELECT (COUNT(*) as ?numTriples) WHERE { ?s ?p ?o. }'"
+                                sh "sparql --data \"${standardisedFormatOutputFilePath}\" 'SELECT (COUNT(*) as ?numTriples) WHERE { ?s ?p ?o. }'"
                             }
                         }
 
