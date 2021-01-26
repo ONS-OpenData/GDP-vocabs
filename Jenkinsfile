@@ -67,7 +67,7 @@ pipeline {
                         def standardisedFormatOutputFilePath = "${WORKSPACE}/${fileFriendlyIdentifier}.standard.out.ttl"
                         sh "sparql --data \"${localFilePath}\" 'CONSTRUCT {?s ?p ?o.} WHERE {?s ?p ?o.}' > \"${standardisedFormatOutputFilePath}\""
                         
-                        sh "sparql --data \"${localFilePath}\" 'SELECT (COUNT(*) as ?numTriples) WHERE { ?s ?p ?o. }'"
+                        sh "sparql --data \"${standardisedFormatOutputFilePath}\" 'SELECT (COUNT(*) as ?numTriples) WHERE { ?s ?p ?o. }'"
 
                         if (vocab.filter != null) {
                             for (filterQueryFilePath in vocab.filter) {
