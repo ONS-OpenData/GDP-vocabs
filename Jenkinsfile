@@ -1,7 +1,9 @@
 @Library('pmd@family-pmd4') _
 
 import uk.org.floop.jenkins_pmd.Drafter
+import uk.org.floop.jenkins_pmd.PMDConfig
 import uk.org.floop.jenkins_pmd.models.CatalogMetadata
+import org.apache.http.client.fluent.Request
 
 pipeline {
     agent {
@@ -24,15 +26,22 @@ pipeline {
                     }
                     for (vocab in readJSON(file: 'vocabs/index.json')) {
                         echo "Adding ${vocab.src}..."
-                        def graph = vocab.src
+                        String graph, localFilePath
                         if (vocab.src.startsWith('http')) {
-                            pmd.drafter.deleteGraph(id, vocab.src)
-                            pmd.drafter.addData(id, vocab.src, vocab.format, 'UTF-8', vocab.src)
+                            graph = vocab.src
+
+                            def fileContents = Request.Get(source)
+                                .userAgent(PMDConfig.UA)
+                                .execute().returnContent().asString()
+
+                            writeFile(file: "download.ttl", text: fileContents)
+                            localFilePath = "download.ttl"
                         } else {
                             graph = vocab.graph
-                            pmd.drafter.deleteGraph(id, graph)
-                            pmd.drafter.addData(id, "${WORKSPACE}/${vocab.src}", vocab.format, 'UTF-8', graph)
+                            localFilePath = "${WORKSPACE}/${vocab.src}"
                         }
+                        pmd.drafter.deleteGraph(id, graph)
+                        pmd.drafter.addData(id, localFilePath, vocab.format, 'UTF-8', graph)
 
                         if (vocab.conceptSchemes != null){
                             for (conceptScheme in vocab.conceptSchemes) {
