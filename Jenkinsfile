@@ -30,8 +30,13 @@ pipeline {
                         pmd.drafter.deleteGraph(id, graph)
                         echo "Removing own graph ${graph}"
                     }
+
                     for (vocab in readJSON(file: 'vocabs/index.json')) {
-                        echo "Adding ${vocab.src}..."
+                        String src = vocab.src
+                        def fileFriendlyIdentifier = src.replaceAll(/[^A-Za-z0-9]+/, "-")
+                        echo "Adding ${src} (${fileFriendlyIdentifier})..."
+
+
                         String graph, localFilePath
                         if (vocab.src.startsWith('http')) {
                             graph = vocab.src
@@ -52,7 +57,7 @@ pipeline {
                                     throw new Exception("Download file type '${vocab.format}' has not been configured.")
                             }
 
-                            def downloadedFilePath = "${WORKSPACE}/download.file.${downloadedFileExtension}"
+                            def downloadedFilePath = "${WORKSPACE}/${fileFriendlyIdentifier}.${downloadedFileExtension}"
                             writeFile(file: downloadedFilePath, text: fileContents)
                             localFilePath = downloadedFilePath
                         } else {
@@ -60,7 +65,7 @@ pipeline {
                             localFilePath = "${WORKSPACE}/${vocab.src}"
                         }
                         // Standardise the format so we can augment it if necessary
-                        def standardisedFormatOutputFilePath = "${WORKSPACE}/standardised.format.ttl"
+                        def standardisedFormatOutputFilePath = "${WORKSPACE}/${fileFriendlyIdentifier}.standard.out.ttl"
                         sh "sparql --data \"${localFilePath}\" 'CONSTRUCT {?s ?p ?o.} WHERE {?s ?p ?o.}' > \"${standardisedFormatOutputFilePath}\""
                         
                         if (vocab.filter != null) {
@@ -79,7 +84,7 @@ pipeline {
                         }
 
                         pmd.drafter.deleteGraph(id, graph)
-                        pmd.drafter.addData(id, "${WORKSPACE}/standardised.format.ttl", "text/turtle", "UTF-8", graph)
+                        pmd.drafter.addData(id, standardisedFormatOutputFilePath, "text/turtle", "UTF-8", graph)
 
                         if (vocab.conceptSchemes != null){
                             for (conceptScheme in vocab.conceptSchemes) {
@@ -96,5 +101,12 @@ pipeline {
                 }
             }
         }
+    }
+    post {
+            always {
+                script {
+                    archiveArtifacts artifacts: "${WORKSPACE}/**/*.out.ttl"
+                }
+            }
     }
 }
