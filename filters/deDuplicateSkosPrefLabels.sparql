@@ -41,12 +41,10 @@ WHERE {
         GROUP BY ?concept ?conceptLabelLanguage
     } UNION {
         # Keep all the other triples which are in the file which we don't want to alter.
-        {
+        ?s ?p ?o.
+        FILTER NOT EXISTS {
+            BIND(skos:prefLabel as ?p)
             ?s ?p ?o.
-        } MINUS {
-            ?concept 
-                rdf:type skos:Concept;
-                skos:prefLabel ?existingLabel.
         }
     }
 }
