@@ -3,7 +3,6 @@
 import uk.org.floop.jenkins_pmd.Drafter
 import uk.org.floop.jenkins_pmd.PMDConfig
 import uk.org.floop.jenkins_pmd.models.CatalogMetadata
-import org.apache.http.client.fluent.Request
 
 pipeline {
     agent {
@@ -30,9 +29,7 @@ pipeline {
                         if (vocab.src.startsWith('http')) {
                             graph = vocab.src
 
-                            def fileContents = Request.Get(vocab.src)
-                                // .userAgent(PMDConfig.UA)
-                                .execute().returnContent().asString()
+                            def fileContents = util.getUrlAsText(vocab.src)
 
                             writeFile(file: "download.ttl", text: fileContents)
                             localFilePath = "download.ttl"
