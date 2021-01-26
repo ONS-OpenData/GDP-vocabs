@@ -10,6 +10,13 @@ pipeline {
     }
     stages {
         stage('Add referenced vocabs') {
+            agent {
+                docker {
+                    image 'gsscogs/csv2rdf'
+                    reuseNode true
+                    alwaysPull true
+                }
+            }
             steps {
                 script {
                     def pmd = pmdConfig('pmd')
@@ -29,16 +36,26 @@ pipeline {
                         if (vocab.src.startsWith('http')) {
                             graph = vocab.src
 
-                            def fileContents = util.getUrlAsText(vocab.src)
+                            def fileContents = util.getUrlAsText(vocab.src, vocab.format)
 
-                            writeFile(file: "${WORKSPACE}/download.ttl", text: fileContents)
-                            localFilePath = "${WORKSPACE}/download.ttl"
+                            writeFile(file: "${WORKSPACE}/download.file", text: fileContents)
+                            localFilePath = "${WORKSPACE}/download.file"
                         } else {
                             graph = vocab.graph
                             localFilePath = "${WORKSPACE}/${vocab.src}"
                         }
+                        // Standardise the format so we can augment it if necessary
+                        sh "sparql --data \"${localFilePath}\" 'SELECT * WHERE {?s ?p ?o.}' > standardised.format.ttl"
+                        
+                        if (vocab.augment != null) {
+                            for (augmentationQueryFilePath in vocab.augment) {
+                                echo "Augmenting with ${augmentationQueryFilePath}"
+                                sh "sparql --data \"${localFilePath}\" --query \"${WORKSPACE}/${augmentationQueryFilePath}\" >> standardised.format.ttl"
+                            }
+                        }
+
                         pmd.drafter.deleteGraph(id, graph)
-                        pmd.drafter.addData(id, localFilePath, vocab.format, 'UTF-8', graph)
+                        pmd.drafter.addData(id, localFilePath, "text/turtle", "UTF-8", graph)
 
                         if (vocab.conceptSchemes != null){
                             for (conceptScheme in vocab.conceptSchemes) {
