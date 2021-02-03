@@ -143,10 +143,6 @@
     "src": "http://www.w3.org/2003/06/sw-vocab-status/ns",
     "format": "application/rdf+xml"
   }, {
-    "src": "vocabs/reference-geography.ttl",
-    "graph": "http://gss-data.org.uk/graph/statistical-geography",
-    "format": "text/turtle"
-  }, {
     "src": "vocabs/folders.ttl",
     "graph": "http://gss-data.org.uk/graph/concept-scheme/folders",
     "format": "text/turtle"
