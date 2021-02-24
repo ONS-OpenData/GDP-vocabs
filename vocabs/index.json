@@ -160,7 +160,19 @@
     "format": "text/turtle"
   }, {
     "src": "http://business.data.gov.uk/companies/sources/vocab/sic-2007.ttl",
-    "format": "text/turtle"
+    "format": "text/turtle",
+    "conceptSchemes": [
+      {
+        "identifier": "sic-2007",
+        "catalogSchemeUri": "http://business.data.gov.uk/companies/def/sic-2007/scheme",
+        "catalogUri": "http://gss-data.org.uk/catalog/vocabularies",
+        "newIdentifierBasePath": "http://gss-data.org.uk/def/concept-scheme",
+        "label": "2007 Standard Industry Classicification codes (SIC)",
+        "dtIssued": "2007-01-01T00:00:00Z",
+        "dtModified": "2016-01-18T00:00:00Z",
+        "landingPageUri": "http://business.data.gov.uk/companies/def/sic-2007/"
+      }
+    ]
   }, {
     "src": "vocabs/sic-2007-labels.ttl",
     "graph": "http://business.data.gov.uk/companies/sources/vocab/sic-2007-labels",
