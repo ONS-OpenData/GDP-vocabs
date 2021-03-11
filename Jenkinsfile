@@ -52,6 +52,9 @@ pipeline {
                                 case 'text/turtle':
                                     downloadedFileExtension = 'ttl'
                                     break
+                                case 'text/n3':
+                                    downloadedFileExtension = 'n3'
+                                    break
                                 default:
                                     throw new Exception("Download file type '${vocab.format}' has not been configured.")
                             }
