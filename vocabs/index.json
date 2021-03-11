@@ -225,5 +225,10 @@
         "landingPageUri": "http://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units"
       }
     ]
+  },
+  {
+    "src": "http://qudt.org/2.1/vocab/unit",
+    "graph": "http://gss-data.org.uk/graph/qudt-units-vocab",
+    "format": "text/n3"
   }
 ]
