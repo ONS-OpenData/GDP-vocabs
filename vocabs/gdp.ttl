@@ -6,11 +6,7 @@
 <http://gss-data.org.uk/def/gdp> a owl:Ontology ;
   rdfs:label "GSS Data Project"@en .
 
-pmd:Dataset a owl:Class ;
-  rdfs:label "Dataset" .
-
 gdp:TradeDataset a owl:Class ;
-  rdfs:subClassOf pmd:Dataset ;
   rdfs:label "Trade Dataset"@en ;
   rdfs:subClassOf [ a owl:Restriction ;
     owl:onProperty gdp:family ;
@@ -18,15 +14,10 @@ gdp:TradeDataset a owl:Class ;
   ] .
 
 gdp:DatasetFamily a owl:Class ;
-  rdfs:label "Dataset family";
-  owl:equivalentClass [
-    a owl:Class ;
-    owl:oneOf ( gdp:trade gdp:migration gdp:health gdp:disability )
-  ] .
+  rdfs:label "Dataset family" .
 
 gdp:family a owl:ObjectProperty ;
   rdfs:label "Family" ;
-  rdfs:domain pmd:Dataset ;
   rdfs:range gdp:DatasetFamily .
 
 gdp:trade a gdp:DatasetFamily ;
@@ -43,3 +34,13 @@ gdp:housing a gdp:DatasetFamily ;
 
 gdp:disability a gdp:DatasetFamily ;
   rdfs:label "Disability" .
+
+gdp:energy a gdp:DatasetFamily ;
+  rdfs:label "Energy" ;
+  owl:sameAs gdp:edvp .
+
+gdp:edvp a gdp:DatasetFamily ;
+  rdfs:label "Energy" .
+
+gdp:towns-and-high-streets a gdp:DatasetFamily ;
+  rdfs:label "Towns & High Streets" .
