@@ -178,11 +178,6 @@
     "graph": "http://business.data.gov.uk/companies/sources/vocab/sic-2007-labels",
     "format": "text/turtle"
   }, {
-    "src": "vocabs/reference-intervals-additional.nt",
-    "graph": "http://gss-data.org.uk/graph/reference-intervals-additional",
-    "format": "application/n-triples"
-  },
-  {
     "src": "https://data.europa.eu/euodp/repository/ec/estat/nuts/nuts.rdf",
     "format": "application/rdf+xml",
     "filter": [
