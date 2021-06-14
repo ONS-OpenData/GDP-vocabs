@@ -14,6 +14,7 @@ WHERE {
         (<http://data.europa.eu/nuts/scheme/2016> "NUTS - Nomenclature of territorial units for statistics classification (2016)"@en)
         (<http://data.europa.eu/nuts/scheme/2013> "NUTS - Nomenclature of territorial units for statistics classification (2013)"@en)
         (<http://data.europa.eu/nuts/scheme/2010> "NUTS - Nomenclature of territorial units for statistics classification (2010)"@en)
+        (<http://data.europa.eu/nuts> "NUTS - Nomenclature of territorial units for statistics classification"@en)
     }
 
     ?cs rdf:type skos:ConceptScheme.
